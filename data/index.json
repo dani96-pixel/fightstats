@@ -10,26 +10,6 @@
       "file": "data/events/ufc-326.json",
       "fights_total": 13,
       "fights_analyzed": 13
-    },
-    {
-      "id": "ufc-vegas-113",
-      "name": "UFC Fight Night: Strickland vs. Hernandez",
-      "short_name": "UFC Vegas 113",
-      "date": "2026-02-21",
-      "status": "completed",
-      "file": "data/events/ufc-vegas-113.json",
-      "fights_total": 12,
-      "fights_analyzed": 12
-    },    
-    {
-      "id": "ufc-vegas-114",
-      "name": "UFC Fight Night: Upcoming Event",
-      "short_name": "UFC Vegas 114",
-      "date": "2026-02-28",
-      "status": "upcoming",
-      "file": "data/events/ufc-vegas-114.json",
-      "fights_total": 0,
-      "fights_analyzed": 0
     }
   ]
 }
