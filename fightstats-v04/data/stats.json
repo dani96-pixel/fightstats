@@ -1,0 +1,37 @@
+{
+  "schema_version": "2.0",
+  "global": {
+    "total_fights": 14,
+    "correct_predictions": 10,
+    "accuracy": 71.4,
+    "last_updated": "2026-02-21"
+  },
+  "track_record": [
+    {
+      "event": "UFC Fight Night: Strickland vs. Hernandez",
+      "event_id": "ufc-vegas-113",
+      "date": "2026-02-21",
+      "fighter_a": "Sean Strickland",
+      "fighter_b": "Paulo Borrachinha",
+      "weight_class": "Middleweight",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 66.8,
+      "probability_b": 33.2,
+      "result": "fighter_a",
+      "correct": true
+    },
+    {
+      "event": "UFC Fight Night: Strickland vs. Hernandez",
+      "event_id": "ufc-vegas-113",
+      "date": "2026-02-21",
+      "fighter_a": "Mario Bautista",
+      "fighter_b": "Vinicius Oliveira",
+      "weight_class": "Bantamweight",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 71.2,
+      "probability_b": 28.8,
+      "result": "fighter_a",
+      "correct": true
+    }
+  ]
+}
