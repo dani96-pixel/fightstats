@@ -1938,7 +1938,17 @@ footer {
   .dp-prob-center { display: none; }
   .dp-risk-grid { grid-template-columns: 1fr; }
   .dp-stats-header { display: none; }
-  .dp-stat-label { display: none; }
-  .dp-stat-row { grid-template-columns: 1fr 1fr; }
+  .dp-stat-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    margin-bottom: 14px;
+  }
+  .dp-stat-label {
+    grid-column: 1 / -1;
+    text-align: left;
+    margin-bottom: 2px;
+    font-size: 9px;
+    color: var(--text-muted);
+  }
   .dp-stat-b { flex-direction: row-reverse; }
 }
