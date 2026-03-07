@@ -671,7 +671,7 @@
           "sig_strikes_landed_per_min": 8.0,
           "sig_strike_accuracy": 0.76,
           "sig_strikes_absorbed_per_min": 3.2,
-          "sig_strike_defense": .63,
+          "sig_strike_defense": 0.63,
           "takedown_accuracy": 0.33,
           "takedown_defense": 0.5
         }
@@ -708,4 +708,5 @@
     }
   ]
 }
+
 
