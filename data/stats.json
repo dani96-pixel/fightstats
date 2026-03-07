@@ -2,8 +2,8 @@
   "schema_version": "2.0",
   "global": {
     "total_fights": 49,
-    "correct_predictions": 40,
-    "accuracy": 81.63,
+    "correct_predictions": 39,
+    "accuracy": 79.59,
     "last_updated": "2026-03-03"
   },
   "track_record": [
