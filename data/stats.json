@@ -40,11 +40,11 @@
       "fighter_a": "Daniel Zellhuber",
       "fighter_b": "King Green",
       "weight_class": "Peso Ligero",
-      "nivarax_pick": "fighter_b",
+      "nivarax_pick": "fighter_a",
       "probability_a": 67.2,
       "probability_b": 32.8,
       "result": "fighter_b",
-      "correct": true
+      "correct": false
     },
     {
       "event": "UFC Fight Night: Moreno vs. Kavanagh",
@@ -534,7 +534,7 @@
       "fighter_a": "Alexander Volkanovski",
       "fighter_b": "Diego Lopes",
       "weight_class": "Peso Pluma",
-      "nivarax_pick": "fighter_a",
+      "nivarax_pick": "fighter_b",
       "probability_a": 44.7,
       "probability_b": 55.3,
       "result": "fighter_a",
@@ -586,7 +586,7 @@
       "fighter_a": "Justin Gaethje",
       "fighter_b": "Paddy Pimblett",
       "weight_class": "Peso Ligero",
-      "nivarax_pick": "fighter_b",
+      "nivarax_pick": "fighter_a",
       "probability_a": 61.3,
       "probability_b": 30.7,
       "result": "fighter_a",
