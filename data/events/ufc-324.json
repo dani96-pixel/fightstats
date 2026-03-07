@@ -1,0 +1,152 @@
+{
+  "schema_version": "2.0",
+  "event": {
+    "id": "ufc-vegas-113",
+    "name": "UFC Fight Night: Strickland vs. Hernandez",
+    "date": "2026-02-21",
+    "location": "UFC Apex, Las Vegas, Nevada",
+    "status": "completed"
+  },
+  "fights": [
+    {
+      "id": "bautista-vs-oliveira",
+      "order": "Main Event",
+      "weight_class": "Bantamweight",
+      "rounds_scheduled": 5,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "SUB",
+        "round": 2
+      },
+      "fighter_a": {
+        "name": "Mario Bautista",
+        "record": "12-2",
+        "age": 30,
+        "height_cm": 170,
+        "reach_cm": 175,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.84,
+          "sig_strike_accuracy": 0.51,
+          "sig_strikes_absorbed_per_min": 3.12,
+          "sig_strike_defense": 0.62,
+          "takedown_accuracy": 0.47,
+          "takedown_defense": 0.80
+        }
+      },
+      "fighter_b": {
+        "name": "Vinicius Oliveira",
+        "record": "16-3",
+        "age": 27,
+        "height_cm": 168,
+        "reach_cm": 172,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.90,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 4.10,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.30,
+          "takedown_defense": 0.55
+        }
+      },
+      "nivarax": {
+        "probability_a": 71.2,
+        "probability_b": 28.8,
+        "advantage_score": 0.84,
+        "risk_a": {
+          "score": 0.08,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.22,
+          "flags": ["low_ufc_experience"]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Bautista supera a Oliveira en volumen ofensivo y eficiencia defensiva",
+          "Ventaja de grappling significativa para Bautista",
+          "Oliveira con experiencia UFC limitada — mayor incertidumbre en el modelo"
+        ]
+      }
+    },
+    {
+      "id": "strickland-vs-hernandez",
+      "order": "Co-Main Event",
+      "weight_class": "Middleweight",
+      "rounds_scheduled": 5,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 5
+      },
+      "fighter_a": {
+        "name": "Sean Strickland",
+        "record": "29-6",
+        "age": 33,
+        "height_cm": 185,
+        "reach_cm": 193,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.12,
+          "sig_strike_accuracy": 0.51,
+          "sig_strikes_absorbed_per_min": 4.22,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.33,
+          "takedown_defense": 0.72
+        }
+      },
+      "fighter_b": {
+        "name": "Paulo Hernandez",
+        "record": "14-5",
+        "age": 29,
+        "height_cm": 183,
+        "reach_cm": 188,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.80,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 3.95,
+          "sig_strike_defense": 0.49,
+          "takedown_accuracy": 0.28,
+          "takedown_defense": 0.61
+        }
+      },
+      "nivarax": {
+        "probability_a": 66.8,
+        "probability_b": 33.2,
+        "advantage_score": 0.62,
+        "risk_a": {
+          "score": 0.10,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.18,
+          "flags": ["moderate_finish_dependency"]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.10,
+          "flags": ["moderate_recent_decline"]
+        },
+        "key_factors": [
+          "Strickland supera en volumen y eficiencia de striking",
+          "Ventaja defensiva clara para Strickland",
+          "Hernandez muestra decadencia moderada en forma reciente"
+        ]
+      }
+    }
+  ]
+}
