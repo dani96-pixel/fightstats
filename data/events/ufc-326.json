@@ -2,7 +2,7 @@
   "schema_version": "2.0",
   "event": {
     "id": "ufc-326",
-    "name": "UFC 326: Holloway vs. Oliveira",
+    "name": "UFC 326: Holloway vs. Oliveira 2",
     "date": "2026-03-07",
     "location": "T-Mobile Arena, Las Vegas, United States",
     "status": "upcoming"
@@ -17,34 +17,34 @@
       "result": null,
       "fighter_a": {
         "name": "Max Holloway",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "27-8",
+        "age": 34,
+        "height_cm": 180,
+        "reach_cm": 175,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 7.20,
+          "sig_strike_accuracy": 0.48,
+          "sig_strikes_absorbed_per_min": 4.74,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.53,
+          "takedown_defense": 0.83
         }
       },
       "fighter_b": {
         "name": "Charles Oliveira",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "36-11",
+        "age": 36,
+        "height_cm": 178,
+        "reach_cm": 188,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 3.35,
+          "sig_strike_accuracy": 0.55,
+          "sig_strikes_absorbed_per_min": 3.24,
+          "sig_strike_defense": 0.49,
+          "takedown_accuracy": 0.40,
+          "takedown_defense": 0.54
         }
       },
       "nivarax": {
@@ -57,8 +57,7 @@
         "degradation_b": { "score": 0.0, "flags": [] },
         "key_factors": [
           "Holloway supera a Oliveira en volumen ofensivo y eficiencia defensiva",
-          "Oliveira con alta dependencia en finales — riesgo de KO/SUB presente",
-          "Holloway con perfil de riesgo limpio — mayor consistencia esperada"
+          "Holloway con perfil de riesgo limpio (mayor consistencia esperada)"
         ]
       }
     },
@@ -71,35 +70,35 @@
       "result": null,
       "fighter_a": {
         "name": "Caio Borralho",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "17-2",
+        "age": 33,
+        "height_cm": 185,
+        "reach_cm": 190,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 3.44,
+          "sig_strike_accuracy": 0.56,
+          "sig_strikes_absorbed_per_min": 2.50,
+          "sig_strike_defense": 0.60,
+          "takedown_accuracy": 0.48,
+          "takedown_defense": 0.76
         }
       },
       "fighter_b": {
-        "name": "Reinier de Ridder",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
-        "stance": "Orthodox",
-        "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
-        }
+      "name": "Reinier de Ridder",
+      "record": "21-3",
+      "age": 35,
+      "height_cm": 193,
+      "reach_cm": 198,
+      "stance": "Southpaw",
+      "stats": {
+        "sig_strikes_landed_per_min": 2.20,
+        "sig_strike_accuracy": 0.53,
+        "sig_strikes_absorbed_per_min": 2.04,
+        "sig_strike_defense": 0.49,
+        "takedown_accuracy": 0.30,
+        "takedown_defense": 0.50
+      }
       },
       "nivarax": {
         "probability_a": 63.09,
@@ -111,7 +110,6 @@
         "degradation_b": { "score": 0.0, "flags": [] },
         "key_factors": [
           "Borralho con ventaja moderada en métricas de striking y experiencia UFC",
-          "De Ridder con alta dependencia en finales — perfil de alto riesgo/recompensa",
           "Borralho favorito moderado con perfil de riesgo limpio"
         ]
       }
@@ -125,34 +123,34 @@
       "result": null,
       "fighter_a": {
         "name": "Rob Font",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "22-9",
+        "age": 38,
+        "height_cm": 173,
+        "reach_cm": 182,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 5.36,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 3.70,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.30,
+          "takedown_defense": 0.44
         }
       },
       "fighter_b": {
         "name": "Raul Rosas Jr.",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "11-1",
+        "age": 21,
+        "height_cm": 175,
+        "reach_cm": 170,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 1.51,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 1.37,
+          "sig_strike_defense": 0.60,
+          "takedown_accuracy": 0.41,
+          "takedown_defense": 0.50
         }
       },
       "nivarax": {
@@ -165,8 +163,8 @@
         "degradation_b": { "score": 0.0, "flags": [] },
         "key_factors": [
           "Rosas Jr. con ligera ventaja técnica en métricas relativas",
-          "Font con declive moderado reciente — penalización en degradación",
-          "Resultado incierto — margen reducido, pelea competitiva esperada"
+          "Font con declive moderado reciente (penalización en degradación)",
+          "Resultado incierto (margen reducido, pelea competitiva esperada)"
         ]
       }
     },
@@ -179,34 +177,34 @@
       "result": null,
       "fighter_a": {
         "name": "Drew Dober",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "28-15",
+        "age": 37,
+        "height_cm": 173,
+        "reach_cm": 178,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 4.52,
+          "sig_strike_accuracy": 0.41,
+          "sig_strikes_absorbed_per_min": 4.34,
+          "sig_strike_defense": 0.52,
+          "takedown_accuracy": 0.16,
+          "takedown_defense": 0.58
         }
       },
       "fighter_b": {
         "name": "Michael Johnson",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
-        "stance": "Orthodox",
+        "record": "25-19",
+        "age": 39,
+        "height_cm": 178,
+        "reach_cm": 187,
+        "stance": "Southpaw",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 4.28,
+          "sig_strike_accuracy": 0.39,
+          "sig_strikes_absorbed_per_min": 3.79,
+          "sig_strike_defense": 0.58,
+          "takedown_accuracy": 0.38,
+          "takedown_defense": 0.81
         }
       },
       "nivarax": {
@@ -219,7 +217,7 @@
         "degradation_b": { "score": 0.0, "flags": [] },
         "key_factors": [
           "Michael Johnson supera a Dober en métricas técnicas globales",
-          "Dober con declive moderado reciente — penalización en degradación",
+          "Dober con declive moderado reciente (penalización en degradación)",
           "Johnson favorito claro con perfil de riesgo limpio"
         ]
       }
@@ -227,40 +225,40 @@
     {
       "id": "rodrigues-vs-ferreira",
       "order": "Main Card",
-      "weight_class": "Light Heavyweight",
+      "weight_class": "Middleweight",
       "rounds_scheduled": 3,
       "status": "upcoming",
       "result": null,
       "fighter_a": {
         "name": "Gregory Rodrigues",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "18-6",
+        "age": 34,
+        "height_cm": 190,
+        "reach_cm": 190,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 5.60,
+          "sig_strike_accuracy": 0.51,
+          "sig_strikes_absorbed_per_min": 4.84,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.35,
+          "takedown_defense": 0.75
         }
       },
       "fighter_b": {
         "name": "Brunno Ferreira",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "15-2",
+        "age": 33,
+        "height_cm": 178,
+        "reach_cm": 183,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 3.85,
+          "sig_strike_accuracy": 0.50,
+          "sig_strikes_absorbed_per_min": 3.99,
+          "sig_strike_defense": 0.52,
+          "takedown_accuracy": 0.24,
+          "takedown_defense": 0.61
         }
       },
       "nivarax": {
@@ -273,7 +271,6 @@
         "degradation_b": { "score": 0.0, "flags": [] },
         "key_factors": [
           "Rodrigues con ventaja sólida en métricas de striking y control",
-          "Ferreira con alta dependencia en finales — riesgo de KO inesperado",
           "Rodrigues favorito claro con margen de confianza moderado-alto"
         ]
       }
@@ -287,34 +284,34 @@
       "result": null,
       "fighter_a": {
         "name": "Cody Garbrandt",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "14-7",
+        "age": 34,
+        "height_cm": 173,
+        "reach_cm": 166,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 2.88,
+          "sig_strike_accuracy": 0.40,
+          "sig_strikes_absorbed_per_min": 3.64,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.27,
+          "takedown_defense": 0.83
         }
       },
       "fighter_b": {
         "name": "Long Xiao",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "27-10",
+        "age": 27,
+        "height_cm": 173,
+        "reach_cm": 178,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 5.25,
+          "sig_strike_accuracy": 0.46,
+          "sig_strikes_absorbed_per_min": 4.20,
+          "sig_strike_defense": 0.50,
+          "takedown_accuracy": 0.25,
+          "takedown_defense": 0.79
         }
       },
       "nivarax": {
@@ -328,7 +325,7 @@
         "key_factors": [
           "Long Xiao con ventaja técnica dominante según el modelo",
           "Garbrandt con declive moderado confirmado en métricas históricas",
-          "Resultado esperado claramente favorable a Xiao"
+          "Resultado esperado favorable a Xiao"
         ]
       }
     },
@@ -341,34 +338,34 @@
       "result": null,
       "fighter_a": {
         "name": "Donte Johnson",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
-        "stance": "Orthodox",
+        "record": "7-0",
+        "age": 27,
+        "height_cm": 173,
+        "reach_cm": 188,
+        "stance": "Southpaw",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 3.34,
+          "sig_strike_accuracy": 0.64,
+          "sig_strikes_absorbed_per_min": 1.87,
+          "sig_strike_defense": 0.58,
+          "takedown_accuracy": 1.00,
+          "takedown_defense": 0.80
         }
       },
       "fighter_b": {
         "name": "Cody Brundage",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "11-8-1",
+        "age": 31,
+        "height_cm": 183,
+        "reach_cm": 183,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 2.29,
+          "sig_strike_accuracy": 0.51,
+          "sig_strikes_absorbed_per_min": 3.03,
+          "sig_strike_defense": 0.50,
+          "takedown_accuracy": 0.45,
+          "takedown_defense": 0.68
         }
       },
       "nivarax": {
@@ -381,8 +378,8 @@
         "degradation_b": { "score": 0.1, "flags": ["moderate_recent_decline"] },
         "key_factors": [
           "Johnson domina en métricas técnicas pese a baja experiencia UFC",
-          "Brundage con declive moderado reciente — penalización en degradación",
-          "Alta incertidumbre por baja experiencia UFC de Johnson — resultado capped al 90%"
+          "Brundage con declive moderado reciente (penalización en degradación)",
+          "Alta incertidumbre por baja experiencia UFC de Johnson (resultado capped al 90%)"
         ]
       }
     },
@@ -395,34 +392,34 @@
       "result": null,
       "fighter_a": {
         "name": "Ricky Turcios",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "13-5",
+        "age": 32,
+        "height_cm": 175,
+        "reach_cm": 180,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 4.73,
+          "sig_strike_accuracy": 0.40,
+          "sig_strikes_absorbed_per_min": 3.72,
+          "sig_strike_defense": 0.52,
+          "takedown_accuracy": 0.20,
+          "takedown_defense": 0.44
         }
       },
       "fighter_b": {
         "name": "Alberto Montes",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "11-1",
+        "age": 31,
+        "height_cm": 170,
+        "reach_cm": 175,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 4.98,
+          "sig_strike_accuracy": 0.67,
+          "sig_strikes_absorbed_per_min": 4.85,
+          "sig_strike_defense": 0.58,
+          "takedown_accuracy": 0.00,
+          "takedown_defense": 0.66
         }
       },
       "nivarax": {
@@ -436,11 +433,11 @@
         "key_factors": [
           "Turcios con ventaja moderada a pesar de declive reciente",
           "Montes penalizado por largo parón y baja experiencia UFC",
-          "Resultado relativamente abierto — margen moderado"
+          "Resultado esperado relativamente abierto (margen moderado)"
         ]
       }
     },
-    {
+{
       "id": "durden-vs-tumendemberel",
       "order": "Prelims",
       "weight_class": "Flyweight",
@@ -449,34 +446,34 @@
       "result": null,
       "fighter_a": {
         "name": "Cody Durden",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "17-9-1",
+        "age": 34,
+        "height_cm": 170,
+        "reach_cm": 170,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 3.66,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 4.47,
+          "sig_strike_defense": 0.50,
+          "takedown_accuracy": 0.47,
+          "takedown_defense": 0.75
         }
       },
       "fighter_b": {
         "name": "Nyamjargal Tumendemberel",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "9-1",
+        "age": 27,
+        "height_cm": 170,
+        "reach_cm": 180,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 3.18,
+          "sig_strike_accuracy": 0.39,
+          "sig_strikes_absorbed_per_min": 3.33,
+          "sig_strike_defense": 0.53,
+          "takedown_accuracy": 0.39,
+          "takedown_defense": 0.54
         }
       },
       "nivarax": {
@@ -489,48 +486,48 @@
         "degradation_b": { "score": 0.0, "flags": [] },
         "key_factors": [
           "Tumendemberel con ventaja técnica significativa según el modelo",
-          "Durden con declive severo en forma reciente — penalización alta en degradación",
-          "Alta dependencia en finales para ambos — probable resultado antes de decisión"
+          "Durden con declive severo en forma reciente (penalización alta en degradación)",
+          "Alta dependencia en finales para ambos (probable resultado antes de decisión)"
         ]
       }
     },
-    {
+{
       "id": "mudaerji-vs-aguilar",
-      "order": "Prelims",
+      "order": "Early Prelims",
       "weight_class": "Flyweight",
       "rounds_scheduled": 3,
       "status": "upcoming",
       "result": null,
       "fighter_a": {
         "name": "Su Mudaerji",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
-        "stance": "Orthodox",
+        "record": "18-7",
+        "age": 30,
+        "height_cm": 173,
+        "reach_cm": 183,
+        "stance": "Southpaw",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 4.48,
+          "sig_strike_accuracy": 0.52,
+          "sig_strikes_absorbed_per_min": 2.39,
+          "sig_strike_defense": 0.61,
+          "takedown_accuracy": 0.11,
+          "takedown_defense": 0.71
         }
       },
       "fighter_b": {
         "name": "Jesus Aguilar",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "12-3",
+        "age": 29,
+        "height_cm": 163,
+        "reach_cm": 159,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 2.65,
+          "sig_strike_accuracy": 0.40,
+          "sig_strikes_absorbed_per_min": 1.85,
+          "sig_strike_defense": 0.63,
+          "takedown_accuracy": 0.32,
+          "takedown_defense": 0.49
         }
       },
       "nivarax": {
@@ -543,48 +540,48 @@
         "degradation_b": { "score": 0.0, "flags": [] },
         "key_factors": [
           "Mudaerji supera a Aguilar en métricas técnicas globales",
-          "Señal de declive moderado en Mudaerji — penalización aplicada en degradación",
-          "Aguilar sin flags de riesgo — perfil limpio pero inferior en métricas relativas"
+          "Señal de declive moderado en Mudaerji (penalización aplicada en degradación)",
+          "Aguilar sin flags de riesgo (perfil limpio pero inferior en métricas relativas)"
         ]
       }
     },
-    {
+{
       "id": "tobias-vs-nurgozhay",
       "order": "Early Prelims",
-      "weight_class": "Welterweight",
+      "weight_class": "Light Heavyweight",
       "rounds_scheduled": 3,
       "status": "upcoming",
       "result": null,
       "fighter_a": {
         "name": "Rafael Tobias",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "14-1",
+        "age": 22,
+        "height_cm": 188,
+        "reach_cm": 189,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 3.45,
+          "sig_strike_accuracy": 0.31,
+          "sig_strikes_absorbed_per_min": 3.98,
+          "sig_strike_defense": 0.40,
+          "takedown_accuracy": 1.00,
+          "takedown_defense": 0.50
         }
       },
       "fighter_b": {
         "name": "Diyar Nurgozhay",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "10-2",
+        "age": 28,
+        "height_cm": 188,
+        "reach_cm": 188,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 3.04,
+          "sig_strike_accuracy": 0.50,
+          "sig_strikes_absorbed_per_min": 2.99,
+          "sig_strike_defense": 0.61,
+          "takedown_accuracy": 1.00,
+          "takedown_defense": 1.00
         }
       },
       "nivarax": {
@@ -597,48 +594,48 @@
         "degradation_b": { "score": 0.0, "flags": [] },
         "key_factors": [
           "Nurgozhay con ventaja ligera en métricas técnicas relativas",
-          "Ambos con experiencia UFC limitada — alta incertidumbre simétrica en el modelo",
-          "Resultado muy abierto — diferencial mínimo de ventaja"
+          "Ambos con experiencia UFC limitada (alta incertidumbre simétrica en el modelo)",
+          "Resultado muy abierto (diferencial mínimo de ventaja)"
         ]
       }
     },
     {
       "id": "lee-vs-bolanos",
       "order": "Early Prelims",
-      "weight_class": "Strawweight",
+      "weight_class": "Featherweight",
       "rounds_scheduled": 3,
       "status": "upcoming",
       "result": null,
       "fighter_a": {
         "name": "JeongYeong Lee",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "11-3",
+        "age": 30,
+        "height_cm": 178,
+        "reach_cm": 187,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 3.38,
+          "sig_strike_accuracy": 0.49,
+          "sig_strikes_absorbed_per_min": 3.82,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.67,
+          "takedown_defense": 0.72
         }
       },
       "fighter_b": {
         "name": "Gaston Bolanos",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "8-5",
+        "age": 33,
+        "height_cm": 170,
+        "reach_cm": 175,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 3.28,
+          "sig_strike_accuracy": 0.49,
+          "sig_strikes_absorbed_per_min": 2.40,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 1.00,
+          "takedown_defense": 0.43
         }
       },
       "nivarax": {
@@ -651,8 +648,8 @@
         "degradation_b": { "score": 0.0, "flags": [] },
         "key_factors": [
           "Bolanos con ligera ventaja técnica en métricas relativas",
-          "Lee sin flags de riesgo — perfil estable pero con desventaja en métricas",
-          "Resultado incierto — margen reducido, pelea muy competitiva esperada"
+          "Lee sin flags de riesgo (perfil estable pero con desventaja en métricas)",
+          "Resultado incierto (margen reducido, pelea muy competitiva esperada)"
         ]
       }
     },
@@ -665,34 +662,34 @@
       "result": null,
       "fighter_a": {
         "name": "Luke Fernandez",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "7-0",
+        "age": 30,
+        "height_cm": 185,
+        "reach_cm": 194,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 8.0,
+          "sig_strike_accuracy": 0.76,
+          "sig_strikes_absorbed_per_min": 3.2,
+          "sig_strike_defense": .63,
+          "takedown_accuracy": 0.33,
+          "takedown_defense": 0.5
         }
       },
       "fighter_b": {
         "name": "Rodolfo Bellato",
-        "record": "0-0",
-        "age": 0,
-        "height_cm": 0,
-        "reach_cm": 0,
+        "record": "12-3-1",
+        "age": 30,
+        "height_cm": 190,
+        "reach_cm": 197,
         "stance": "Orthodox",
         "stats": {
-          "sig_strikes_landed_per_min": 0.0,
-          "sig_strike_accuracy": 0.0,
-          "sig_strikes_absorbed_per_min": 0.0,
-          "sig_strike_defense": 0.0,
-          "takedown_accuracy": 0.0,
-          "takedown_defense": 0.0
+          "sig_strikes_landed_per_min": 5.39,
+          "sig_strike_accuracy": 0.60,
+          "sig_strikes_absorbed_per_min": 5.86,
+          "sig_strike_defense": 0.47,
+          "takedown_accuracy": 0.35,
+          "takedown_defense": 0.94
         }
       },
       "nivarax": {
@@ -705,8 +702,7 @@
         "degradation_b": { "score": 0.0, "flags": [] },
         "key_factors": [
           "Fernandez dominante en ventaja técnica general",
-          "Ambos con alta dependencia en finales — resultado probable por KO/SUB",
-          "Baja experiencia UFC de Fernandez — mayor incertidumbre, resultado capped al 90%"
+          "Baja experiencia UFC de Fernandez (mayor incertidumbre, resultado capped al 90%)"
         ]
       }
     }
