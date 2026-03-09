@@ -12,7 +12,14 @@ function navigate(page, id = null) {
 function router() {
   const hash = window.location.hash.slice(1) || 'home';
   const [page, id] = hash.split('/');
-
+  // Google Analytics: registrar navegación por hash
+  if (typeof gtag === 'function') {
+    gtag('event', 'page_view', {
+      page_path: '/' + hash,
+      page_title: page
+    });
+  }
+  
   // Ocultar todas las páginas
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
 
