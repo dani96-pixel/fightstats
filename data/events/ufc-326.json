@@ -15,7 +15,7 @@
       "rounds_scheduled": 5,
       "status": "completed",
       "result": {
-        "winner": "fighter_a",
+        "winner": "fighter_b",
         "method": "DEC",
         "round": 5
       },
@@ -899,3 +899,4 @@
     }
   ]
 }
+
