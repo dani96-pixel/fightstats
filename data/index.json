@@ -6,7 +6,7 @@
       "name": "UFC 326: Holloway vs. Oliveira 2",
       "short_name": "UFC 326",
       "date": "2026-03-07",
-      "status": "upcoming",
+      "status": "completed",
       "file": "data/events/ufc-326.json",
       "fights_total": 13,
       "fights_analyzed": 13
