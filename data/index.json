@@ -2,6 +2,16 @@
   "schema_version": "2.0",
   "events": [
     {
+      "id": "ufc-fn-Emmet-Vallejos",
+      "name": "UFC Fight Night: Emmet vs. Vallejos",
+      "short_name": "UFN 269",
+      "date": "2026-03-14",
+      "status": "upcoming",
+      "file": "data/events/ufc-fn-Emmet-Vallejos.json",
+      "fights_total": 14,
+      "fights_analyzed": 0
+    },
+    {
       "id": "ufc-326",
       "name": "UFC 326: Holloway vs. Oliveira 2",
       "short_name": "UFC 326",
