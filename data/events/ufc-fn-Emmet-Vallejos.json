@@ -328,8 +328,8 @@
         }
       },
       "nivarax": {
-        "probability_a": 90.0,
-        "probability_b": 10.0,
+        "probability_a": 88.7,
+        "probability_b": 11.3,
         "advantage_score": 1.4462,
         "risk_a": {
           "score": 0.27,
@@ -538,8 +538,8 @@
         }
       },
       "nivarax": {
-        "probability_a": 49.96,
-        "probability_b": 50.04,
+        "probability_a": 49.4,
+        "probability_b": 50.6,
         "advantage_score": -0.001,
         "risk_a": {
           "score": 0.0,
@@ -745,8 +745,8 @@
         }
       },
       "nivarax": {
-        "probability_a": 10.0,
-        "probability_b": 90.0,
+        "probability_a": 10.3,
+        "probability_b": 89.7,
         "advantage_score": -1.5441,
         "risk_a": {
           "score": 0.27,
@@ -816,8 +816,8 @@
         }
       },
       "nivarax": {
-        "probability_a": 90.0,
-        "probability_b": 10.0,
+        "probability_a": 91.2,
+        "probability_b": 8.8,
         "advantage_score": 1.5889,
         "risk_a": {
           "score": 0.21,
@@ -977,7 +977,7 @@
         "key_factors": [
           "Rodriguez absorbe significativamente menos daño (2.81 vs 4.44 SApM)",
           "Rodriguez con mejor grappling ofensivo y defensivo (TD acc 0.55 vs 0.35, TD def 0.73 vs 0.61)",
-          "Sin flags de riesgo ni degradación para ninguna — predicción de alta confianza relativa"
+          "Sin flags de riesgo ni degradación para ninguna, predicción de alta confianza relativa"
         ]
       }
     }
