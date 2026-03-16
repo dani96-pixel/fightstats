@@ -2,6 +2,16 @@
   "schema_version": "2.0",
   "events": [
     {
+      "id": "ufc-fn-Eloev-Murphy",
+      "name": "UFC Fight Night: Eloev vs. Murphy",
+      "short_name": "UFN 270",
+      "date": "2026-03-21",
+      "status": "upcoming",
+      "file": "data/events/ufc-fn-Eloev-Murphy.json",
+      "fights_total": 14,
+      "fights_analyzed": 0
+    },
+    {
       "id": "ufc-fn-Emmet-Vallejos",
       "name": "UFC Fight Night: Emmet vs. Vallejos",
       "short_name": "UFN 269",
