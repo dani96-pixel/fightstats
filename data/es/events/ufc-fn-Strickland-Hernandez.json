@@ -1,0 +1,1067 @@
+{
+  "schema_version": "2.0",
+  "event": {
+    "id": "ufc-fn-strickland-hernandez",
+    "name": "UFC Fight Night: Strickland vs. Hernandez",
+    "date": "2026-02-21",
+    "location": "Toyota Center, Houston",
+    "status": "completed"
+  },
+  "fights": [
+    {
+      "id": "strickland-vs-hernandez",
+      "order": "Main Event",
+      "weight_class": "Peso Medio",
+      "rounds_scheduled": 5,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "KO/TKO",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Sean Strickland",
+        "record": "30-7",
+        "age": 34,
+        "height_cm": 185,
+        "reach_cm": 193,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.04,
+          "sig_strike_accuracy": 0.43,
+          "sig_strikes_absorbed_per_min": 4.57,
+          "sig_strike_defense": 0.61,
+          "takedown_accuracy": 0.64,
+          "takedown_defense": 0.77
+        }
+      },
+      "fighter_b": {
+        "name": "Anthony Hernandez",
+        "record": "15-3",
+        "age": 32,
+        "height_cm": 183,
+        "reach_cm": 191,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.57,
+          "sig_strike_accuracy": 0.61,
+          "sig_strikes_absorbed_per_min": 3.1,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.48,
+          "takedown_defense": 0.68
+        }
+      },
+      "nivarax": {
+        "probability_a": 24.0,
+        "probability_b": 76.0,
+        "advantage_score": -0.6781,
+        "risk_a": {
+          "score": 0.15,
+          "flags": [
+            "long_layoff"
+          ]
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Hernandez con ventaja técnica clara según métricas relativas",
+          "Strickland penalizado por largo parón (mayor incertidumbre)",
+          "Upset confirmado: Strickland ganó siendo amplio desfavorecido por el modelo"
+        ]
+      }
+    },
+    {
+      "id": "neal-vs-medic",
+      "order": "Co-Main Event",
+      "weight_class": "Peso Wélter",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "KO/TKO",
+        "round": 1
+      },
+      "fighter_a": {
+        "name": "Geoffrey Neal",
+        "record": "16-7",
+        "age": 35,
+        "height_cm": 180,
+        "reach_cm": 191,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.02,
+          "sig_strike_accuracy": 0.51,
+          "sig_strikes_absorbed_per_min": 5.5,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.45,
+          "takedown_defense": 0.88
+        }
+      },
+      "fighter_b": {
+        "name": "Uroš Medić",
+        "record": "12-3",
+        "age": 32,
+        "height_cm": 185,
+        "reach_cm": 180,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.59,
+          "sig_strike_accuracy": 0.6,
+          "sig_strikes_absorbed_per_min": 3.42,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.5,
+          "takedown_defense": 0.56
+        }
+      },
+      "nivarax": {
+        "probability_a": 11.1,
+        "probability_b": 88.9,
+        "advantage_score": -1.2243,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Medić con ventaja técnica dominante según el modelo",
+          "Neal con declive moderado reciente (penalización en degradación)",
+          "Alta dependencia en finalizaciones para ambos peleadores"
+        ]
+      }
+    },
+    {
+      "id": "ige-vs-costa",
+      "order": "Main Card",
+      "weight_class": "Peso Pluma",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "KO/TKO",
+        "round": 1
+      },
+      "fighter_a": {
+        "name": "Dan Ige",
+        "record": "19-10",
+        "age": 34,
+        "height_cm": 170,
+        "reach_cm": 180,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.6,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 3.56,
+          "sig_strike_defense": 0.56,
+          "takedown_accuracy": 0.26,
+          "takedown_defense": 0.56
+        }
+      },
+      "fighter_b": {
+        "name": "Melquizael Costa",
+        "record": "25-7",
+        "age": 29,
+        "height_cm": 178,
+        "reach_cm": 180,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.38,
+          "sig_strike_accuracy": 0.5,
+          "sig_strikes_absorbed_per_min": 2.97,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.41,
+          "takedown_defense": 0.59
+        }
+      },
+      "nivarax": {
+        "probability_a": 13.6,
+        "probability_b": 86.4,
+        "advantage_score": -1.0861,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Costa con ventaja técnica dominante según el modelo",
+          "Ige con declive moderado reciente (penalización en degradación)",
+          "Costa con perfil de riesgo limpio — mayor confianza en la predicción"
+        ]
+      }
+    },
+    {
+      "id": "spivac-vs-delija",
+      "order": "Main Card",
+      "weight_class": "Peso Pesado",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Serghei Spivac",
+        "record": "18-6",
+        "age": 31,
+        "height_cm": 191,
+        "reach_cm": 198,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.57,
+          "sig_strike_accuracy": 0.48,
+          "sig_strikes_absorbed_per_min": 4.23,
+          "sig_strike_defense": 0.52,
+          "takedown_accuracy": 0.59,
+          "takedown_defense": 0.64
+        }
+      },
+      "fighter_b": {
+        "name": "Ante Delija",
+        "record": "26-8",
+        "age": 35,
+        "height_cm": 196,
+        "reach_cm": 201,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.28,
+          "sig_strike_accuracy": 0.38,
+          "sig_strikes_absorbed_per_min": 3.95,
+          "sig_strike_defense": 0.53,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.75
+        }
+      },
+      "nivarax": {
+        "probability_a": 53.8,
+        "probability_b": 46.2,
+        "advantage_score": 0.0892,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Spivac con ventaja mínima — pelea muy equilibrada para el modelo",
+          "Declive moderado reciente en ambos peleadores",
+          "Delija penalizado adicionalmente por baja experiencia UFC"
+        ]
+      }
+    },
+    {
+      "id": "smith-vs-harrell",
+      "order": "Main Card",
+      "weight_class": "Peso Wélter",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "KO/TKO",
+        "round": 1
+      },
+      "fighter_a": {
+        "name": "Jacobe Smith",
+        "record": "12-0",
+        "age": 30,
+        "height_cm": 178,
+        "reach_cm": 183,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.89,
+          "sig_strike_accuracy": 0.68,
+          "sig_strikes_absorbed_per_min": 2.78,
+          "sig_strike_defense": 0.48,
+          "takedown_accuracy": 0.92,
+          "takedown_defense": 1.0
+        }
+      },
+      "fighter_b": {
+        "name": "Josiah Harrell",
+        "record": "11-1",
+        "age": 27,
+        "height_cm": 170,
+        "reach_cm": 170,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.32,
+          "sig_strike_accuracy": 0.5,
+          "sig_strikes_absorbed_per_min": 10.94,
+          "sig_strike_defense": 0.3,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.0
+        }
+      },
+      "nivarax": {
+        "probability_a": 54.7,
+        "probability_b": 45.3,
+        "advantage_score": 3.1107,
+        "risk_a": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Smith con ventaja técnica teórica muy alta pero fuertemente comprimida por la incertidumbre",
+          "Alta incertidumbre simétrica por baja experiencia UFC y alta dependencia en finalizaciones en ambos",
+          "Resultado muy abierto a pesar del advantage score elevado — compresión por riesgo extrema"
+        ]
+      }
+    },
+    {
+      "id": "reese-vs-pereira",
+      "order": "Main Card",
+      "weight_class": "Peso Medio",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Zachary Reese",
+        "record": "10-3",
+        "age": 31,
+        "height_cm": 193,
+        "reach_cm": 196,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.48,
+          "sig_strike_accuracy": 0.54,
+          "sig_strikes_absorbed_per_min": 3.92,
+          "sig_strike_defense": 0.44,
+          "takedown_accuracy": 0.61,
+          "takedown_defense": 0.52
+        }
+      },
+      "fighter_b": {
+        "name": "Michel Fagner Lima Pereira",
+        "record": "32-14",
+        "age": 32,
+        "height_cm": 185,
+        "reach_cm": 185,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.46,
+          "sig_strike_accuracy": 0.52,
+          "sig_strikes_absorbed_per_min": 4.4,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.57,
+          "takedown_defense": 0.76
+        }
+      },
+      "nivarax": {
+        "probability_a": 70.4,
+        "probability_b": 29.6,
+        "advantage_score": 0.5108,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Reese favorito moderado según métricas técnicas relativas",
+          "Pereira con perfil de riesgo limpio — sin flags de riesgo ni degradación",
+          "Upset confirmado: Pereira ganó siendo desfavorecido por el modelo"
+        ]
+      }
+    },
+    {
+      "id": "njokuani-vs-miranda",
+      "order": "Prelims",
+      "weight_class": "Peso Wélter",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Chidi Njokuani",
+        "record": "25-11",
+        "age": 37,
+        "height_cm": 191,
+        "reach_cm": 203,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.16,
+          "sig_strike_accuracy": 0.62,
+          "sig_strikes_absorbed_per_min": 3.32,
+          "sig_strike_defense": 0.58,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.76
+        }
+      },
+      "fighter_b": {
+        "name": "Carlos Leal",
+        "record": "22-7",
+        "age": 31,
+        "height_cm": 180,
+        "reach_cm": 188,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 8.75,
+          "sig_strike_accuracy": 0.47,
+          "sig_strikes_absorbed_per_min": 7.78,
+          "sig_strike_defense": 0.49,
+          "takedown_accuracy": 0.11,
+          "takedown_defense": 0.91
+        }
+      },
+      "nivarax": {
+        "probability_a": 87.0,
+        "probability_b": 13.0,
+        "advantage_score": 1.1189,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Njokuani favorito claro con perfil de riesgo limpio",
+          "Miranda penalizado por baja experiencia UFC",
+          "Upset significativo: Miranda ganó siendo amplio desfavorecido por el modelo"
+        ]
+      }
+    },
+    {
+      "id": "osbourne-vs-idiris",
+      "order": "Prelims",
+      "weight_class": "Peso Mosca",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Ode' Osbourne",
+        "record": "13-10",
+        "age": 34,
+        "height_cm": 171,
+        "reach_cm": 185,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.94,
+          "sig_strike_accuracy": 0.41,
+          "sig_strikes_absorbed_per_min": 3.24,
+          "sig_strike_defense": 0.49,
+          "takedown_accuracy": 0.29,
+          "takedown_defense": 0.67
+        }
+      },
+      "fighter_b": {
+        "name": "Alibi Idiris",
+        "record": "12-1",
+        "age": 31,
+        "height_cm": 168,
+        "reach_cm": 173,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.51,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 2.64,
+          "sig_strike_defense": 0.6,
+          "takedown_accuracy": 0.31,
+          "takedown_defense": 0.67
+        }
+      },
+      "nivarax": {
+        "probability_a": 36.7,
+        "probability_b": 63.3,
+        "advantage_score": -0.3197,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.2,
+          "flags": [
+            "severe_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Idiris con ventaja técnica moderada según el modelo",
+          "Osbourne con declive severo reciente (penalización alta en degradación)",
+          "Baja experiencia UFC de Idiris añade incertidumbre pero no revierte la ventaja"
+        ]
+      }
+    },
+    {
+      "id": "coria-vs-gurule",
+      "order": "Prelims",
+      "weight_class": "Peso Mosca",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Alden Coria",
+        "record": "11-3",
+        "age": 27,
+        "height_cm": 173,
+        "reach_cm": 170,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.69,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 2.4,
+          "sig_strike_defense": 0.7,
+          "takedown_accuracy": 0.5,
+          "takedown_defense": 0.71
+        }
+      },
+      "fighter_b": {
+        "name": "Luis Gurule",
+        "record": "10-2",
+        "age": 32,
+        "height_cm": 165,
+        "reach_cm": 163,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.47,
+          "sig_strike_accuracy": 0.4,
+          "sig_strikes_absorbed_per_min": 4.74,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.14,
+          "takedown_defense": 0.59
+        }
+      },
+      "nivarax": {
+        "probability_a": 93.2,
+        "probability_b": 6.8,
+        "advantage_score": 1.5441,
+        "risk_a": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Coria con ventaja técnica dominante según métricas relativas",
+          "Alta incertidumbre en ambos por baja experiencia UFC",
+          "Coria favorito claro pese a la incertidumbre estructural compartida"
+        ]
+      }
+    },
+    {
+      "id": "cornolle-vs-edwards",
+      "order": "Prelims",
+      "weight_class": "Peso Gallo Femenino",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "SUB",
+        "round": 2
+      },
+      "fighter_a": {
+        "name": "Nora Cornolle",
+        "record": "9-3",
+        "age": 36,
+        "height_cm": 170,
+        "reach_cm": 170,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.73,
+          "sig_strike_accuracy": 0.55,
+          "sig_strikes_absorbed_per_min": 2.04,
+          "sig_strike_defense": 0.56,
+          "takedown_accuracy": 0.11,
+          "takedown_defense": 0.48
+        }
+      },
+      "fighter_b": {
+        "name": "Joselyne Edwards",
+        "record": "16-6",
+        "age": 30,
+        "height_cm": 173,
+        "reach_cm": 178,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.61,
+          "sig_strike_accuracy": 0.54,
+          "sig_strikes_absorbed_per_min": 3.24,
+          "sig_strike_defense": 0.5,
+          "takedown_accuracy": 0.4,
+          "takedown_defense": 0.61
+        }
+      },
+      "nivarax": {
+        "probability_a": 20.2,
+        "probability_b": 79.8,
+        "advantage_score": -0.8065,
+        "risk_a": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Edwards con ventaja técnica clara y perfil de riesgo limpio",
+          "Cornolle con declive moderado reciente y alta dependencia en finalizaciones",
+          "Edwards favorita sólida según el modelo"
+        ]
+      }
+    },
+    {
+      "id": "brahimaj-vs-soriano",
+      "order": "Prelims",
+      "weight_class": "Peso Wélter",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Ramiz Brahimaj",
+        "record": "13-5",
+        "age": 33,
+        "height_cm": 178,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.29,
+          "sig_strike_accuracy": 0.49,
+          "sig_strikes_absorbed_per_min": 3.27,
+          "sig_strike_defense": 0.47,
+          "takedown_accuracy": 0.34,
+          "takedown_defense": 0.45
+        }
+      },
+      "fighter_b": {
+        "name": "Punahele Soriano",
+        "record": "12-4",
+        "age": 33,
+        "height_cm": 180,
+        "reach_cm": 184,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.42,
+          "sig_strike_accuracy": 0.54,
+          "sig_strikes_absorbed_per_min": 3.31,
+          "sig_strike_defense": 0.47,
+          "takedown_accuracy": 0.52,
+          "takedown_defense": 0.49
+        }
+      },
+      "nivarax": {
+        "probability_a": 23.1,
+        "probability_b": 76.9,
+        "advantage_score": -0.7074,
+        "risk_a": {
+          "score": 0.37,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff",
+            "high_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.31,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff",
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Soriano con ventaja técnica clara según métricas relativas",
+          "Largo parón en ambos peleadores — alta incertidumbre bilateral",
+          "Alta dependencia en finalizaciones en ambos (resultado volátil esperado)"
+        ]
+      }
+    },
+    {
+      "id": "rowe-vs-lebosnoyani",
+      "order": "Prelims",
+      "weight_class": "Peso Wélter",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Philip Rowe",
+        "record": "11-8",
+        "age": 35,
+        "height_cm": 191,
+        "reach_cm": 204,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.51,
+          "sig_strike_accuracy": 0.5,
+          "sig_strikes_absorbed_per_min": 4.15,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.36,
+          "takedown_defense": 0.53
+        }
+      },
+      "fighter_b": {
+        "name": "Jean-Paul Lebosnoyani",
+        "record": "10-2",
+        "age": 25,
+        "height_cm": 180,
+        "reach_cm": 185,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.77,
+          "sig_strike_accuracy": 0.62,
+          "sig_strikes_absorbed_per_min": 3.72,
+          "sig_strike_defense": 0.53,
+          "takedown_accuracy": 0.3,
+          "takedown_defense": 0.0
+        }
+      },
+      "nivarax": {
+        "probability_a": 19.8,
+        "probability_b": 80.2,
+        "advantage_score": -0.8216,
+        "risk_a": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.2,
+          "flags": [
+            "severe_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Lebosnoyani con ventaja técnica clara según el modelo",
+          "Rowe con declive severo reciente — penalización alta en degradación",
+          "Baja experiencia UFC de Lebosnoyani añade incertidumbre pero no revierte la ventaja"
+        ]
+      }
+    },
+    {
+      "id": "leavitt-vs-delvalle",
+      "order": "Prelims",
+      "weight_class": "Peso Pluma",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Jordan Leavitt",
+        "record": "12-3",
+        "age": 30,
+        "height_cm": 175,
+        "reach_cm": 180,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.21,
+          "sig_strike_accuracy": 0.57,
+          "sig_strikes_absorbed_per_min": 1.59,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.34,
+          "takedown_defense": 0.3
+        }
+      },
+      "fighter_b": {
+        "name": "Yadier del Valle",
+        "record": "10-0",
+        "age": 29,
+        "height_cm": 175,
+        "reach_cm": 175,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.05,
+          "sig_strike_accuracy": 0.61,
+          "sig_strikes_absorbed_per_min": 2.16,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.43,
+          "takedown_defense": 0.58
+        }
+      },
+      "nivarax": {
+        "probability_a": 54.3,
+        "probability_b": 45.7,
+        "advantage_score": -0.3116,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Pelea muy equilibrada — margen mínimo para el modelo",
+          "Del Valle penalizado por baja experiencia UFC",
+          "Leavitt ganó siendo ligero favorecido — resultado consistente con el modelo"
+        ]
+      }
+    },
+    {
+      "id": "miller-vs-judice",
+      "order": "Prelims",
+      "weight_class": "Peso Mosca Femenino",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Juliana Miller",
+        "record": "5-3",
+        "age": 29,
+        "height_cm": 170,
+        "reach_cm": 168,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.65,
+          "sig_strike_accuracy": 0.4,
+          "sig_strikes_absorbed_per_min": 4.14,
+          "sig_strike_defense": 0.45,
+          "takedown_accuracy": 0.29,
+          "takedown_defense": 0.44
+        }
+      },
+      "fighter_b": {
+        "name": "Carli Judice",
+        "record": "5-2",
+        "age": 26,
+        "height_cm": 170,
+        "reach_cm": 173,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 9.32,
+          "sig_strike_accuracy": 0.51,
+          "sig_strikes_absorbed_per_min": 6.62,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.25,
+          "takedown_defense": 0.81
+        }
+      },
+      "nivarax": {
+        "probability_a": 6.8,
+        "probability_b": 93.2,
+        "advantage_score": -1.5366,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Judice con ventaja técnica dominante según el modelo",
+          "Miller con declive moderado reciente (penalización en degradación)",
+          "Una de las predicciones de mayor confianza del card"
+        ]
+      }
+    }
+  ]
+}

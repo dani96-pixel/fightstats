@@ -1,0 +1,116 @@
+{
+  "site_title": "FightStats",
+  "meta_description": "Análisis de Datos aplicado a MMA construido sobre el algoritmo Nivarax.",
+
+  "nav_home": "Inicio",
+  "nav_events": "Eventos",
+  "nav_track_record": "Track Record",
+  "nav_about": "Acerca de",
+
+  "hero_label": "Powered by Nivarax Algorithm",
+  "hero_title": "Análisis de Datos<br><em>aplicado en MMA</em>",
+  "hero_desc": "Probabilidades de Victoria Calculadas a través de un modelo determinístico que evalúa la pelea como una interacción dinámica entre los peleadores y sus estilos.",
+  "hero_btn_analysis": "Ver análisis",
+  "hero_btn_how": "¿Cómo funciona?",
+
+  "stat_accuracy": "Accuracy global",
+  "stat_fights": "Peleas analizadas",
+  "stat_correct": "Predicciones correctas",
+  "stat_correct_short": "Correctas",
+
+  "home_next_event": "Próximo evento",
+  "home_see_all": "Ver todos →",
+  "home_no_upcoming": "No hay eventos próximos anunciados.",
+  "home_load_error": "No se pudo cargar el próximo evento.",
+
+  "events_title": "Todos los eventos",
+  "events_loading": "Cargando eventos",
+  "events_empty": "No hay eventos disponibles.",
+  "events_error": "No se pudo cargar la lista de eventos. Intenta recargar la página.",
+  "event_loading": "Cargando análisis",
+  "event_not_found": "No se encontró el evento.",
+  "event_load_error": "No se pudo cargar el evento.",
+  "event_fights_analyzed": "{count} peleas analizadas",
+  "event_fights_analyzed_one": "1 pelea analizada",
+  "event_analysis_soon": "Análisis próximamente",
+
+  "status_completed": "Completado",
+  "status_upcoming": "Próximo",
+
+  "fight_section_count": "{count} peleas",
+  "fight_section_count_one": "1 pelea",
+
+  "back_to_events": "Volver a eventos",
+  "event_label": "Análisis Nivarax",
+
+  "fixture_see_analysis": "Ver análisis ▾",
+  "fixture_close": "Cerrar ▴",
+  "fixture_pending": "Pendiente",
+
+  "detail_correct": "✓ Nivarax acertó",
+  "detail_incorrect": "✗ Nivarax falló",
+
+  "detail_advantage": "Ventaja técnica",
+  "detail_neutral": "neutro",
+
+  "detail_stats_title": "Estadísticas comparadas",
+  "stat_slpm": "Golpes/min",
+  "stat_accuracy_label": "Precisión",
+  "stat_sapm": "Recibidos/min",
+  "stat_defense": "Defensa",
+  "stat_td_accuracy": "Ac. derribo",
+  "stat_td_defense": "Def. derribo",
+
+  "detail_risk_title": "Riesgo e Incertidumbre",
+  "risk_uncertainty": "Incertidumbre",
+  "risk_degradation": "Degradación",
+  "risk_no_flags": "Sin alertas",
+
+  "flag_long_layoff": "Layoff largo (>365d)",
+  "flag_very_long_layoff": "Layoff muy largo (>540d)",
+  "flag_low_ufc_experience": "Poca exp. UFC",
+  "flag_high_finish_dependency": "Alta dep. finalizaciones",
+  "flag_moderate_finish_dependency": "Dep. finalizaciones moderada",
+  "flag_severe_recent_decline": "Declive severo reciente",
+  "flag_moderate_recent_decline": "Declive moderado reciente",
+
+  "detail_key_factors": "Factores clave",
+
+  "tr_loading": "Cargando historial",
+  "tr_error": "No se pudo cargar el historial. Intenta recargar la página.",
+  "tr_title": "Track Record",
+  "tr_desc": "Todas las predicciones de Nivarax publicadas, con resultados verificables.",
+  "tr_correct_of": "{correct} correctas de {total} predicciones",
+  "tr_updated": "Actualizado: {date}",
+  "tr_th_date": "Fecha",
+  "tr_th_fight": "Pelea",
+  "tr_th_event": "Evento",
+  "tr_th_pick": "Pick Nivarax",
+  "tr_th_prob": "Prob.",
+  "tr_th_result": "Resultado",
+  "tr_result_pending": "Pendiente",
+  "tr_result_correct": "✓ Correcto",
+  "tr_result_incorrect": "✗ Incorrecto",
+
+  "about_title": "Acerca de FightStats",
+  "about_what_title": "¿Qué es FightStats?",
+  "about_what_p1": "FightStats es una plataforma de análisis estadístico enfocada en peleas de MMA (De momento solo en la promotora UFC). No somos un tipster. No vendemos picks garantizados ni tenemos afiliaciones con casas de apuestas. Nuestro objetivo es publicar análisis de datos de forma transparente, basados exclusivamente en modelos desarrollados por la Startup de análisis de datos Nivarax.",
+  "about_what_p2": "Todo el análisis está construido sobre <strong>NVX-MMA</strong>, un algoritmo de estimación de probabilidades desarrollado desde la física computacional por Daniel Cortes, estudiante de Física actualmente. Su principio fundamental es modelar el enfrentamiento como un evento competitivo, en lugar de analizar a los peleadores de forma aislada.",
+  "about_what_p3": "El resultado es un enfoque centrado en el matchup: como interactúan dos estilos dentro de una pelea y que probabilidades emergen de ese enfrentamiento.",
+
+  "about_how_title": "¿Cómo funciona Nivarax?",
+  "about_how_p1": "En lugar de puntuar a cada peleador por separado y comparar calificaciones individuales, NVX-MMA modela la pelea como un sistema competitivo entre 2 oponentes. Para ello, calcula todas las características como diferenciales relativos entre ambos peleadores, de modo que la ventaja emerge del enfrentamiento mismo, no de rankings previos o valoraciones aisladas.",
+  "about_how_p2": "El modelo también separa explícitamente dos conceptos que otros sistemas tienden a confundir: <strong>incertidumbre</strong> (cuánto sabemos sobre el peleador) y <strong>degradación</strong> (si hay evidencia de declive real en su rendimiento). Ambos factores afectan las probabilidades estimadas de formas distintas y forman parte del análisis que se publica para cada pelea.",
+
+  "about_access_title": "Acceso libre",
+  "about_access_p1": "FightStats es un proyecto en fase de validación. Durante esta etapa, todos los análisis desarrollados por NVX-MMA se publican de forma gratuita y abierta mientras construimos un historial verificable de predicciones.",
+  "about_access_p2": "No hay suscripciones ni publicidad. La plataforma muestra cada análisis de manera transparente, junto con el registro completo de resultados históricos para que cualquier persona pueda evaluar el desempeño del modelo por sí misma.",
+
+  "disclaimer_1": "⚠️ FightStats proporciona análisis estadístico con fines educativos e informativos únicamente. El contenido publicado no constituye asesoramiento financiero ni recomendaciones de apuesta.",
+  "disclaimer_2": "Las probabilidades y análisis presentados son estimaciones basadas en modelos estadísticos. El rendimiento pasado no garantiza resultados futuros.",
+  "disclaimer_3": "FightStats no mantiene afiliaciones con casas de apuestas ni recibe compensación por actividad de juego. Las apuestas pueden generar adicción. Si decides apostar, hazlo de forma responsable. (CONOCE TUS LÍMITES).",
+
+  "footer_disclaimer_1": "FightStats es un proyecto independiente de análisis estadístico aplicado a MMA. El contenido publicado tiene fines informativos y no constituye asesoramiento financiero ni recomendaciones de apuestas.",
+  "footer_disclaimer_2": "Powered by NVX—MMA, un algoritmo de modelado de interacción entre agentes desarrollado desde la física computacional por Daniel Cortes, estudiante de Física.",
+  "footer_verse": "\"Se te ha mostrado lo que es bueno: actuar con justicia, amar la misericordia y caminar humildemente con tu Dios\" — Miqueas 6:8"
+}

@@ -1,0 +1,1006 @@
+{
+  "schema_version": "2.0",
+  "event": {
+    "id": "ufc-fn-Moreno-Kavanagh",
+    "name": "UFC Fight Night: Moreno vs. Kavanagh",
+    "date": "2026-02-28",
+    "location": "Arena CDMX, Mexico City, Mexico",
+    "status": "completed"
+  },
+  "fights": [
+    {
+      "id": "moreno-vs-kavanagh",
+      "order": "Main Event",
+      "weight_class": "Flyweight",
+      "rounds_scheduled": 5,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 5
+      },
+      "fighter_a": {
+        "name": "Brandon Moreno",
+        "record": "23-9-2",
+        "age": 32,
+        "height_cm": 170,
+        "reach_cm": 178,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.84,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 3.64,
+          "sig_strike_defense": 0.6,
+          "takedown_accuracy": 0.4,
+          "takedown_defense": 0.65
+        }
+      },
+      "fighter_b": {
+        "name": "Lone'er Kavanagh",
+        "record": "9-1",
+        "age": 26,
+        "height_cm": 168,
+        "reach_cm": 170,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.13,
+          "sig_strike_accuracy": 0.49,
+          "sig_strikes_absorbed_per_min": 3.49,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.45,
+          "takedown_defense": 0.94
+        }
+      },
+      "nivarax": {
+        "probability_a": 40.2,
+        "probability_b": 59.8,
+        "advantage_score": -0.2336,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Kavanagh with net technical advantage per relative metrics",
+          "Moreno with moderate recent decline (degradation penalty applied)",
+          "Kavanagh penalized for low UFC experience (higher uncertainty)"
+        ]
+      }
+    },
+    {
+      "id": "vera-vs-martinez",
+      "order": "Co-Main Event",
+      "weight_class": "Bantamweight",
+      "rounds_scheduled": 5,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Marlon Vera",
+        "record": "23-11-1",
+        "age": 33,
+        "height_cm": 173,
+        "reach_cm": 178,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.18,
+          "sig_strike_accuracy": 0.48,
+          "sig_strikes_absorbed_per_min": 5.34,
+          "sig_strike_defense": 0.5,
+          "takedown_accuracy": 0.39,
+          "takedown_defense": 0.72
+        }
+      },
+      "fighter_b": {
+        "name": "David Martinez",
+        "record": "13-1",
+        "age": 27,
+        "height_cm": 165,
+        "reach_cm": 171,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.82,
+          "sig_strike_accuracy": 0.47,
+          "sig_strikes_absorbed_per_min": 2.9,
+          "sig_strike_defense": 0.69,
+          "takedown_accuracy": 0.25,
+          "takedown_defense": 1.0
+        }
+      },
+      "nivarax": {
+        "probability_a": 7.3,
+        "probability_b": 92.7,
+        "advantage_score": -1.4974,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.2,
+          "flags": [
+            "severe_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Martinez with dominant technical advantage per the model",
+          "Vera with severe recent form decline (high degradation penalty)",
+          "High finish dependency for both fighters"
+        ]
+      }
+    },
+    {
+      "id": "zellhuber-vs-green",
+      "order": "Main Card",
+      "weight_class": "Lightweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "KO/TKO",
+        "round": 2
+      },
+      "fighter_a": {
+        "name": "Daniel Zellhuber",
+        "record": "15-3",
+        "age": 26,
+        "height_cm": 185.4,
+        "reach_cm": 195.6,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.45,
+          "sig_strike_accuracy": 0.38,
+          "sig_strikes_absorbed_per_min": 6.17,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.25,
+          "takedown_defense": 0.82
+        }
+      },
+      "fighter_b": {
+        "name": "King Green",
+        "record": "33-17-1",
+        "age": 39,
+        "height_cm": 177.8,
+        "reach_cm": 180.3,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.38,
+          "sig_strike_accuracy": 0.53,
+          "sig_strikes_absorbed_per_min": 3.58,
+          "sig_strike_defense": 0.62,
+          "takedown_accuracy": 0.43,
+          "takedown_defense": 0.73
+        }
+      },
+      "nivarax": {
+        "probability_a": 67.2,
+        "probability_b": 32.8,
+        "advantage_score": -1.1284,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Zellhuber clear favorite per relative technical metrics",
+          "Both fighters with clean risk profiles (no additional compression applied)",
+          "Upset confirmed: Green won despite the model's technical disadvantage"
+        ]
+      }
+    },
+    {
+      "id": "chairez-vs-bunes",
+      "order": "Main Card",
+      "weight_class": "Flyweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Edgar Chairez",
+        "record": "12-6",
+        "age": 30,
+        "height_cm": 170.2,
+        "reach_cm": 180.3,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.65,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 4.75,
+          "sig_strike_defense": 0.46,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.39
+        }
+      },
+      "fighter_b": {
+        "name": "Felipe Bunes",
+        "record": "14-8",
+        "age": 36,
+        "height_cm": 170.2,
+        "reach_cm": 175.3,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.17,
+          "sig_strike_accuracy": 0.46,
+          "sig_strikes_absorbed_per_min": 4.57,
+          "sig_strike_defense": 0.47,
+          "takedown_accuracy": 0.25,
+          "takedown_defense": 0.4
+        }
+      },
+      "nivarax": {
+        "probability_a": 63.2,
+        "probability_b": 36.8,
+        "advantage_score": 0.3174,
+        "risk_a": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Chairez with moderate advantage despite recent decline in both",
+          "Bunes penalized for low UFC experience and recent decline",
+          "High finish dependency for both (volatile outcome expected)"
+        ]
+      }
+    },
+    {
+      "id": "rodriguez-vs-borjas",
+      "order": "Main Card",
+      "weight_class": "Flyweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "KO/TKO",
+        "round": 2
+      },
+      "fighter_a": {
+        "name": "Imanol Rodriguez",
+        "record": "6-0",
+        "age": 26,
+        "height_cm": 163,
+        "reach_cm": 164,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.71,
+          "sig_strike_accuracy": 0.56,
+          "sig_strikes_absorbed_per_min": 2.42,
+          "sig_strike_defense": 0.58,
+          "takedown_accuracy": 0.33,
+          "takedown_defense": 0.15
+        }
+      },
+      "fighter_b": {
+        "name": "Kevin Borjas",
+        "record": "10-4",
+        "age": 28,
+        "height_cm": 165,
+        "reach_cm": 173,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.96,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 5.64,
+          "sig_strike_defense": 0.49,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.71
+        }
+      },
+      "nivarax": {
+        "probability_a": 91.5,
+        "probability_b": 8.5,
+        "advantage_score": 1.3982,
+        "risk_a": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Rodriguez with dominant technical advantage per relative metrics",
+          "Symmetric high uncertainty from low UFC experience in both",
+          "Rodriguez clear favorite despite structural uncertainty"
+        ]
+      }
+    },
+    {
+      "id": "luna-vs-pacheco",
+      "order": "Prelims",
+      "weight_class": "Bantamweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Santiago Luna",
+        "record": "7-0",
+        "age": 21,
+        "height_cm": 175,
+        "reach_cm": 188,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 8.2,
+          "sig_strike_accuracy": 0.55,
+          "sig_strikes_absorbed_per_min": 3.82,
+          "sig_strike_defense": 0.72,
+          "takedown_accuracy": 0.83,
+          "takedown_defense": 0.5
+        }
+      },
+      "fighter_b": {
+        "name": "Angel Pacheco",
+        "record": "7-3",
+        "age": 34,
+        "height_cm": 173,
+        "reach_cm": 178,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 7.58,
+          "sig_strike_accuracy": 0.36,
+          "sig_strikes_absorbed_per_min": 10.56,
+          "sig_strike_defense": 0.42,
+          "takedown_accuracy": 0.5,
+          "takedown_defense": 0.17
+        }
+      },
+      "nivarax": {
+        "probability_a": 98.0,
+        "probability_b": 2.0,
+        "advantage_score": 2.2968,
+        "risk_a": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.5,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff",
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Luna with near-absolute technical advantage per the model",
+          "Pacheco severely penalized: long layoff, very low UFC experience, and high finish dependency",
+          "Highest model confidence in this event (elevated advantage score)"
+        ]
+      }
+    },
+    {
+      "id": "gandra-vs-medina",
+      "order": "Prelims",
+      "weight_class": "Middleweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "KO/TKO",
+        "round": 1
+      },
+      "fighter_a": {
+        "name": "Ryan Gandra",
+        "record": "8-1",
+        "age": 30,
+        "height_cm": 185,
+        "reach_cm": 189,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 13.02,
+          "sig_strike_accuracy": 0.51,
+          "sig_strikes_absorbed_per_min": 1.7,
+          "sig_strike_defense": 0.81,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 1.0
+        }
+      },
+      "fighter_b": {
+        "name": "José Daniel Medina",
+        "record": "11-6",
+        "age": 34,
+        "height_cm": 183,
+        "reach_cm": 189,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.13,
+          "sig_strike_accuracy": 0.36,
+          "sig_strikes_absorbed_per_min": 5.34,
+          "sig_strike_defense": 0.47,
+          "takedown_accuracy": 0.33,
+          "takedown_defense": 0.28
+        }
+      },
+      "nivarax": {
+        "probability_a": 98.6,
+        "probability_b": 1.4,
+        "advantage_score": 2.4813,
+        "risk_a": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.2,
+          "flags": [
+            "severe_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Gandra with near-absolute technical advantage per the model",
+          "Medina with severe recent decline and high finish dependency",
+          "Maximum model confidence in this event (highest advantage score on the card)"
+        ]
+      }
+    },
+    {
+      "id": "perez-vs-chiasson",
+      "order": "Prelims",
+      "weight_class": "Women's Bantamweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Ailin Perez",
+        "record": "12-2",
+        "age": 31,
+        "height_cm": 165,
+        "reach_cm": 168,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.88,
+          "sig_strike_accuracy": 0.56,
+          "sig_strikes_absorbed_per_min": 1.58,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.49,
+          "takedown_defense": 0.73
+        }
+      },
+      "fighter_b": {
+        "name": "Macy Chiasson",
+        "record": "11-5",
+        "age": 34,
+        "height_cm": 180,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.21,
+          "sig_strike_accuracy": 0.46,
+          "sig_strikes_absorbed_per_min": 2.76,
+          "sig_strike_defense": 0.45,
+          "takedown_accuracy": 0.36,
+          "takedown_defense": 0.63
+        }
+      },
+      "nivarax": {
+        "probability_a": 71.6,
+        "probability_b": 28.4,
+        "advantage_score": 0.5431,
+        "risk_a": {
+          "score": 0.15,
+          "flags": [
+            "long_layoff"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Perez with moderate-to-solid technical advantage per relative metrics",
+          "Chiasson with moderate recent decline (degradation penalty applied)",
+          "Perez's layoff adds uncertainty but does not reverse the advantage"
+        ]
+      }
+    },
+    {
+      "id": "quinonez-vs-moutinho",
+      "order": "Prelims",
+      "weight_class": "Bantamweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Cristian Quinonez",
+        "record": "18-5",
+        "age": 29,
+        "height_cm": 173,
+        "reach_cm": 178,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.67,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 3.71,
+          "sig_strike_defense": 0.56,
+          "takedown_accuracy": 0.56,
+          "takedown_defense": 0.86
+        }
+      },
+      "fighter_b": {
+        "name": "Kris Moutinho",
+        "record": "14-7",
+        "age": 33,
+        "height_cm": 170,
+        "reach_cm": 173,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.35,
+          "sig_strike_accuracy": 0.33,
+          "sig_strikes_absorbed_per_min": 9.36,
+          "sig_strike_defense": 0.31,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.3
+        }
+      },
+      "nivarax": {
+        "probability_a": 96.2,
+        "probability_b": 3.8,
+        "advantage_score": 1.8978,
+        "risk_a": {
+          "score": 0.31,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff",
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Quinonez with dominant technical advantage despite long layoff",
+          "Quinonez's moderate decline absorbed by the magnitude of his technical edge",
+          "Moutinho with low UFC experience (higher uncertainty in his profile)"
+        ]
+      }
+    },
+    {
+      "id": "silva-vs-reyes",
+      "order": "Prelims",
+      "weight_class": "Featherweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "KO/TKO",
+        "round": 1
+      },
+      "fighter_a": {
+        "name": "Douglas Silva de Andrade",
+        "record": "29-6",
+        "age": 40,
+        "height_cm": 170,
+        "reach_cm": 174,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.54,
+          "sig_strike_accuracy": 0.39,
+          "sig_strikes_absorbed_per_min": 4.09,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.43,
+          "takedown_defense": 0.72
+        }
+      },
+      "fighter_b": {
+        "name": "Javier Reyes",
+        "record": "22-5",
+        "age": 32,
+        "height_cm": 170,
+        "reach_cm": 185,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 8.91,
+          "sig_strike_accuracy": 0.56,
+          "sig_strikes_absorbed_per_min": 2.53,
+          "sig_strike_defense": 0.47,
+          "takedown_accuracy": 0.5,
+          "takedown_defense": 0.5
+        }
+      },
+      "nivarax": {
+        "probability_a": 2.4,
+        "probability_b": 97.6,
+        "advantage_score": -2.1842,
+        "risk_a": {
+          "score": 0.31,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff",
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Reyes with dominant technical advantage per the model",
+          "Silva penalized for long layoff, moderate decline, and high finish dependency",
+          "One of the highest-confidence predictions on the card"
+        ]
+      }
+    },
+    {
+      "id": "tarin-vs-kareckaite",
+      "order": "Early Prelims",
+      "weight_class": "Catchweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Regina Tarin",
+        "record": "7-0",
+        "age": 21,
+        "height_cm": 170,
+        "reach_cm": 167.64,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 7.8,
+          "sig_strike_accuracy": 0.52,
+          "sig_strikes_absorbed_per_min": 6.53,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.33,
+          "takedown_defense": 0.5
+        }
+      },
+      "fighter_b": {
+        "name": "Ernesta Kareckaite",
+        "record": "6-1-1",
+        "age": 27,
+        "height_cm": 175,
+        "reach_cm": 180,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 7.28,
+          "sig_strike_accuracy": 0.42,
+          "sig_strikes_absorbed_per_min": 6.47,
+          "sig_strike_defense": 0.5,
+          "takedown_accuracy": 0.6,
+          "takedown_defense": 0.81
+        }
+      },
+      "nivarax": {
+        "probability_a": 56.3,
+        "probability_b": 43.7,
+        "advantage_score": 0.149,
+        "risk_a": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.3,
+          "flags": [
+            "long_layoff",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Tarin with minimal advantage per the model (very even fight)",
+          "High uncertainty in both: low UFC experience and elevated risk profiles",
+          "Very open outcome — reduced confidence margin"
+        ]
+      }
+    },
+    {
+      "id": "esilva-vs-marshall",
+      "order": "Early Prelims",
+      "weight_class": "Featherweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "SUB",
+        "round": 1
+      },
+      "fighter_a": {
+        "name": "Erik Silva",
+        "record": "9-3",
+        "age": 38,
+        "height_cm": 175,
+        "reach_cm": 180,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.06,
+          "sig_strike_accuracy": 0.68,
+          "sig_strikes_absorbed_per_min": 1.52,
+          "sig_strike_defense": 0.4,
+          "takedown_accuracy": 0.8,
+          "takedown_defense": 0.6
+        }
+      },
+      "fighter_b": {
+        "name": "Francis Marshall",
+        "record": "8-3",
+        "age": 26,
+        "height_cm": 175,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.39,
+          "sig_strike_accuracy": 0.33,
+          "sig_strikes_absorbed_per_min": 4.03,
+          "sig_strike_defense": 0.54,
+          "takedown_accuracy": 0.45,
+          "takedown_defense": 0.67
+        }
+      },
+      "nivarax": {
+        "probability_a": 57.8,
+        "probability_b": 42.2,
+        "advantage_score": 0.1855,
+        "risk_a": {
+          "score": 0.46,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff",
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.2,
+          "flags": [
+            "severe_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Prediction with minimal margin — highly uncertain outcome for the model",
+          "Erik Silva with extreme risk profile: long layoff, severe decline, and low experience",
+          "Mild upset: Marshall won as slight underdog per the model"
+        ]
+      }
+    },
+    {
+      "id": "pinas-vs-schultz",
+      "order": "Early Prelims",
+      "weight_class": "Middleweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "KO/TKO",
+        "round": 1
+      },
+      "fighter_a": {
+        "name": "Damian Pinas",
+        "record": "8-1",
+        "age": 23,
+        "height_cm": 185,
+        "reach_cm": 202,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 7.5,
+          "sig_strike_accuracy": 0.56,
+          "sig_strikes_absorbed_per_min": 3.75,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 1.0
+        }
+      },
+      "fighter_b": {
+        "name": "Wesley Schultz",
+        "record": "8-2",
+        "age": 29,
+        "height_cm": 188,
+        "reach_cm": 196,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.6,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 4.97,
+          "sig_strike_defense": 0.46,
+          "takedown_accuracy": 0.25,
+          "takedown_defense": 0.15
+        }
+      },
+      "nivarax": {
+        "probability_a": 91.8,
+        "probability_b": 8.2,
+        "advantage_score": 1.4202,
+        "risk_a": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Pinas with dominant technical advantage per relative metrics",
+          "Symmetric high uncertainty from low UFC experience in both",
+          "Pinas clear favorite despite shared structural uncertainty"
+        ]
+      }
+    }
+  ]
+}

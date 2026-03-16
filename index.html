@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FightStats</title>
+  <meta name="description" content="Análisis de Datos aplicado a MMA construido sobre el algoritmo Nivarax." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V1MJSG8L3Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-V1MJSG8L3Q');
+  </script>
+</head>
+<body>
+
+  <!-- ─── HEADER ─── -->
+  <header>
+    <div class="container header-inner">
+      <div class="logo">
+        <img src="logo_fightstats.png" alt="Nash" class="logo-icon" />
+        FightStats
+      </div>
+      <nav>
+        <a class="nav-link" data-page="home" href="#home" data-i18n="nav_home">Inicio</a>
+        <a class="nav-link" data-page="events" href="#events" data-i18n="nav_events">Eventos</a>
+        <a class="nav-link" data-page="track-record" href="#track-record" data-i18n="nav_track_record">Track Record</a>
+        <a class="nav-link" data-page="about" href="#about" data-i18n="nav_about">Acerca de</a>
+        <div class="lang-switcher">
+          <button class="lang-btn" data-lang="es" onclick="switchLanguage('es')">ES</button>
+          <button class="lang-btn" data-lang="en" onclick="switchLanguage('en')">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ─── MAIN ─── -->
+  <main>
+
+    <!-- HOME -->
+    <div id="page-home" class="page">
+      <div class="container">
+        <section class="hero">
+          <div class="hero-label" data-i18n="hero_label">Powered by Nivarax Algorithm</div>
+          <h1 data-i18n="hero_title">Análisis de Datos<br><em>aplicado en MMA</em></h1>
+          <p class="hero-desc" data-i18n="hero_desc">
+            Probabilidades de Victoria Calculadas a traves de un modelo
+            determinístico que evalúa la pelea como una interacción dinámica
+            entre los peleadores y sus estilos.
+          </p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="#events" data-page="events" data-i18n="hero_btn_analysis">Ver análisis</a>
+            <a class="btn-secondary" href="#about" data-page="about" data-i18n="hero_btn_how">¿Cómo funciona?</a>
+          </div>
+        </section>
+
+        <!-- Stats strip -->
+        <div class="stats-strip" id="home-stats">
+          <div class="stat-block"><div class="stat-num">—</div><div class="stat-label" data-i18n="stat_accuracy">Accuracy global</div></div>
+          <div class="stat-block"><div class="stat-num">—</div><div class="stat-label" data-i18n="stat_fights">Peleas analizadas</div></div>
+          <div class="stat-block"><div class="stat-num">—</div><div class="stat-label" data-i18n="stat_correct_short">Correctas</div></div>
+        </div>
+
+        <!-- Next event -->
+        <div class="section-header">
+          <span class="section-title" data-i18n="home_next_event">Próximo evento</span>
+          <a class="section-link" href="#events" data-page="events" data-i18n="home_see_all">Ver todos →</a>
+        </div>
+        <div class="events-grid" id="home-next-event">
+          <div class="loading" data-i18n="events_loading">Cargando evento</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EVENTS -->
+    <div id="page-events" class="page">
+      <div class="container">
+        <div style="padding: 48px 0 28px;">
+          <div class="section-header">
+            <span class="section-title" data-i18n="events_title">Todos los eventos</span>
+          </div>
+          <div class="events-grid" id="events-list">
+            <div class="loading" data-i18n="events_loading">Cargando eventos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EVENT DETAIL -->
+    <div id="page-event" class="page">
+      <div class="container">
+        <div id="event-content">
+          <div class="loading" data-i18n="event_loading">Cargando análisis</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TRACK RECORD -->
+    <div id="page-track-record" class="page">
+      <div class="container">
+        <div id="track-record-content">
+          <div class="loading" data-i18n="tr_loading">Cargando historial</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="page-about" class="page">
+      <div class="container">
+        <div class="about-wrap">
+          <h2 data-i18n="about_title">Acerca de FightStats</h2>
+
+          <div class="about-block">
+            <h3 data-i18n="about_what_title">¿Qué es FightStats?</h3>
+            <p data-i18n="about_what_p1"></p>
+            <p data-i18n="about_what_p2"></p>
+            <p data-i18n="about_what_p3"></p>
+          </div>
+
+          <div class="about-block">
+            <h3 data-i18n="about_how_title">¿Cómo funciona Nivarax?</h3>
+            <p data-i18n="about_how_p1"></p>
+            <p data-i18n="about_how_p2"></p>
+          </div>
+
+          <div class="about-block">
+            <h3 data-i18n="about_access_title">Acceso libre</h3>
+            <p data-i18n="about_access_p1"></p>
+            <p data-i18n="about_access_p2"></p>
+          </div>
+
+          <div class="disclaimer-box">
+            <p data-i18n="disclaimer_1"></p>
+            <p data-i18n="disclaimer_2"></p>
+            <p data-i18n="disclaimer_3"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo"><img src="logo_fightstats.png" alt="Nash" class="footer-logo-icon" />FightStats</div>
+        <div class="footer-links">
+          <span class="footer-link" data-page="track-record">Track Record</span>
+          <span class="footer-link" data-page="about" data-i18n="nav_about">Acerca de</span>
+        </div>
+      </div>
+      <div class="footer-disclaimer">
+        <p data-i18n="footer_disclaimer_1"></p>
+        <p data-i18n="footer_disclaimer_2"></p>
+      </div>
+      <div class="footer-verse" data-i18n="footer_verse"></div>
+    </div>
+  </footer>
+
+  <!-- Scripts — i18n loads first -->
+  <script src="js/i18n.js"></script>
+  <script src="js/trackrecord.js"></script>
+  <script src="js/event.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

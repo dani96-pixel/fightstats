@@ -1,0 +1,983 @@
+{
+  "schema_version": "2.0",
+  "event": {
+    "id": "ufc-fn-bautista-oliveira",
+    "name": "UFC Fight Night: Bautista vs. Oliveira",
+    "date": "2026-02-07",
+    "location": "Meta APEX (UFC Apex), Las Vegas",
+    "status": "completed"
+  },
+  "fights": [
+    {
+      "id": "bautista-vs-oliveira",
+      "order": "Main Event",
+      "weight_class": "Bantamweight",
+      "rounds_scheduled": 5,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "SUB",
+        "round": 2
+      },
+      "fighter_a": {
+        "name": "Mario Bautista",
+        "record": "16-3",
+        "age": 32,
+        "height_cm": 175,
+        "reach_cm": 175,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.3,
+          "sig_strike_accuracy": 0.49,
+          "sig_strikes_absorbed_per_min": 3.98,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.38,
+          "takedown_defense": 0.56
+        }
+      },
+      "fighter_b": {
+        "name": "Vinicius Oliveira",
+        "record": "22-4",
+        "age": 30,
+        "height_cm": 175,
+        "reach_cm": 178,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.73,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 2.7,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.47,
+          "takedown_defense": 0.7
+        }
+      },
+      "nivarax": {
+        "probability_a": 32.9,
+        "probability_b": 67.1,
+        "advantage_score": -0.419,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Oliveira with clear technical advantage per relative metrics",
+          "Bautista with clean risk profile — no risk or degradation flags",
+          "Upset confirmed: Bautista won despite being disfavored by the model"
+        ]
+      }
+    },
+    {
+      "id": "albazi-vs-horiguchi",
+      "order": "Co-Main Event",
+      "weight_class": "Flyweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Amir Albazi",
+        "record": "17-2",
+        "age": 32,
+        "height_cm": 165,
+        "reach_cm": 173,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.47,
+          "sig_strike_accuracy": 0.34,
+          "sig_strikes_absorbed_per_min": 3.88,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.25,
+          "takedown_defense": 0.63
+        }
+      },
+      "fighter_b": {
+        "name": "Kyoji Horiguchi",
+        "record": "35-5",
+        "age": 35,
+        "height_cm": 165,
+        "reach_cm": 160,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.77,
+          "sig_strike_accuracy": 0.47,
+          "sig_strikes_absorbed_per_min": 2.13,
+          "sig_strike_defense": 0.64,
+          "takedown_accuracy": 0.41,
+          "takedown_defense": 0.61
+        }
+      },
+      "nivarax": {
+        "probability_a": 14.5,
+        "probability_b": 85.5,
+        "advantage_score": -1.0455,
+        "risk_a": {
+          "score": 0.21,
+          "flags": [
+            "long_layoff",
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Horiguchi with dominant technical advantage and clean risk profile",
+          "Albazi penalized for long layoff and moderate finish dependency",
+          "Horiguchi clear favorite with high model confidence"
+        ]
+      }
+    },
+    {
+      "id": "almeida-vs-kuniev",
+      "order": "Main Card",
+      "weight_class": "Heavyweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Jailton Almeida",
+        "record": "22-4",
+        "age": 34,
+        "height_cm": 191,
+        "reach_cm": 201,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.23,
+          "sig_strike_accuracy": 0.63,
+          "sig_strikes_absorbed_per_min": 1.3,
+          "sig_strike_defense": 0.43,
+          "takedown_accuracy": 0.55,
+          "takedown_defense": 0.6
+        }
+      },
+      "fighter_b": {
+        "name": "Rizvan Kuniev",
+        "record": "13-3-1",
+        "age": 33,
+        "height_cm": 193,
+        "reach_cm": 203,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.94,
+          "sig_strike_accuracy": 0.55,
+          "sig_strikes_absorbed_per_min": 2.33,
+          "sig_strike_defense": 0.48,
+          "takedown_accuracy": 0.75,
+          "takedown_defense": 0.93
+        }
+      },
+      "nivarax": {
+        "probability_a": 50.8,
+        "probability_b": 49.2,
+        "advantage_score": 0.0187,
+        "risk_a": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Nearly even fight — minimal margin for the model",
+          "Kuniev penalized for low UFC experience but balanced technical profile",
+          "Mild upset: Kuniev won despite being slightly disfavored by the model"
+        ]
+      }
+    },
+    {
+      "id": "oleksiejczuk-vs-barriault",
+      "order": "Main Card",
+      "weight_class": "Middleweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Michał Oleksiejczuk",
+        "record": "19-9",
+        "age": 30,
+        "height_cm": 183,
+        "reach_cm": 188,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.85,
+          "sig_strike_accuracy": 0.53,
+          "sig_strikes_absorbed_per_min": 4.5,
+          "sig_strike_defense": 0.6,
+          "takedown_accuracy": 0.42,
+          "takedown_defense": 0.53
+        }
+      },
+      "fighter_b": {
+        "name": "Marc-André Barriault",
+        "record": "16-8",
+        "age": 35,
+        "height_cm": 185,
+        "reach_cm": 188,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.65,
+          "sig_strike_accuracy": 0.47,
+          "sig_strikes_absorbed_per_min": 5.94,
+          "sig_strike_defense": 0.49,
+          "takedown_accuracy": 0.29,
+          "takedown_defense": 0.68
+        }
+      },
+      "nivarax": {
+        "probability_a": 82.3,
+        "probability_b": 17.7,
+        "advantage_score": 0.9028,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.2,
+          "flags": [
+            "severe_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Oleksiejczuk with solid technical advantage despite severe recent decline",
+          "Barriault with moderate decline — both penalized in degradation",
+          "Oleksiejczuk's technical edge wide enough to sustain the prediction"
+        ]
+      }
+    },
+    {
+      "id": "matsumoto-vs-basharat-f",
+      "order": "Main Card",
+      "weight_class": "Bantamweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Jean Matsumoto",
+        "record": "16-0",
+        "age": 26,
+        "height_cm": 168,
+        "reach_cm": 174,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.37,
+          "sig_strike_accuracy": 0.4,
+          "sig_strikes_absorbed_per_min": 5.41,
+          "sig_strike_defense": 0.48,
+          "takedown_accuracy": 0.49,
+          "takedown_defense": 0.56
+        }
+      },
+      "fighter_b": {
+        "name": "Farid Basharat",
+        "record": "13-0",
+        "age": 28,
+        "height_cm": 173,
+        "reach_cm": 180,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.25,
+          "sig_strike_accuracy": 0.52,
+          "sig_strikes_absorbed_per_min": 2.89,
+          "sig_strike_defense": 0.62,
+          "takedown_accuracy": 0.45,
+          "takedown_defense": 0.55
+        }
+      },
+      "nivarax": {
+        "probability_a": 13.9,
+        "probability_b": 86.1,
+        "advantage_score": -1.0753,
+        "risk_a": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Farid Basharat with dominant technical advantage and clean risk profile",
+          "Matsumoto penalized for low UFC experience",
+          "High model confidence in the prediction"
+        ]
+      }
+    },
+    {
+      "id": "jacoby-vs-walker",
+      "order": "Main Card",
+      "weight_class": "Light Heavyweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "KO/TKO",
+        "round": 2
+      },
+      "fighter_a": {
+        "name": "Dustin Jacoby",
+        "record": "21-9-1",
+        "age": 37,
+        "height_cm": 191,
+        "reach_cm": 193,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.4,
+          "sig_strike_accuracy": 0.48,
+          "sig_strikes_absorbed_per_min": 3.92,
+          "sig_strike_defense": 0.58,
+          "takedown_accuracy": 0.25,
+          "takedown_defense": 0.62
+        }
+      },
+      "fighter_b": {
+        "name": "Julius Walker",
+        "record": "7-1",
+        "age": 26,
+        "height_cm": 193,
+        "reach_cm": 198,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.73,
+          "sig_strike_accuracy": 0.54,
+          "sig_strikes_absorbed_per_min": 4.03,
+          "sig_strike_defense": 0.43,
+          "takedown_accuracy": 0.38,
+          "takedown_defense": 1.0
+        }
+      },
+      "nivarax": {
+        "probability_a": 49.8,
+        "probability_b": 50.2,
+        "advantage_score": -0.0042,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Nearly even fight — near-zero advantage differential",
+          "Walker with high uncertainty from low UFC experience and high finish dependency",
+          "Jacoby won as slight underdog — result within the model's margin of error"
+        ]
+      }
+    },
+    {
+      "id": "morono-vs-donchenko",
+      "order": "Prelims",
+      "weight_class": "Welterweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Alex Morono",
+        "record": "24-11",
+        "age": 35,
+        "height_cm": 180,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.9,
+          "sig_strike_accuracy": 0.4,
+          "sig_strikes_absorbed_per_min": 4.88,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.24,
+          "takedown_defense": 0.48
+        }
+      },
+      "fighter_b": {
+        "name": "Daniil Donchenko",
+        "record": "9-2",
+        "age": 24,
+        "height_cm": 185,
+        "reach_cm": 186,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 7.15,
+          "sig_strike_accuracy": 0.6,
+          "sig_strikes_absorbed_per_min": 2.57,
+          "sig_strike_defense": 0.73,
+          "takedown_accuracy": 0.33,
+          "takedown_defense": 0.75
+        }
+      },
+      "nivarax": {
+        "probability_a": 1.6,
+        "probability_b": 98.5,
+        "advantage_score": -2.4414,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Donchenko with near-absolute technical advantage per the model",
+          "Morono with moderate recent decline — one of the highest-confidence predictions on the card",
+          "Advantage score among the most extreme recorded in backtesting"
+        ]
+      }
+    },
+    {
+      "id": "price-vs-veretennikov",
+      "order": "Prelims",
+      "weight_class": "Welterweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "KO/TKO",
+        "round": 1
+      },
+      "fighter_a": {
+        "name": "Niko Price",
+        "record": "16-9",
+        "age": 36,
+        "height_cm": 183,
+        "reach_cm": 193,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.13,
+          "sig_strike_accuracy": 0.43,
+          "sig_strikes_absorbed_per_min": 5.61,
+          "sig_strike_defense": 0.48,
+          "takedown_accuracy": 0.28,
+          "takedown_defense": 0.5
+        }
+      },
+      "fighter_b": {
+        "name": "Nikolay Veretennikov",
+        "record": "13-7",
+        "age": 36,
+        "height_cm": 185,
+        "reach_cm": 188,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.69,
+          "sig_strike_accuracy": 0.57,
+          "sig_strikes_absorbed_per_min": 3.3,
+          "sig_strike_defense": 0.45,
+          "takedown_accuracy": 0.17,
+          "takedown_defense": 0.63
+        }
+      },
+      "nivarax": {
+        "probability_a": 38.3,
+        "probability_b": 61.7,
+        "advantage_score": -0.2794,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.2,
+          "flags": [
+            "severe_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Veretennikov with moderate technical advantage per the model",
+          "Price with severe recent decline — high degradation penalty",
+          "Both with moderate finish dependency (volatile outcome expected)"
+        ]
+      }
+    },
+    {
+      "id": "brasil-vs-souza",
+      "order": "Prelims",
+      "weight_class": "Women's Strawweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Bruna Brasil",
+        "record": "11-5-1",
+        "age": 32,
+        "height_cm": 168,
+        "reach_cm": 168,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.57,
+          "sig_strike_accuracy": 0.56,
+          "sig_strikes_absorbed_per_min": 3.59,
+          "sig_strike_defense": 0.52,
+          "takedown_accuracy": 0.56,
+          "takedown_defense": 0.61
+        }
+      },
+      "fighter_b": {
+        "name": "Ketlen Souza",
+        "record": "15-6",
+        "age": 31,
+        "height_cm": 160,
+        "reach_cm": 160,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.01,
+          "sig_strike_accuracy": 0.56,
+          "sig_strikes_absorbed_per_min": 3.86,
+          "sig_strike_defense": 0.53,
+          "takedown_accuracy": 0.13,
+          "takedown_defense": 0.54
+        }
+      },
+      "nivarax": {
+        "probability_a": 42.3,
+        "probability_b": 57.7,
+        "advantage_score": -0.1816,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Souza with moderate technical advantage — relatively balanced fight",
+          "Moderate recent decline in both fighters",
+          "Both with clean risk profiles — structurally low uncertainty"
+        ]
+      }
+    },
+    {
+      "id": "jbasharat-vs-vazquez",
+      "order": "Prelims",
+      "weight_class": "Catchweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Javid Basharat",
+        "record": "14-2",
+        "age": 30,
+        "height_cm": 175,
+        "reach_cm": 175,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.18,
+          "sig_strike_accuracy": 0.55,
+          "sig_strikes_absorbed_per_min": 2.75,
+          "sig_strike_defense": 0.64,
+          "takedown_accuracy": 0.4,
+          "takedown_defense": 0.84
+        }
+      },
+      "fighter_b": {
+        "name": "Gianni Vázquez",
+        "record": "12-5",
+        "age": 30,
+        "height_cm": 168,
+        "reach_cm": 170,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 1.6,
+          "sig_strike_accuracy": 0.22,
+          "sig_strikes_absorbed_per_min": 3.93,
+          "sig_strike_defense": 0.39,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.63
+        }
+      },
+      "nivarax": {
+        "probability_a": 96.5,
+        "probability_b": 3.5,
+        "advantage_score": 1.9568,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Javid Basharat with dominant technical advantage per the model",
+          "Vázquez penalized for low UFC experience",
+          "High model confidence — result confirmed"
+        ]
+      }
+    },
+    {
+      "id": "wang-vs-moura",
+      "order": "Prelims",
+      "weight_class": "Catchweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Wang Cong",
+        "record": "6-0",
+        "age": 33,
+        "height_cm": 168,
+        "reach_cm": 170,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.22,
+          "sig_strike_accuracy": 0.57,
+          "sig_strikes_absorbed_per_min": 2.19,
+          "sig_strike_defense": 0.63,
+          "takedown_accuracy": 0.75,
+          "takedown_defense": 0.84
+        }
+      },
+      "fighter_b": {
+        "name": "Eduarda Moura",
+        "record": "10-1",
+        "age": 31,
+        "height_cm": 168,
+        "reach_cm": 170,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.57,
+          "sig_strike_accuracy": 0.38,
+          "sig_strikes_absorbed_per_min": 2.5,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.35,
+          "takedown_defense": 0.8
+        }
+      },
+      "nivarax": {
+        "probability_a": 89.5,
+        "probability_b": 10.5,
+        "advantage_score": 1.2631,
+        "risk_a": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Wang Cong with solid technical advantage per relative metrics",
+          "Symmetric high uncertainty from low UFC experience in both",
+          "Wang clear favorite despite shared structural uncertainty"
+        ]
+      }
+    },
+    {
+      "id": "gafurov-vs-wiklacz",
+      "order": "Prelims",
+      "weight_class": "Catchweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "SUB",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Muin Gafurov",
+        "record": "18-6",
+        "age": 29,
+        "height_cm": 170,
+        "reach_cm": 173,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.36,
+          "sig_strike_accuracy": 0.47,
+          "sig_strikes_absorbed_per_min": 2.51,
+          "sig_strike_defense": 0.56,
+          "takedown_accuracy": 0.29,
+          "takedown_defense": 0.7
+        }
+      },
+      "fighter_b": {
+        "name": "Jakub Wikłacz",
+        "record": "16-3",
+        "age": 29,
+        "height_cm": 167,
+        "reach_cm": 170,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.4,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 3.87,
+          "sig_strike_defense": 0.46,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.42
+        }
+      },
+      "nivarax": {
+        "probability_a": 71.7,
+        "probability_b": 28.3,
+        "advantage_score": 0.5471,
+        "risk_a": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Gafurov moderate favorite per relative metrics",
+          "High uncertainty for Gafurov: low UFC experience, high finish dependency, and recent decline",
+          "Upset confirmed: Wikłacz won despite being disfavored by the model"
+        ]
+      }
+    },
+    {
+      "id": "sygula-vs-cachoeira",
+      "order": "Prelims",
+      "weight_class": "Women's Bantamweight",
+      "rounds_scheduled": 3,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
+      "fighter_a": {
+        "name": "Klaudia Syguła",
+        "record": "6-2",
+        "age": 27,
+        "height_cm": 173,
+        "reach_cm": 173,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 7.27,
+          "sig_strike_accuracy": 0.48,
+          "sig_strikes_absorbed_per_min": 5.5,
+          "sig_strike_defense": 0.56,
+          "takedown_accuracy": 0.13,
+          "takedown_defense": 0.4
+        }
+      },
+      "fighter_b": {
+        "name": "Priscila Cachoeira",
+        "record": "12-6",
+        "age": 37,
+        "height_cm": 170,
+        "reach_cm": 165,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.43,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 7.6,
+          "sig_strike_defense": 0.46,
+          "takedown_accuracy": 0.4,
+          "takedown_defense": 0.7
+        }
+      },
+      "nivarax": {
+        "probability_a": 96.1,
+        "probability_b": 3.9,
+        "advantage_score": 1.8872,
+        "risk_a": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "long_layoff"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Syguła with dominant technical advantage per the model",
+          "Cachoeira penalized for long layoff and moderate recent decline",
+          "High model confidence — result confirmed"
+        ]
+      }
+    }
+  ]
+}
