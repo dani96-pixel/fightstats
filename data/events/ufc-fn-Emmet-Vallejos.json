@@ -5,7 +5,7 @@
     "name": "UFC Fight Night: Emmet vs. Vallejos",
     "date": "2026-03-14",
     "location": "UFC APEX, Las Vegas, United States",
-    "status": "upcoming"
+    "status": "completed"
   },
   "fights": [
     {
@@ -13,8 +13,14 @@
       "order": "Main Event",
       "weight_class": "Featherweight",
       "rounds_scheduled": 5,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "TKO",
+        "round": 1,
+        "time": "3:33",
+        "details": "TKO (punches)"
+      },
       "fighter_a": {
         "name": "Josh Emmett",
         "record": "19-6-0",
@@ -83,8 +89,14 @@
       "order": "Co-Main Event",
       "weight_class": "Women's Strawweight",
       "rounds_scheduled": 5,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 5,
+        "time": null,
+        "details": "Unanimous Decision (29-28, 29-28, 29-28)"
+      },
       "fighter_a": {
         "name": "Amanda Lemos",
         "record": "15-5-1",
@@ -155,8 +167,14 @@
       "order": "Main Card",
       "weight_class": "Light Heavyweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "SUB",
+        "round": 1,
+        "time": "4:24",
+        "details": "Submission (guillotine choke)"
+      },
       "fighter_a": {
         "name": "Ion Cutelaba",
         "record": "19-11-1",
@@ -225,8 +243,14 @@
       "order": "Main Card",
       "weight_class": "Featherweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3,
+        "time": null,
+        "details": "Split Decision (29-28, 29-28, 28-29)"
+      },
       "fighter_a": {
         "name": "Andre Fili",
         "record": "25-12-0",
@@ -293,8 +317,14 @@
       "order": "Main Card",
       "weight_class": "Featherweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "TKO",
+        "round": 2,
+        "time": "5:00",
+        "details": "TKO (jaw injury)"
+      },
       "fighter_a": {
         "name": "Marwan Rahiki",
         "record": "7-0-0",
@@ -364,8 +394,14 @@
       "order": "Main Card",
       "weight_class": "Flyweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3,
+        "time": null,
+        "details": "Split Decision (29-28, 28-29, 30-27)"
+      },
       "fighter_a": {
         "name": "Charles Johnson",
         "record": "18-8-0",
@@ -432,8 +468,14 @@
       "order": "Prelims",
       "weight_class": "Heavyweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3,
+        "time": null,
+        "details": "Unanimous Decision (29-28, 29-28, 29-28)"
+      },
       "fighter_a": {
         "name": "Vitor Petrino",
         "record": "13-2-0",
@@ -503,8 +545,14 @@
       "order": "Prelims",
       "weight_class": "Middleweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3,
+        "time": null,
+        "details": "Unanimous Decision"
+      },
       "fighter_a": {
         "name": "Brad Tavares",
         "record": "21-12-0",
@@ -571,8 +619,14 @@
       "order": "Prelims",
       "weight_class": "Welterweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3,
+        "time": null,
+        "details": "Unanimous Decision"
+      },
       "fighter_a": {
         "name": "Chris Curtis",
         "record": "32-12-0",
@@ -641,8 +695,14 @@
       "order": "Prelims",
       "weight_class": "Lightweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "KO",
+        "round": 3,
+        "time": "4:12",
+        "details": "KO (punches)"
+      },
       "fighter_a": {
         "name": "Bolaji Oki",
         "record": "10-3-0",
@@ -710,8 +770,14 @@
       "order": "Prelims",
       "weight_class": "Bantamweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3,
+        "time": null,
+        "details": "Unanimous Decision"
+      },
       "fighter_a": {
         "name": "Luan Lacerda",
         "record": "10-3-0",
@@ -781,8 +847,14 @@
       "order": "Prelims",
       "weight_class": "Women's Bantamweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "SUB",
+        "round": 1,
+        "time": "2:07",
+        "details": "Submission (rear naked choke)"
+      },
       "fighter_a": {
         "name": "Beatriz Mesquita",
         "record": "6-0-0",
@@ -852,8 +924,14 @@
       "order": "Prelims",
       "weight_class": "Bantamweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "SUB",
+        "round": 2,
+        "time": "1:04",
+        "details": "Submission (rear naked choke)"
+      },
       "fighter_a": {
         "name": "Elijah Smith",
         "record": "9-1-0",
@@ -920,8 +998,14 @@
       "order": "Prelims",
       "weight_class": "Women's Strawweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3,
+        "time": null,
+        "details": "Unanimous Decision (30-27, 30-27, 30-27)"
+      },
       "fighter_a": {
         "name": "Piera Rodriguez",
         "record": "11-2-0",
