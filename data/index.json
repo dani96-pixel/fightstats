@@ -9,7 +9,7 @@
       "status": "upcoming",
       "file": "data/events/ufc-fn-Eloev-Murphy.json",
       "fights_total": 14,
-      "fights_analyzed": 0
+      "fights_analyzed": 9
     },
     {
       "id": "ufc-fn-Emmet-Vallejos",
@@ -40,7 +40,7 @@
       "file": "data/events/ufc-fn-Moreno-Kavanagh.json",
       "fights_total": 13,
       "fights_analyzed": 13
-    },    
+    },
     {
       "id": "ufc-fn-Strickland-Hernandez",
       "name": "UFC Fight Night: Strickland vs. Hernandez",
