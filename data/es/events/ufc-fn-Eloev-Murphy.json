@@ -1,0 +1,647 @@
+{
+  "schema_version": "2.0",
+  "event": {
+    "id": "ufc-fn-Eloev-Murphy",
+    "name": "UFC Fight Night: Eloev vs. Murphy",
+    "date": "2026-03-21",
+    "location": "The O2 Arena, London, England",
+    "status": "upcoming",
+    "note": "5 peleas de esta cartelera no fueron analizadas por datos estadísticos insuficientes de uno o ambos peleadores."
+  },
+  "fights": [
+    {
+      "id": "evloev-vs-murphy",
+      "order": "Main Event",
+      "weight_class": "Peso Pluma",
+      "rounds_scheduled": 5,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Movsar Evloev",
+        "record": "19-0-0",
+        "age": 32,
+        "height_cm": 170,
+        "reach_cm": 184,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.99,
+          "sig_strike_accuracy": 0.48,
+          "sig_strikes_absorbed_per_min": 2.66,
+          "sig_strike_defense": 0.61,
+          "takedown_accuracy": 0.48,
+          "takedown_defense": 0.61
+        }
+      },
+      "fighter_b": {
+        "name": "Lerone Murphy",
+        "record": "17-0-1",
+        "age": 34,
+        "height_cm": 175,
+        "reach_cm": 187,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.48,
+          "sig_strike_accuracy": 0.54,
+          "sig_strikes_absorbed_per_min": 2.51,
+          "sig_strike_defense": 0.62,
+          "takedown_accuracy": 0.54,
+          "takedown_defense": 0.51
+        }
+      },
+      "nivarax": {
+        "probability_a": 45.89,
+        "probability_b": 54.11,
+        "advantage_score": -0.0969,
+        "risk_a": {
+          "score": 0.15,
+          "flags": [
+            "long_layoff"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Pelea extremadamente cerrada — leve ventaja estadística de Murphy en volumen y precisión de golpeo",
+          "Evloev penalizado por largo período de inactividad (>365 días) añadiendo incertidumbre",
+          "Ambos peleadores con absorción de daño y perfiles defensivos de élite"
+        ]
+      }
+    },
+    {
+      "id": "riley-vs-aswell",
+      "order": "Co-Main Event",
+      "weight_class": "Peso Pluma",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Luke Riley",
+        "record": "12-0-0",
+        "age": 26,
+        "height_cm": 175,
+        "reach_cm": 175,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.55,
+          "sig_strike_accuracy": 0.61,
+          "sig_strikes_absorbed_per_min": 1.27,
+          "sig_strike_defense": 0.46,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.43
+        }
+      },
+      "fighter_b": {
+        "name": "Michael Aswell Jr.",
+        "record": "11-3-0",
+        "age": 25,
+        "height_cm": 173,
+        "reach_cm": 175,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 9.56,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 7.79,
+          "sig_strike_defense": 0.54,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.57
+        }
+      },
+      "nivarax": {
+        "probability_a": 63.89,
+        "probability_b": 36.11,
+        "advantage_score": 0.3355,
+        "risk_a": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Riley con perfil de daño dominante: absorbe solo 1.27 SApM vs 7.79 de Aswell",
+          "Ambos con poca experiencia en UFC añadiendo incertidumbre",
+          "La dependencia moderada de Riley en finalizaciones añade riesgo a la proyección"
+        ]
+      }
+    },
+    {
+      "id": "page-vs-patterson",
+      "order": "Main Card",
+      "weight_class": "Peso Wélter",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Michael Page",
+        "record": "24-3-0",
+        "age": 38,
+        "height_cm": 191,
+        "reach_cm": 201,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.39,
+          "sig_strike_accuracy": 0.6,
+          "sig_strikes_absorbed_per_min": 1.68,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.17,
+          "takedown_defense": 0.67
+        }
+      },
+      "fighter_b": {
+        "name": "Sam Patterson",
+        "record": "14-2-1",
+        "age": 29,
+        "height_cm": 191,
+        "reach_cm": 198,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.89,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 3.93,
+          "sig_strike_defense": 0.5,
+          "takedown_accuracy": 0.9,
+          "takedown_defense": 0.33
+        }
+      },
+      "nivarax": {
+        "probability_a": 43.57,
+        "probability_b": 56.43,
+        "advantage_score": -0.1521,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "La precisión de takedowns de Patterson (90%) genera amenaza dominante de grappling",
+          "Page con menor absorción de daño (1.68 vs 3.93 SApM) y mayor precisión de golpeo (60% vs 44%)",
+          "La alta dependencia de Patterson en finalizaciones genera riesgo (0.12)"
+        ]
+      }
+    },
+    {
+      "id": "dolidze-vs-duncan",
+      "order": "Main Card",
+      "weight_class": "Peso Medio",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Roman Dolidze",
+        "record": "15-4-0",
+        "age": 37,
+        "height_cm": 188,
+        "reach_cm": 193,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.41,
+          "sig_strike_accuracy": 0.42,
+          "sig_strikes_absorbed_per_min": 3.72,
+          "sig_strike_defense": 0.49,
+          "takedown_accuracy": 0.39,
+          "takedown_defense": 0.26
+        }
+      },
+      "fighter_b": {
+        "name": "Christian Leroy Duncan",
+        "record": "13-2-0",
+        "age": 30,
+        "height_cm": 188,
+        "reach_cm": 201,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.6,
+          "sig_strike_accuracy": 0.59,
+          "sig_strikes_absorbed_per_min": 2.97,
+          "sig_strike_defense": 0.52,
+          "takedown_accuracy": 0.2,
+          "takedown_defense": 0.69
+        }
+      },
+      "nivarax": {
+        "probability_a": 16.91,
+        "probability_b": 83.09,
+        "advantage_score": -0.9364,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Duncan domina en volumen de golpeo (4.60 vs 3.41 SLpM) y eficiencia (59% vs 42%)",
+          "Duncan absorbe significativamente menos daño (2.97 vs 3.72 SApM) con +8 cm de ventaja en alcance",
+          "La defensa de takedown de Duncan (69% vs 26%) neutraliza la amenaza de grappling de Dolidze"
+        ]
+      }
+    },
+    {
+      "id": "campbell-vs-silva",
+      "order": "Main Card",
+      "weight_class": "Peso Pluma",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Kurtis Campbell",
+        "record": "8-0-0",
+        "age": 23,
+        "height_cm": 175,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.25,
+          "sig_strike_accuracy": 0.78,
+          "sig_strikes_absorbed_per_min": 1.5,
+          "sig_strike_defense": 0.6,
+          "takedown_accuracy": 0.4,
+          "takedown_defense": 0.9
+        }
+      },
+      "fighter_b": {
+        "name": "Danny Silva",
+        "record": "10-2-0",
+        "age": 29,
+        "height_cm": 180,
+        "reach_cm": 178,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.67,
+          "sig_strike_accuracy": 0.55,
+          "sig_strikes_absorbed_per_min": 7.47,
+          "sig_strike_defense": 0.61,
+          "takedown_accuracy": 0.33,
+          "takedown_defense": 0.82
+        }
+      },
+      "nivarax": {
+        "probability_a": 90.0,
+        "probability_b": 10.0,
+        "advantage_score": 2.5629,
+        "risk_a": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Campbell con eficiencia de golpeo de élite (78% precisión) y absorción mínima de daño (1.50 SApM)",
+          "Silva absorbe daño extremo (7.47 SApM) — mayor vulnerabilidad de la cartelera",
+          "Ambos con poca experiencia en UFC (probabilidad tope en 90%)"
+        ]
+      }
+    },
+    {
+      "id": "jones-vs-sola",
+      "order": "Prelims",
+      "weight_class": "Peso Ligero",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Mason Jones",
+        "record": "17-2-0",
+        "age": 30,
+        "height_cm": 178,
+        "reach_cm": 188,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.71,
+          "sig_strike_accuracy": 0.42,
+          "sig_strikes_absorbed_per_min": 4.47,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.55,
+          "takedown_defense": 0.81
+        }
+      },
+      "fighter_b": {
+        "name": "Axel Sola",
+        "record": "11-0-1",
+        "age": 28,
+        "height_cm": 188,
+        "reach_cm": 188,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.74,
+          "sig_strike_accuracy": 0.43,
+          "sig_strikes_absorbed_per_min": 2.74,
+          "sig_strike_defense": 0.76,
+          "takedown_accuracy": 0.25,
+          "takedown_defense": 0.3
+        }
+      },
+      "nivarax": {
+        "probability_a": 62.07,
+        "probability_b": 37.93,
+        "advantage_score": 0.2896,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Jones con producción ofensiva superior (5.71 vs 3.74 SLpM) y amenaza de grappling (TD acc 55% vs 25%)",
+          "Sola con mejor perfil defensivo (2.74 SApM, 76% defensa de golpeo)",
+          "La baja defensa de takedown de Sola (30%) es una vulnerabilidad significativa contra Jones"
+        ]
+      }
+    },
+    {
+      "id": "pinto-vs-franco",
+      "order": "Prelims",
+      "weight_class": "Peso Pesado",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Mario Pinto",
+        "record": "11-0-0",
+        "age": 28,
+        "height_cm": 196,
+        "reach_cm": 201,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.39,
+          "sig_strike_accuracy": 0.79,
+          "sig_strikes_absorbed_per_min": 2.42,
+          "sig_strike_defense": 0.53,
+          "takedown_accuracy": 0.6,
+          "takedown_defense": 0.9
+        }
+      },
+      "fighter_b": {
+        "name": "Felipe Franco",
+        "record": "10-1-0",
+        "age": 25,
+        "height_cm": 185,
+        "reach_cm": 193,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.23,
+          "sig_strike_accuracy": 0.72,
+          "sig_strikes_absorbed_per_min": 2.84,
+          "sig_strike_defense": 0.35,
+          "takedown_accuracy": 0.4,
+          "takedown_defense": 0.9
+        }
+      },
+      "nivarax": {
+        "probability_a": 75.01,
+        "probability_b": 24.99,
+        "advantage_score": 0.6467,
+        "risk_a": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Pinto con mayor precisión de golpeo (79% vs 72%) y ventaja física (+11 cm altura, +8 cm alcance)",
+          "Pinto domina en grappling: precisión de takedowns 60% vs 40% con defensa de golpeo superior",
+          "Ambos con poca experiencia en UFC; Franco con mayor riesgo por dependencia en finalizaciones"
+        ]
+      }
+    },
+    {
+      "id": "rock-vs-al-selwady",
+      "order": "Prelims",
+      "weight_class": "Peso Ligero",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Shaqueme Rock",
+        "record": "12-2-1",
+        "age": 32,
+        "height_cm": 180,
+        "reach_cm": 185,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.93,
+          "sig_strike_accuracy": 0.42,
+          "sig_strikes_absorbed_per_min": 3.4,
+          "sig_strike_defense": 0.56,
+          "takedown_accuracy": 0.11,
+          "takedown_defense": 0.8
+        }
+      },
+      "fighter_b": {
+        "name": "Abdul-Kareem Al-Selwady",
+        "record": "15-4-0",
+        "age": 30,
+        "height_cm": 173,
+        "reach_cm": 175,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.14,
+          "sig_strike_accuracy": 0.35,
+          "sig_strikes_absorbed_per_min": 3.6,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.31,
+          "takedown_defense": 0.2
+        }
+      },
+      "nivarax": {
+        "probability_a": 53.55,
+        "probability_b": 46.45,
+        "advantage_score": 0.0837,
+        "risk_a": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.4,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Pelea casi de moneda al aire, comprimida por altos perfiles de riesgo en ambos",
+          "Al-Selwady fuertemente penalizado por inactividad muy prolongada (>540 días) — riesgo 0.40",
+          "Rock con defensa de takedown superior (80% vs 20%) pero menor volumen ofensivo"
+        ]
+      }
+    },
+    {
+      "id": "dyer-vs-oliveira",
+      "order": "Prelims",
+      "weight_class": "Peso Paja Femenino",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Shanelle Dyer",
+        "record": "6-1-0",
+        "age": 24,
+        "height_cm": 167,
+        "reach_cm": 165,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 7.67,
+          "sig_strike_accuracy": 0.5,
+          "sig_strikes_absorbed_per_min": 6.8,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.3
+        }
+      },
+      "fighter_b": {
+        "name": "Ravena Oliveira",
+        "record": "7-3-1",
+        "age": 29,
+        "height_cm": 165,
+        "reach_cm": 165,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 1.4,
+          "sig_strike_accuracy": 0.29,
+          "sig_strikes_absorbed_per_min": 2.8,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.67,
+          "takedown_defense": 0.5
+        }
+      },
+      "nivarax": {
+        "probability_a": 65.62,
+        "probability_b": 34.38,
+        "advantage_score": 0.3801,
+        "risk_a": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Dyer con volumen ofensivo dominante (7.67 vs 1.40 SLpM)",
+          "Oliveira penalizada por declive reciente moderado y alta dependencia en finalizaciones",
+          "Ambas con poca experiencia en UFC añadiendo incertidumbre"
+        ]
+      }
+    }
+  ]
+}
