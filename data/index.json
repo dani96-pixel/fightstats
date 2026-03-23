@@ -2,11 +2,21 @@
   "schema_version": "2.0",
   "events": [
     {
+      "id": "ufc-fn-Adesanya-Pyfer",
+      "name": "UFC Fight Night: Adesanya vs. Pyfer",
+      "short_name": "UFN 271",
+      "date": "2026-03-28",
+      "status": "upcoming",
+      "file": "data/events/ufc-fn-Adesanya-Pyfer.json",
+      "fights_total": 14,
+      "fights_analyzed": 0
+    },
+    {
       "id": "ufc-fn-Eloev-Murphy",
       "name": "UFC Fight Night: Eloev vs. Murphy",
       "short_name": "UFN 270",
       "date": "2026-03-21",
-      "status": "upcoming",
+      "status": "completed",
       "file": "data/events/ufc-fn-Eloev-Murphy.json",
       "fights_total": 14,
       "fights_analyzed": 9
