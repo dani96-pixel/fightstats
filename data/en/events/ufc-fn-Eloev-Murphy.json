@@ -5,7 +5,7 @@
     "name": "UFC Fight Night: Eloev vs. Murphy",
     "date": "2026-03-21",
     "location": "The O2 Arena, London, England",
-    "status": "upcoming",
+    "status": "completed",
     "note": "5 fights on this card were not analyzed due to insufficient statistical data for one or both fighters."
   },
   "fights": [
@@ -14,8 +14,15 @@
       "order": "Main Event",
       "weight_class": "Featherweight",
       "rounds_scheduled": 5,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "Movsar Evloev",
+        "winner_corner": "A",
+        "method": "DEC",
+        "method_detail": "Majority",
+        "round": 5,
+        "nivarax_correct": false
+      },
       "fighter_a": {
         "name": "Movsar Evloev",
         "record": "19-0-0",
@@ -82,8 +89,15 @@
       "order": "Co-Main Event",
       "weight_class": "Featherweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "Luke Riley",
+        "winner_corner": "A",
+        "method": "DEC",
+        "method_detail": "Unanimous",
+        "round": 3,
+        "nivarax_correct": true
+      },
       "fighter_a": {
         "name": "Luke Riley",
         "record": "12-0-0",
@@ -153,8 +167,15 @@
       "order": "Main Card",
       "weight_class": "Welterweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "Michael Page",
+        "winner_corner": "A",
+        "method": "DEC",
+        "method_detail": "Unanimous",
+        "round": 3,
+        "nivarax_correct": false
+      },
       "fighter_a": {
         "name": "Michael Page",
         "record": "24-3-0",
@@ -221,8 +242,15 @@
       "order": "Main Card",
       "weight_class": "Middleweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "Christian Leroy Duncan",
+        "winner_corner": "B",
+        "method": "DEC",
+        "method_detail": "Unanimous",
+        "round": 3,
+        "nivarax_correct": true
+      },
       "fighter_a": {
         "name": "Roman Dolidze",
         "record": "15-4-0",
@@ -291,8 +319,15 @@
       "order": "Main Card",
       "weight_class": "Featherweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "Danny Silva",
+        "winner_corner": "B",
+        "method": "TKO",
+        "method_detail": "Punches",
+        "round": 2,
+        "nivarax_correct": false
+      },
       "fighter_a": {
         "name": "Kurtis Campbell",
         "record": "8-0-0",
@@ -362,8 +397,15 @@
       "order": "Prelims",
       "weight_class": "Lightweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "Mason Jones",
+        "winner_corner": "A",
+        "method": "DEC",
+        "method_detail": "Unanimous",
+        "round": 3,
+        "nivarax_correct": true
+      },
       "fighter_a": {
         "name": "Mason Jones",
         "record": "17-2-0",
@@ -430,8 +472,15 @@
       "order": "Prelims",
       "weight_class": "Heavyweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "Mario Pinto",
+        "winner_corner": "A",
+        "method": "DEC",
+        "method_detail": "Unanimous",
+        "round": 3,
+        "nivarax_correct": true
+      },
       "fighter_a": {
         "name": "Mario Pinto",
         "record": "11-0-0",
@@ -502,8 +551,15 @@
       "order": "Prelims",
       "weight_class": "Lightweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "Abdul-Kareem Al-Selwady",
+        "winner_corner": "B",
+        "method": "DEC",
+        "method_detail": "Unanimous",
+        "round": 3,
+        "nivarax_correct": false
+      },
       "fighter_a": {
         "name": "Shaqueme Rock",
         "record": "12-2-1",
@@ -575,8 +631,15 @@
       "order": "Prelims",
       "weight_class": "Women's Strawweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "Shanelle Dyer",
+        "winner_corner": "A",
+        "method": "TKO",
+        "method_detail": "Head kick and punches",
+        "round": 2,
+        "nivarax_correct": true
+      },
       "fighter_a": {
         "name": "Shanelle Dyer",
         "record": "6-1-0",
