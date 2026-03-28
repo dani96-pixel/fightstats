@@ -2,6 +2,16 @@
   "schema_version": "2.0",
   "events": [
     {
+      "id": "ufc-fn-Moicano-Duncan",
+      "name": "UFC Fight Night: Moicano vs. Duncan",
+      "short_name": "UFN 272",
+      "date": "2026-04-04",
+      "status": "upcoming",
+      "file": "data/events/ufc-fn-Moicano-Duncan.json",
+      "fights_total": 13,
+      "fights_analyzed": 0
+    },
+    {
       "id": "ufc-fn-Adesanya-Pyfer",
       "name": "UFC Fight Night: Adesanya vs. Pyfer",
       "short_name": "UFN 271",
