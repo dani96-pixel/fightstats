@@ -1,0 +1,574 @@
+{
+  "schema_version": "2.0",
+  "event": {
+    "id": "ufc-fn-Adesanya-Pyfer",
+    "name": "UFC Fight Night: Adesanya vs. Pyfer",
+    "date": "2026-03-28",
+    "location": "Climate Pledge Arena, Seattle, United States",
+    "status": "upcoming",
+    "note": "5 peleas de esta cartelera no fueron analizadas por datos estadísticos insuficientes de uno o ambos peleadores."
+  },
+  "fights": [
+    {
+      "id": "adesanya-vs-pyfer",
+      "order": "Main Event",
+      "weight_class": "Peso Medio",
+      "rounds_scheduled": 5,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Israel Adesanya",
+        "record": "24-5-0",
+        "age": 36,
+        "height_cm": 193,
+        "reach_cm": 203,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.02,
+          "sig_strike_accuracy": 0.48,
+          "sig_strikes_absorbed_per_min": 3.2,
+          "sig_strike_defense": 0.56,
+          "takedown_accuracy": 0.11,
+          "takedown_defense": 0.77
+        }
+      },
+      "fighter_b": {
+        "name": "Joe Pyfer",
+        "record": "15-3-0",
+        "age": 29,
+        "height_cm": 188,
+        "reach_cm": 191,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.47,
+          "sig_strike_accuracy": 0.43,
+          "sig_strikes_absorbed_per_min": 3.05,
+          "sig_strike_defense": 0.54,
+          "takedown_accuracy": 0.33,
+          "takedown_defense": 0.5
+        }
+      },
+      "nivarax": {
+        "probability_a": 37.85,
+        "probability_b": 62.15,
+        "advantage_score": -0.2917,
+        "risk_a": {
+          "score": 0.15,
+          "flags": [
+            "long_layoff"
+          ]
+        },
+        "risk_b": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.2,
+          "flags": [
+            "severe_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Israel Adesanya lidera en volumen ofensivo: 4.02 vs 3.47 golpes por minuto.",
+          "Joe Pyfer demuestra superioridad en grappling con 33.0% de efectividad.",
+          "Israel Adesanya presenta fuerte declive reciente que reduce confianza en su rendimiento."
+        ]
+      }
+    },
+    {
+      "id": "grasso-vs-barber",
+      "order": "Co-Main Event",
+      "weight_class": "Peso Mosca Femenino",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Alexa Grasso",
+        "record": "16-5-1",
+        "age": 32,
+        "height_cm": 165,
+        "reach_cm": 168,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.11,
+          "sig_strike_accuracy": 0.41,
+          "sig_strikes_absorbed_per_min": 3.73,
+          "sig_strike_defense": 0.58,
+          "takedown_accuracy": 0.35,
+          "takedown_defense": 0.55
+        }
+      },
+      "fighter_b": {
+        "name": "Maycee Barber",
+        "record": "15-2-0",
+        "age": 27,
+        "height_cm": 165,
+        "reach_cm": 165,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.61,
+          "sig_strike_accuracy": 0.54,
+          "sig_strikes_absorbed_per_min": 2.76,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.46,
+          "takedown_defense": 0.52
+        }
+      },
+      "nivarax": {
+        "probability_a": 25.59,
+        "probability_b": 74.41,
+        "advantage_score": -0.9936,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Maycee Barber supera en volumen ofensivo: 4.61 vs 4.11 golpes por minuto.",
+          "Maycee Barber demuestra superioridad en grappling con 46.0% de efectividad.",
+          "Alexa Grasso presenta declive moderado que reduce confianza en su rendimiento."
+        ]
+      }
+    },
+    {
+      "id": "chiesa-vs-price",
+      "order": "Main Card",
+      "weight_class": "Peso Wélter",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Michael Chiesa",
+        "record": "19-7-0",
+        "age": 38,
+        "height_cm": 185,
+        "reach_cm": 192,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.03,
+          "sig_strike_accuracy": 0.41,
+          "sig_strikes_absorbed_per_min": 1.73,
+          "sig_strike_defense": 0.58,
+          "takedown_accuracy": 0.48,
+          "takedown_defense": 0.68
+        }
+      },
+      "fighter_b": {
+        "name": "Niko Price",
+        "record": "16-10-0",
+        "age": 36,
+        "height_cm": 183,
+        "reach_cm": 193,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.13,
+          "sig_strike_accuracy": 0.43,
+          "sig_strikes_absorbed_per_min": 5.61,
+          "sig_strike_defense": 0.48,
+          "takedown_accuracy": 0.28,
+          "takedown_defense": 0.5
+        }
+      },
+      "nivarax": {
+        "probability_a": 90.0,
+        "probability_b": 10.0,
+        "advantage_score": 1.4374,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.2,
+          "flags": [
+            "severe_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Niko Price supera en volumen ofensivo: 5.13 vs 2.03 golpes por minuto.",
+          "Michael Chiesa mantiene ventaja en wrestling con 48.0% de precisión en takedowns.",
+          "Probabilidad tope del modelo (90%) por ventaja estructural muy pronunciada."
+        ]
+      }
+    },
+    {
+      "id": "mckinney-vs-nelson",
+      "order": "Main Card",
+      "weight_class": "Peso Ligero",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Terrance McKinney",
+        "record": "17-8-0",
+        "age": 31,
+        "height_cm": 178,
+        "reach_cm": 187,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.24,
+          "sig_strike_accuracy": 0.56,
+          "sig_strikes_absorbed_per_min": 3.46,
+          "sig_strike_defense": 0.43,
+          "takedown_accuracy": 0.4,
+          "takedown_defense": 0.73
+        }
+      },
+      "fighter_b": {
+        "name": "Kyle Nelson",
+        "record": "17-6-1",
+        "age": 34,
+        "height_cm": 180,
+        "reach_cm": 180,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.6,
+          "sig_strike_accuracy": 0.46,
+          "sig_strikes_absorbed_per_min": 4.48,
+          "sig_strike_defense": 0.54,
+          "takedown_accuracy": 0.28,
+          "takedown_defense": 0.67
+        }
+      },
+      "nivarax": {
+        "probability_a": 67.49,
+        "probability_b": 32.51,
+        "advantage_score": 1.5171,
+        "risk_a": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Terrance McKinney lidera en volumen ofensivo: 6.24 vs 3.60 golpes por minuto.",
+          "Terrance McKinney mantiene ventaja en wrestling con 40.0% de precisión en takedowns.",
+          "Terrance McKinney presenta alta dependencia en finalizaciones."
+        ]
+      }
+    },
+    {
+      "id": "o'neill-vs-fernandes",
+      "order": "Prelims",
+      "weight_class": "Peso Mosca Femenino",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Casey O'Neill",
+        "record": "10-2-0",
+        "age": 28,
+        "height_cm": 168,
+        "reach_cm": 175,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 7.89,
+          "sig_strike_accuracy": 0.53,
+          "sig_strikes_absorbed_per_min": 5.65,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.34,
+          "takedown_defense": 0.7
+        }
+      },
+      "fighter_b": {
+        "name": "Gabriella Fernandes",
+        "record": "11-3-0",
+        "age": 32,
+        "height_cm": 168,
+        "reach_cm": 168,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.56,
+          "sig_strike_accuracy": 0.48,
+          "sig_strikes_absorbed_per_min": 5.19,
+          "sig_strike_defense": 0.52,
+          "takedown_accuracy": 0.18,
+          "takedown_defense": 0.68
+        }
+      },
+      "nivarax": {
+        "probability_a": 69.22,
+        "probability_b": 30.78,
+        "advantage_score": 1.2432,
+        "risk_a": {
+          "score": 0.25,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Casey O'Neill lidera en volumen ofensivo: 7.89 vs 3.56 golpes por minuto.",
+          "Casey O'Neill mantiene ventaja en wrestling con 34.0% de precisión en takedowns.",
+          "Casey O'Neill presenta largo período de inactividad y inactividad muy prolongada."
+        ]
+      }
+    },
+    {
+      "id": "stirling-vs-lopes",
+      "order": "Prelims",
+      "weight_class": "Peso Semipesado",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Navajo Stirling",
+        "record": "8-0-0",
+        "age": 28,
+        "height_cm": 193,
+        "reach_cm": 201,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.13,
+          "sig_strike_accuracy": 0.52,
+          "sig_strikes_absorbed_per_min": 2.6,
+          "sig_strike_defense": 0.58,
+          "takedown_accuracy": 0.29,
+          "takedown_defense": 0.75
+        }
+      },
+      "fighter_b": {
+        "name": "Bruno Lopes",
+        "record": "14-2-0",
+        "age": 32,
+        "height_cm": 188,
+        "reach_cm": 189,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.81,
+          "sig_strike_accuracy": 0.43,
+          "sig_strikes_absorbed_per_min": 3.38,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.33,
+          "takedown_defense": 0.9
+        }
+      },
+      "nivarax": {
+        "probability_a": 88.98,
+        "probability_b": 11.02,
+        "advantage_score": 1.2288,
+        "risk_a": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Navajo Stirling lidera en volumen ofensivo: 6.13 vs 2.81 golpes por minuto.",
+          "Navajo Stirling defiende efectivamente los takedowns con 75.0% de éxito.",
+          "Ambos muestran factores de incertidumbre que requieren monitoreo."
+        ]
+      }
+    },
+    {
+      "id": "simon-vs-yanez",
+      "order": "Prelims",
+      "weight_class": "Peso Gallo",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Ricky Simon",
+        "record": "22-7-0",
+        "age": 33,
+        "height_cm": 168,
+        "reach_cm": 175,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.04,
+          "sig_strike_accuracy": 0.43,
+          "sig_strikes_absorbed_per_min": 3.85,
+          "sig_strike_defense": 0.61,
+          "takedown_accuracy": 0.41,
+          "takedown_defense": 0.76
+        }
+      },
+      "fighter_b": {
+        "name": "Adrian Yanez",
+        "record": "17-6-0",
+        "age": 32,
+        "height_cm": 170,
+        "reach_cm": 178,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.23,
+          "sig_strike_accuracy": 0.42,
+          "sig_strikes_absorbed_per_min": 5.75,
+          "sig_strike_defense": 0.54,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.81
+        }
+      },
+      "nivarax": {
+        "probability_a": 71.41,
+        "probability_b": 28.59,
+        "advantage_score": 0.5384,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "long_layoff",
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Adrian Yanez supera en volumen ofensivo: 6.23 vs 3.04 golpes por minuto.",
+          "Ricky Simon mantiene ventaja en wrestling con 41.0% de precisión en takedowns.",
+          "Ambos peleadores presentan señales de incertidumbre en forma reciente."
+        ]
+      }
+    },
+    {
+      "id": "thainara-vs-brasil",
+      "order": "Prelims",
+      "weight_class": "Peso Paja Femenino",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Alexia Thainara",
+        "record": "13-1-0",
+        "age": 28,
+        "height_cm": 163,
+        "reach_cm": 170,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.52,
+          "sig_strike_accuracy": 0.41,
+          "sig_strikes_absorbed_per_min": 2.46,
+          "sig_strike_defense": 0.65,
+          "takedown_accuracy": 0.6,
+          "takedown_defense": 0.9
+        }
+      },
+      "fighter_b": {
+        "name": "Bruna Brasil",
+        "record": "11-6-1",
+        "age": 32,
+        "height_cm": 168,
+        "reach_cm": 166,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.57,
+          "sig_strike_accuracy": 0.56,
+          "sig_strikes_absorbed_per_min": 3.59,
+          "sig_strike_defense": 0.52,
+          "takedown_accuracy": 0.55,
+          "takedown_defense": 0.61
+        }
+      },
+      "nivarax": {
+        "probability_a": 90.0,
+        "probability_b": 10.0,
+        "advantage_score": 1.9226,
+        "risk_a": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Alexia Thainara lidera en volumen ofensivo: 4.52 vs 2.57 golpes por minuto.",
+          "Alexia Thainara defiende efectivamente los takedowns con 90.0% de éxito.",
+          "Probabilidad tope del modelo (90%) por ventaja estructural muy pronunciada."
+        ]
+      }
+    }
+  ]
+}
