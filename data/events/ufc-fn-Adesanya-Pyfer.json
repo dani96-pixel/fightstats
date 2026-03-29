@@ -5,7 +5,7 @@
     "name": "UFC Fight Night: Adesanya vs. Pyfer",
     "date": "2026-03-28",
     "location": "Climate Pledge Arena, Seattle, United States",
-    "status": "upcoming",
+    "status": "completed",
     "note": "5 peleas de esta cartelera no fueron analizadas por datos estadísticos insuficientes de uno o ambos peleadores."
   },
   "fights": [
@@ -14,8 +14,12 @@
       "order": "Main Event",
       "weight_class": "Peso Medio",
       "rounds_scheduled": 5,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "TKO",
+        "round": 2
+      },
       "fighter_a": {
         "name": "Israel Adesanya",
         "record": "24-5-0",
@@ -86,8 +90,12 @@
       "order": "Co-Main Event",
       "weight_class": "Peso Mosca Femenino",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "TKO",
+        "round": 2
+      },
       "fighter_a": {
         "name": "Alexa Grasso",
         "record": "16-5-1",
@@ -154,8 +162,12 @@
       "order": "Main Card",
       "weight_class": "Peso Wélter",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "SUB",
+        "round": 1
+      },
       "fighter_a": {
         "name": "Michael Chiesa",
         "record": "19-7-0",
@@ -224,8 +236,12 @@
       "order": "Main Card",
       "weight_class": "Peso Ligero",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "TKO",
+        "round": 1
+      },
       "fighter_a": {
         "name": "Terrance McKinney",
         "record": "17-8-0",
@@ -292,8 +308,12 @@
       "order": "Prelims",
       "weight_class": "Peso Mosca Femenino",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "TKO",
+        "round": 1
+      },
       "fighter_a": {
         "name": "Casey O'Neill",
         "record": "10-2-0",
@@ -361,8 +381,12 @@
       "order": "Prelims",
       "weight_class": "Peso Semipesado",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "TKO",
+        "round": 2
+      },
       "fighter_a": {
         "name": "Navajo Stirling",
         "record": "8-0-0",
@@ -432,7 +456,7 @@
       "order": "Prelims",
       "weight_class": "Peso Gallo",
       "rounds_scheduled": 3,
-      "status": "upcoming",
+      "status": "completed",
       "result": null,
       "fighter_a": {
         "name": "Ricky Simon",
@@ -505,8 +529,12 @@
       "order": "Prelims",
       "weight_class": "Peso Paja Femenino",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Alexia Thainara",
         "record": "13-1-0",
