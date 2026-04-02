@@ -1,0 +1,442 @@
+{
+  "schema_version": "2.0",
+  "event": {
+    "id": "ufc-fn-Moicano-Duncan",
+    "name": "UFC Fight Night: Moicano vs. Duncan",
+    "date": "2026-04-04",
+    "location": "Meta APEX, Las Vegas, United States",
+    "status": "upcoming",
+    "note": "7 fights on this card were not analyzed due to insufficient statistical data for one or both fighters."
+  },
+  "fights": [
+    {
+      "id": "moicano-vs-duncan",
+      "order": "Main Event",
+      "weight_class": "Lightweight",
+      "rounds_scheduled": 5,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Renato Moicano",
+        "record": "20-7-1",
+        "age": 37,
+        "height_cm": 180,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.17,
+          "sig_strike_accuracy": 0.48,
+          "sig_strikes_absorbed_per_min": 3.57,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.41,
+          "takedown_defense": 0.62
+        }
+      },
+      "fighter_b": {
+        "name": "Chris Duncan",
+        "record": "15-2-0",
+        "age": 33,
+        "height_cm": 178,
+        "reach_cm": 182,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.02,
+          "sig_strike_accuracy": 0.46,
+          "sig_strikes_absorbed_per_min": 4.82,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.42,
+          "takedown_defense": 0.5
+        }
+      },
+      "nivarax": {
+        "probability_a": 52.82,
+        "probability_b": 47.18,
+        "advantage_score": 0.0663,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Extremely tight matchup with Moicano holding just a 5.6% edge, driven primarily by superior grappling control metrics and defensive fundamentals.",
+          "Technical analysis reveals meaningful differences in territorial control and defensive fundamentals, establishing a slight distinction between closely matched competitors.",
+          "Duncan shows moderate finish dependency (>70% of wins by finish), introducing variability and uncertainty into the result projection."
+        ]
+      }
+    },
+    {
+      "id": "jandiroba-vs-ricci",
+      "order": "Co-Main Event",
+      "weight_class": "Women's Strawweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Virna Jandiroba",
+        "record": "22-4-0",
+        "age": 37,
+        "height_cm": 160,
+        "reach_cm": 163,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.33,
+          "sig_strike_accuracy": 0.41,
+          "sig_strikes_absorbed_per_min": 2.9,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.37,
+          "takedown_defense": 0.74
+        }
+      },
+      "fighter_b": {
+        "name": "Tabatha Ricci",
+        "record": "12-3-0",
+        "age": 31,
+        "height_cm": 155,
+        "reach_cm": 155,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.18,
+          "sig_strike_accuracy": 0.36,
+          "sig_strikes_absorbed_per_min": 5.19,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.37,
+          "takedown_defense": 0.78
+        }
+      },
+      "nivarax": {
+        "probability_a": 69.38,
+        "probability_b": 30.62,
+        "advantage_score": 0.1678,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Ricci registers substantially higher offensive volume at 4.18 significant strikes per minute versus Jandiroba's 2.33, establishing clear pressure and pace advantage.",
+          "The 8 cm reach differential favors Ricci's range management and distance control capabilities—a relevant technical factor.",
+          "Both fighters display stable statistical profiles with no significant risk indicators, supporting relative predictability in the probabilistic analysis."
+        ]
+      }
+    },
+    {
+      "id": "costa-vs-nicoll",
+      "order": "Prelims",
+      "weight_class": "Flyweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Alessandro Costa",
+        "record": "15-4-0",
+        "age": 30,
+        "height_cm": 163,
+        "reach_cm": 170,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.64,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 3.57,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.16,
+          "takedown_defense": 0.83
+        }
+      },
+      "fighter_b": {
+        "name": "Stewart Nicoll",
+        "record": "8-2-0",
+        "age": 31,
+        "height_cm": 165,
+        "reach_cm": 166,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.0,
+          "sig_strike_accuracy": 0.34,
+          "sig_strikes_absorbed_per_min": 6.69,
+          "sig_strike_defense": 0.48,
+          "takedown_accuracy": 0.14,
+          "takedown_defense": 0.25
+        }
+      },
+      "nivarax": {
+        "probability_a": 79.17,
+        "probability_b": 20.83,
+        "advantage_score": 1.1389,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Costa maintains offensive advantage at 3.64 significant strikes per minute versus Nicoll's 3.00, translating to sustained pressure throughout the bout.",
+          "Takedown defense is a critical disparity: Costa's 83% effectiveness versus Nicoll's 25% establishes clear superiority in preventing ground exchanges.",
+          "Costa shows recent decline with 3 losses in his last 5 fights, introducing uncertainty into his current performance projection and reducing forecast reliability."
+        ]
+      }
+    },
+    {
+      "id": "vannata-vs-flowers",
+      "order": "Prelims",
+      "weight_class": "Lightweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Lando Vannata",
+        "record": "12-7-2",
+        "age": 34,
+        "height_cm": 175,
+        "reach_cm": 180,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.52,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 4.76,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.37,
+          "takedown_defense": 0.69
+        }
+      },
+      "fighter_b": {
+        "name": "Darrius Flowers",
+        "record": "12-8-1",
+        "age": 31,
+        "height_cm": 175,
+        "reach_cm": 180,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.07,
+          "sig_strike_accuracy": 0.49,
+          "sig_strikes_absorbed_per_min": 5.49,
+          "sig_strike_defense": 0.44,
+          "takedown_accuracy": 0.28,
+          "takedown_defense": 0.63
+        }
+      },
+      "nivarax": {
+        "probability_a": 70.13,
+        "probability_b": 29.87,
+        "advantage_score": 0.502,
+        "risk_a": {
+          "score": 0.31,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff",
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.46,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff",
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Vannata registers significantly higher offensive output at 4.52 strikes per minute versus Flowers' 3.07, establishing substantial advantage in pressure and activity.",
+          "Technical analysis reveals meaningful disparities in territorial control and defensive fundamentals, generating notable technical differentiation between the fighters.",
+          "Both fighters show recent performance degradation: Vannata exhibits moderate decline in recent outings, while Flowers documents similar deterioration—factors increasing forecast uncertainty."
+        ]
+      }
+    },
+    {
+      "id": "bekoev-vs-gore",
+      "order": "Prelims",
+      "weight_class": "Middleweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Azamat Bekoev",
+        "record": "20-4-0",
+        "age": 30,
+        "height_cm": 183,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.07,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 7.66,
+          "sig_strike_defense": 0.31,
+          "takedown_accuracy": 0.45,
+          "takedown_defense": 0.8
+        }
+      },
+      "fighter_b": {
+        "name": "Tresean Gore",
+        "record": "6-4-0",
+        "age": 30,
+        "height_cm": 183,
+        "reach_cm": 191,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.76,
+          "sig_strike_accuracy": 0.42,
+          "sig_strikes_absorbed_per_min": 7.48,
+          "sig_strike_defense": 0.4,
+          "takedown_accuracy": 0.75,
+          "takedown_defense": 0.88
+        }
+      },
+      "nivarax": {
+        "probability_a": 60.46,
+        "probability_b": 39.54,
+        "advantage_score": 0.2498,
+        "risk_a": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Bekoev maintains considerable offensive advantage at 4.07 significant strikes per minute versus Gore's 2.76, establishing sustained pressure and greater striking activity.",
+          "The 8 cm reach advantage favors Gore's distance management and mobility—a technical element potentially offsetting other statistical disparities.",
+          "Gore shows moderate recent decline with 3 losses in his last 5 fights—a critical indicator representing significant risk to his performance projection."
+        ]
+      }
+    },
+    {
+      "id": "barbosa-vs-gatto",
+      "order": "Prelims",
+      "weight_class": "Women's Flyweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Dione Barbosa",
+        "record": "8-4-0",
+        "age": 33,
+        "height_cm": 168,
+        "reach_cm": 166,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.27,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 2.45,
+          "sig_strike_defense": 0.66,
+          "takedown_accuracy": 0.42,
+          "takedown_defense": 0.5
+        }
+      },
+      "fighter_b": {
+        "name": "Melissa Gatto",
+        "record": "9-2-2",
+        "age": 29,
+        "height_cm": 165,
+        "reach_cm": 175,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.78,
+          "sig_strike_accuracy": 0.49,
+          "sig_strikes_absorbed_per_min": 2.84,
+          "sig_strike_defense": 0.4,
+          "takedown_accuracy": 0.28,
+          "takedown_defense": 0.63
+        }
+      },
+      "nivarax": {
+        "probability_a": 45.42,
+        "probability_b": 54.58,
+        "advantage_score": -0.1082,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.31,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff",
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Extremely tight matchup with Gatto holding just a 9.2% edge, rooted in superior grappling control metrics and defensive fundamentals.",
+          "The 9 cm reach advantage favors Gatto's distance management and strategic mobility—a technical element contributing to her slight probabilistic edge.",
+          "Gatto faces an extended layoff exceeding 540 days—a critical factor introducing significant uncertainty into her current performance projection and substantially reducing forecast reliability."
+        ]
+      }
+    }
+  ]
+}
