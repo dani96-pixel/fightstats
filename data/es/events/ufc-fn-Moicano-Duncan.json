@@ -1,0 +1,442 @@
+{
+  "schema_version": "2.0",
+  "event": {
+    "id": "ufc-fn-Moicano-Duncan",
+    "name": "UFC Fight Night: Moicano vs. Duncan",
+    "date": "2026-04-04",
+    "location": "Meta APEX, Las Vegas, United States",
+    "status": "upcoming",
+    "note": "7 peleas de esta cartelera no fueron analizadas por datos estadísticos insuficientes de uno o ambos peleadores."
+  },
+  "fights": [
+    {
+      "id": "moicano-vs-duncan",
+      "order": "Main Event",
+      "weight_class": "Peso Ligero",
+      "rounds_scheduled": 5,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Renato Moicano",
+        "record": "20-7-1",
+        "age": 37,
+        "height_cm": 180,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.17,
+          "sig_strike_accuracy": 0.48,
+          "sig_strikes_absorbed_per_min": 3.57,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.41,
+          "takedown_defense": 0.62
+        }
+      },
+      "fighter_b": {
+        "name": "Chris Duncan",
+        "record": "15-2-0",
+        "age": 33,
+        "height_cm": 178,
+        "reach_cm": 182,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.02,
+          "sig_strike_accuracy": 0.46,
+          "sig_strikes_absorbed_per_min": 4.82,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.42,
+          "takedown_defense": 0.5
+        }
+      },
+      "nivarax": {
+        "probability_a": 52.82,
+        "probability_b": 47.18,
+        "advantage_score": 0.0663,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "El enfrentamiento presenta márgenes extremadamente ajustados, con Moicano registrando apenas un 5.6% de ventaja atribuible principalmente a su superioridad en métricas de control de grappling y capacidades defensivas.",
+          "El análisis técnico revela diferencias significativas en el control territorial y los fundamentos defensivos, elementos que establecen una ligera distinción entre ambos competidores en un contexto de alta paridad.",
+          "Duncan exhibe un perfil de dependencia moderada en finalizaciones (>70% de victorias por este método), factor que incrementa la variabilidad e incertidumbre inherente al pronóstico del resultado."
+        ]
+      }
+    },
+    {
+      "id": "jandiroba-vs-ricci",
+      "order": "Co-Main Event",
+      "weight_class": "Peso Paja Femenino",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Virna Jandiroba",
+        "record": "22-4-0",
+        "age": 37,
+        "height_cm": 160,
+        "reach_cm": 163,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.33,
+          "sig_strike_accuracy": 0.41,
+          "sig_strikes_absorbed_per_min": 2.9,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.37,
+          "takedown_defense": 0.74
+        }
+      },
+      "fighter_b": {
+        "name": "Tabatha Ricci",
+        "record": "12-3-0",
+        "age": 31,
+        "height_cm": 155,
+        "reach_cm": 155,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.18,
+          "sig_strike_accuracy": 0.36,
+          "sig_strikes_absorbed_per_min": 5.19,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.37,
+          "takedown_defense": 0.78
+        }
+      },
+      "nivarax": {
+        "probability_a": 69.38,
+        "probability_b": 30.62,
+        "advantage_score": 0.1678,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Ricci registra un volumen ofensivo sustancialmente superior con 4.18 golpes significativos por minuto comparado con los 2.33 de Jandiroba, estableciendo una clara ventaja en presión y ritmo de combate.",
+          "La diferencia antropométrica de 8 cm en alcance constituye un factor técnico relevante que favorece las capacidades de rango y gestión de distancia de la competidora con mayor extensión.",
+          "Ambas peleadoras presentan perfiles estadísticos estables sin indicadores significativos de riesgo, lo que confiere un grado relativo de predictibilidad al análisis probabilístico del enfrentamiento."
+        ]
+      }
+    },
+    {
+      "id": "costa-vs-nicoll",
+      "order": "Prelims",
+      "weight_class": "Peso Mosca",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Alessandro Costa",
+        "record": "15-4-0",
+        "age": 30,
+        "height_cm": 163,
+        "reach_cm": 170,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.64,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 3.57,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.16,
+          "takedown_defense": 0.83
+        }
+      },
+      "fighter_b": {
+        "name": "Stewart Nicoll",
+        "record": "8-2-0",
+        "age": 31,
+        "height_cm": 165,
+        "reach_cm": 166,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.0,
+          "sig_strike_accuracy": 0.34,
+          "sig_strikes_absorbed_per_min": 6.69,
+          "sig_strike_defense": 0.48,
+          "takedown_accuracy": 0.14,
+          "takedown_defense": 0.25
+        }
+      },
+      "nivarax": {
+        "probability_a": 79.17,
+        "probability_b": 20.83,
+        "advantage_score": 1.1389,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Costa mantiene una ventaja ofensiva con 3.64 golpes significativos por minuto frente a los 3.00 de Nicoll, diferencial que se traduce en mayor presión sostenida durante el combate.",
+          "La defensa de derribos constituye una disparidad crítica: Costa registra un 83% de efectividad defensiva mientras que Nicoll presenta únicamente 25%, estableciendo una clara superioridad en la prevención del combate en el suelo.",
+          "Costa exhibe señales de declive reciente con 3 derrotas en sus últimas 5 peleas, factor que introduce elementos de incertidumbre en la proyección de su rendimiento actual y reduce la confiabilidad del pronóstico."
+        ]
+      }
+    },
+    {
+      "id": "vannata-vs-flowers",
+      "order": "Prelims",
+      "weight_class": "Peso Ligero",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Lando Vannata",
+        "record": "12-7-2",
+        "age": 34,
+        "height_cm": 175,
+        "reach_cm": 180,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.52,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 4.76,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.37,
+          "takedown_defense": 0.69
+        }
+      },
+      "fighter_b": {
+        "name": "Darrius Flowers",
+        "record": "12-8-1",
+        "age": 31,
+        "height_cm": 175,
+        "reach_cm": 180,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.07,
+          "sig_strike_accuracy": 0.49,
+          "sig_strikes_absorbed_per_min": 5.49,
+          "sig_strike_defense": 0.44,
+          "takedown_accuracy": 0.28,
+          "takedown_defense": 0.63
+        }
+      },
+      "nivarax": {
+        "probability_a": 70.13,
+        "probability_b": 29.87,
+        "advantage_score": 0.502,
+        "risk_a": {
+          "score": 0.31,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff",
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.46,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff",
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Vannata registra un volumen ofensivo significativamente superior con 4.52 golpes por minuto comparado con los 3.07 de Flowers, estableciendo una ventaja sustancial en presión y actividad durante el combate.",
+          "El análisis técnico revela disparidades relevantes en el control territorial y las capacidades defensivas fundamentales, elementos que generan una diferenciación técnica notable entre ambos competidores.",
+          "Ambos peleadores presentan indicadores de degradación en su rendimiento reciente: Vannata exhibe declive moderado en sus últimas presentaciones, mientras que Flowers documenta un patrón similar de deterioro, factores que incrementan la incertidumbre del pronóstico."
+        ]
+      }
+    },
+    {
+      "id": "bekoev-vs-gore",
+      "order": "Prelims",
+      "weight_class": "Peso Medio",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Azamat Bekoev",
+        "record": "20-4-0",
+        "age": 30,
+        "height_cm": 183,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.07,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 7.66,
+          "sig_strike_defense": 0.31,
+          "takedown_accuracy": 0.45,
+          "takedown_defense": 0.8
+        }
+      },
+      "fighter_b": {
+        "name": "Tresean Gore",
+        "record": "6-4-0",
+        "age": 30,
+        "height_cm": 183,
+        "reach_cm": 191,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.76,
+          "sig_strike_accuracy": 0.42,
+          "sig_strikes_absorbed_per_min": 7.48,
+          "sig_strike_defense": 0.4,
+          "takedown_accuracy": 0.75,
+          "takedown_defense": 0.88
+        }
+      },
+      "nivarax": {
+        "probability_a": 60.46,
+        "probability_b": 39.54,
+        "advantage_score": 0.2498,
+        "risk_a": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Bekoev mantiene una ventaja ofensiva considerable con 4.07 golpes significativos por minuto frente a los 2.76 de Gore, diferencial que establece una presión sostenida y mayor actividad en el intercambio de golpes.",
+          "La diferencia antropométrica de 8 cm en alcance favorece las capacidades de Gore en gestión de distancia y movilidad, elemento técnico que puede compensar parcialmente otras disparidades estadísticas.",
+          "Gore registra un declive moderado en su rendimiento reciente con 3 derrotas en sus últimas 5 peleas, indicador crítico que representa un factor de riesgo significativo para su proyección de desempeño en este enfrentamiento."
+        ]
+      }
+    },
+    {
+      "id": "barbosa-vs-gatto",
+      "order": "Prelims",
+      "weight_class": "Peso Mosca Femenino",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Dione Barbosa",
+        "record": "8-4-0",
+        "age": 33,
+        "height_cm": 168,
+        "reach_cm": 166,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.27,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 2.45,
+          "sig_strike_defense": 0.66,
+          "takedown_accuracy": 0.42,
+          "takedown_defense": 0.5
+        }
+      },
+      "fighter_b": {
+        "name": "Melissa Gatto",
+        "record": "9-2-2",
+        "age": 29,
+        "height_cm": 165,
+        "reach_cm": 175,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.78,
+          "sig_strike_accuracy": 0.49,
+          "sig_strikes_absorbed_per_min": 2.84,
+          "sig_strike_defense": 0.4,
+          "takedown_accuracy": 0.28,
+          "takedown_defense": 0.63
+        }
+      },
+      "nivarax": {
+        "probability_a": 45.42,
+        "probability_b": 54.58,
+        "advantage_score": -0.1082,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.31,
+          "flags": [
+            "long_layoff",
+            "very_long_layoff",
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "El enfrentamiento presenta márgenes sumamente ajustados, con Gatto registrando apenas un 9.2% de ventaja fundamentada principalmente en su superioridad en métricas específicas de control de grappling y fundamentos defensivos.",
+          "La diferencia antropométrica de 9 cm en alcance favorece las capacidades de Gatto en gestión de distancia y movilidad estratégica, elemento técnico que contribuye a su ligera ventaja probabilística.",
+          "Gatto enfrenta un período de inactividad prolongado superior a 540 días, factor crítico que introduce incertidumbre significativa en la proyección de su rendimiento actual y reduce sustancialmente la confiabilidad del análisis predictivo."
+        ]
+      }
+    }
+  ]
+}
