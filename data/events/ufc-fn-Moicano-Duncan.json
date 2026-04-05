@@ -1,3 +1,4 @@
+
 {
   "schema_version": "2.0",
   "event": {
@@ -5,7 +6,7 @@
     "name": "UFC Fight Night: Moicano vs. Duncan",
     "date": "2026-04-04",
     "location": "Meta APEX, Las Vegas, United States",
-    "status": "upcoming",
+    "status": "completed",
     "note": "7 peleas de esta cartelera no fueron analizadas por datos estadísticos insuficientes de uno o ambos peleadores."
   },
   "fights": [
