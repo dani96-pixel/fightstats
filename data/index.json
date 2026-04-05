@@ -2,11 +2,21 @@
   "schema_version": "2.0",
   "events": [
     {
+      "id": "ufc-327",
+      "name": "UFC 327: Prochazka vs. Ulberg",
+      "short_name": "UFC 327",
+      "date": "2026-04-11",
+      "status": "upcoming",
+      "file": "data/events/ufc-327.json",
+      "fights_total": 11,
+      "fights_analyzed": 0
+    },
+    {
       "id": "ufc-fn-Moicano-Duncan",
       "name": "UFC Fight Night: Moicano vs. Duncan",
       "short_name": "UFN 272",
       "date": "2026-04-04",
-      "status": "upcoming",
+      "status": "completed",
       "file": "data/events/ufc-fn-Moicano-Duncan.json",
       "fights_total": 13,
       "fights_analyzed": 6
