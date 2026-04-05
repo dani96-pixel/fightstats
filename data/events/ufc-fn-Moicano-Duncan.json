@@ -14,8 +14,12 @@
       "order": "Main Event",
       "weight_class": "Peso Ligero",
       "rounds_scheduled": 5,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "SUB",
+        "round": 2
+      },
       "fighter_a": {
         "name": "Renato Moicano",
         "record": "20-7-1",
