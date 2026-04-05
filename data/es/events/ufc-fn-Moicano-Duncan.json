@@ -83,7 +83,11 @@
       "weight_class": "Peso Paja Femenino",
       "rounds_scheduled": 3,
       "status": "upcoming",
-      "result": null,
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Virna Jandiroba",
         "record": "22-4-0",
@@ -149,7 +153,11 @@
       "weight_class": "Peso Mosca",
       "rounds_scheduled": 3,
       "status": "upcoming",
-      "result": null,
+      "result": {
+        "winner": "fighter_a",
+        "method": "TKO",
+        "round": 2
+      },
       "fighter_a": {
         "name": "Alessandro Costa",
         "record": "15-4-0",
@@ -222,7 +230,11 @@
       "weight_class": "Peso Ligero",
       "rounds_scheduled": 3,
       "status": "upcoming",
-      "result": null,
+      "result": {
+        "winner": "fighter_b",
+        "method": "TKO",
+        "round": 2
+      },
       "fighter_a": {
         "name": "Lando Vannata",
         "record": "12-7-2",
@@ -301,7 +313,11 @@
       "weight_class": "Peso Medio",
       "rounds_scheduled": 3,
       "status": "upcoming",
-      "result": null,
+      "result": {
+        "winner": "fighter_b",
+        "method": "SUB",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Azamat Bekoev",
         "record": "20-4-0",
@@ -374,7 +390,11 @@
       "weight_class": "Peso Mosca Femenino",
       "rounds_scheduled": 3,
       "status": "upcoming",
-      "result": null,
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Dione Barbosa",
         "record": "8-4-0",
