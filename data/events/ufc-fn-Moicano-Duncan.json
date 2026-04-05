@@ -82,7 +82,7 @@
       "order": "Co-Main Event",
       "weight_class": "Peso Paja Femenino",
       "rounds_scheduled": 3,
-      "status": "upcoming",
+      "status": "completed",
       "result": {
         "winner": "fighter_a",
         "method": "DEC",
@@ -152,7 +152,7 @@
       "order": "Prelims",
       "weight_class": "Peso Mosca",
       "rounds_scheduled": 3,
-      "status": "upcoming",
+      "status": "completed",
       "result": {
         "winner": "fighter_a",
         "method": "TKO",
@@ -229,7 +229,7 @@
       "order": "Prelims",
       "weight_class": "Peso Ligero",
       "rounds_scheduled": 3,
-      "status": "upcoming",
+      "status": "completed",
       "result": {
         "winner": "fighter_b",
         "method": "TKO",
@@ -312,7 +312,7 @@
       "order": "Prelims",
       "weight_class": "Peso Medio",
       "rounds_scheduled": 3,
-      "status": "upcoming",
+      "status": "completed",
       "result": {
         "winner": "fighter_b",
         "method": "SUB",
@@ -389,7 +389,7 @@
       "order": "Prelims",
       "weight_class": "Peso Mosca Femenino",
       "rounds_scheduled": 3,
-      "status": "upcoming",
+      "status": "completed",
       "result": {
         "winner": "fighter_a",
         "method": "DEC",
