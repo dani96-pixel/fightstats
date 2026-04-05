@@ -82,8 +82,12 @@
       "order": "Co-Main Event",
       "weight_class": "Women's Strawweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Virna Jandiroba",
         "record": "22-4-0",
@@ -148,8 +152,12 @@
       "order": "Prelims",
       "weight_class": "Flyweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "TKO",
+        "round": 2
+      },
       "fighter_a": {
         "name": "Alessandro Costa",
         "record": "15-4-0",
@@ -221,8 +229,12 @@
       "order": "Prelims",
       "weight_class": "Lightweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "TKO",
+        "round": 2
+      },
       "fighter_a": {
         "name": "Lando Vannata",
         "record": "12-7-2",
@@ -300,8 +312,12 @@
       "order": "Prelims",
       "weight_class": "Middleweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "SUB",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Azamat Bekoev",
         "record": "20-4-0",
@@ -373,8 +389,12 @@
       "order": "Prelims",
       "weight_class": "Women's Flyweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Dione Barbosa",
         "record": "8-4-0",
