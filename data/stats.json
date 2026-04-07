@@ -1,12 +1,90 @@
 {
   "schema_version": "2.0",
   "global": {
-    "total_fights": 92,
-    "correct_predictions": 70,
-    "accuracy": 76.09,
-    "last_updated": "2026-03-29"
+    "total_fights": 98,
+    "correct_predictions": 73,
+    "accuracy": 74.49,
+    "last_updated": "2026-04-07"
   },
   "track_record": [
+    {
+      "event": "UFC Fight Night: Moicano vs. Duncan",
+      "event_id": "ufc-fn-Moicano-Duncan",
+      "date": "2026-04-04",
+      "fighter_a": "Renato Moicano",
+      "fighter_b": "Chris Duncan",
+      "weight_class": "Peso Ligero",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 0.5282,
+      "probability_b": 0.4718,
+      "result": "fighter_a",
+      "correct": true
+    },
+    {
+      "event": "UFC Fight Night: Moicano vs. Duncan",
+      "event_id": "ufc-fn-Moicano-Duncan",
+      "date": "2026-04-04",
+      "fighter_a": "Virna Jandiroba",
+      "fighter_b": "Tabatha Ricci",
+      "weight_class": "Peso Paja Femenino",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 0.6938,
+      "probability_b": 0.3062,
+      "result": "fighter_a",
+      "correct": true
+    },
+    {
+      "event": "UFC Fight Night: Moicano vs. Duncan",
+      "event_id": "ufc-fn-Moicano-Duncan",
+      "date": "2026-04-04",
+      "fighter_a": "Alessandro Costa",
+      "fighter_b": "Stewart Nicoll",
+      "weight_class": "Peso Mosca",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 0.7917,
+      "probability_b": 0.2083,
+      "result": "fighter_a",
+      "correct": true
+    },
+    {
+      "event": "UFC Fight Night: Moicano vs. Duncan",
+      "event_id": "ufc-fn-Moicano-Duncan",
+      "date": "2026-04-04",
+      "fighter_a": "Lando Vannata",
+      "fighter_b": "Darrius Flowers",
+      "weight_class": "Peso Ligero",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 0.7013,
+      "probability_b": 0.2987,
+      "result": "fighter_b",
+      "correct": false
+    },
+    {
+      "event": "UFC Fight Night: Moicano vs. Duncan",
+      "event_id": "ufc-fn-Moicano-Duncan",
+      "date": "2026-04-04",
+      "fighter_a": "Azamat Bekoev",
+      "fighter_b": "Tresean Gore",
+      "weight_class": "Peso Medio",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 0.6046,
+      "probability_b": 0.3954,
+      "result": "fighter_b",
+      "correct": false
+    },
+    {
+      "event": "UFC Fight Night: Moicano vs. Duncan",
+      "event_id": "ufc-fn-Moicano-Duncan",
+      "date": "2026-04-04",
+      "fighter_a": "Dione Barbosa",
+      "fighter_b": "Melissa Gatto",
+      "weight_class": "Peso Mosca Femenino",
+      "nivarax_pick": "fighter_b",
+      "probability_a": 0.4542,
+      "probability_b": 0.5458,
+      "result": "fighter_a",
+      "correct": false
+    },
     {
       "event": "UFC Fight Night: Adesanya vs. Pyfer",
       "event_id": "ufc-fn-Adesanya-Pyfer",
