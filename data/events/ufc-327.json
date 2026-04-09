@@ -1,0 +1,673 @@
+{
+  "schema_version": "2.0",
+  "event": {
+    "id": "ufc-327",
+    "name": "UFC 327: Prochazka vs. Ulberg",
+    "date": "2026-04-11",
+    "location": "Kaseya Center, Miami, United States",
+    "status": "upcoming",
+    "note": "2 peleas de esta cartelera no fueron analizadas por datos estadísticos insuficientes de uno o ambos peleadores."
+  },
+  "fights": [
+    {
+      "id": "prochazka-vs-ulberg",
+      "order": "Main Event",
+      "weight_class": "Peso Semipesado",
+      "rounds_scheduled": 5,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Jiří Procházka",
+        "record": "32-5-1",
+        "age": 33,
+        "height_cm": 191,
+        "reach_cm": 203,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.69,
+          "sig_strike_accuracy": 0.55,
+          "sig_strikes_absorbed_per_min": 5.6,
+          "sig_strike_defense": 0.45,
+          "takedown_accuracy": 0.6,
+          "takedown_defense": 0.68
+        }
+      },
+      "fighter_b": {
+        "name": "Carlos Ulberg",
+        "record": "14-1-0",
+        "age": 35,
+        "height_cm": 193,
+        "reach_cm": 196,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.54,
+          "sig_strike_accuracy": 0.55,
+          "sig_strikes_absorbed_per_min": 4.04,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.6,
+          "takedown_defense": 0.85
+        }
+      },
+      "nivarax": {
+        "probability_a": 43.88,
+        "probability_b": 56.12,
+        "advantage_score": -0.682,
+        "risk_a": {
+          "score": 0.12,
+          "flags": ["high_finish_dependency"]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Matchup muy equilibrado entre Jiří Procházka y Carlos Ulberg, con marginal ventaja estadística del primero.",
+          "Carlos Ulberg presiona más en el grappling con 0.55 intentos de takedown por 15 minutos.",
+          "Jiří Procházka depende significativamente de finalizaciones (>85%), lo que aumenta varianza."
+        ]
+      }
+    },
+    {
+      "id": "murzakanov-vs-costa",
+      "order": "Co-Main Event",
+      "weight_class": "Peso Semipesado",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Azamat Murzakanov",
+        "record": "16-0-0",
+        "age": 36,
+        "height_cm": 178,
+        "reach_cm": 182,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.7,
+          "sig_strike_accuracy": 0.57,
+          "sig_strikes_absorbed_per_min": 2.86,
+          "sig_strike_defense": 0.6,
+          "takedown_accuracy": 0.15,
+          "takedown_defense": 0.87
+        }
+      },
+      "fighter_b": {
+        "name": "Paulo Costa",
+        "record": "15-4-0",
+        "age": 34,
+        "height_cm": 185,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.26,
+          "sig_strike_accuracy": 0.58,
+          "sig_strikes_absorbed_per_min": 6.2,
+          "sig_strike_defense": 0.49,
+          "takedown_accuracy": 0.5,
+          "takedown_defense": 0.8
+        }
+      },
+      "nivarax": {
+        "probability_a": 69.13,
+        "probability_b": 30.87,
+        "advantage_score": 0.7841,
+        "risk_a": {
+          "score": 0.06,
+          "flags": ["moderate_finish_dependency"]
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": ["moderate_finish_dependency"]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": ["moderate_recent_decline"]
+        },
+        "key_factors": [
+          "Azamat Murzakanov mantiene un diferencial técnico claro en el análisis estadístico general.",
+          "Azamat Murzakanov protege mejor contra golpeo significativo: 60.0% de defensa contra 49.0% de Paulo Costa.",
+          "Paulo Costa presenta un moderado declive reciente que afecta la confianza del análisis."
+        ]
+      }
+    },
+    {
+      "id": "reyes-vs-walker",
+      "order": "Main Card",
+      "weight_class": "Peso Semipesado",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Dominick Reyes",
+        "record": "15-5-0",
+        "age": 36,
+        "height_cm": 193,
+        "reach_cm": 196,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.39,
+          "sig_strike_accuracy": 0.54,
+          "sig_strikes_absorbed_per_min": 3.49,
+          "sig_strike_defense": 0.49,
+          "takedown_accuracy": 0.28,
+          "takedown_defense": 0.82
+        }
+      },
+      "fighter_b": {
+        "name": "Johnny Walker",
+        "record": "22-9-0",
+        "age": 34,
+        "height_cm": 198,
+        "reach_cm": 208,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.06,
+          "sig_strike_accuracy": 0.55,
+          "sig_strikes_absorbed_per_min": 3.09,
+          "sig_strike_defense": 0.45,
+          "takedown_accuracy": 0.6,
+          "takedown_defense": 0.57
+        }
+      },
+      "nivarax": {
+        "probability_a": 48.16,
+        "probability_b": 51.84,
+        "advantage_score": -0.0432,
+        "risk_a": {
+          "score": 0.06,
+          "flags": ["moderate_finish_dependency"]
+        },
+        "risk_b": {
+          "score": 0.12,
+          "flags": ["high_finish_dependency"]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": ["moderate_recent_decline"]
+        },
+        "key_factors": [
+          "Matchup muy equilibrado entre Dominick Reyes y Johnny Walker, con marginal ventaja estadística del primero.",
+          "Johnny Walker presiona más en el grappling con 0.42 intentos de takedown por 15 minutos.",
+          "Johnny Walker presenta un moderado declive reciente que afecta la confianza del análisis."
+        ]
+      }
+    },
+    {
+      "id": "swanson-vs-landwehr",
+      "order": "Main Card",
+      "weight_class": "Peso Pluma",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Cub Swanson",
+        "record": "30-14-0",
+        "age": 42,
+        "height_cm": 173,
+        "reach_cm": 178,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.79,
+          "sig_strike_accuracy": 0.51,
+          "sig_strikes_absorbed_per_min": 4.0,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.5,
+          "takedown_defense": 0.63
+        }
+      },
+      "fighter_b": {
+        "name": "Nate Landwehr",
+        "record": "18-7-0",
+        "age": 37,
+        "height_cm": 175,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.63,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 5.83,
+          "sig_strike_defense": 0.52,
+          "takedown_accuracy": 0.41,
+          "takedown_defense": 0.71
+        }
+      },
+      "nivarax": {
+        "probability_a": 62.5,
+        "probability_b": 37.5,
+        "advantage_score": 0.3006,
+        "risk_a": {
+          "score": 0.15,
+          "flags": ["long_layoff"]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": ["moderate_recent_decline"]
+        },
+        "key_factors": [
+          "Cub Swanson mantiene superioridad en precisión de golpeo (51.0% vs 45.0%) respecto a Nate Landwehr.",
+          "Cub Swanson amenaza con más takedowns: 1.01 intentos cada 15 minutos contra 0.76.",
+          "Nate Landwehr presenta un moderado declive reciente que afecta la confianza del análisis."
+        ]
+      }
+    },
+    {
+      "id": "holland-vs-brown",
+      "order": "Prelims",
+      "weight_class": "Peso Wélter",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Kevin Holland",
+        "record": "28-15-0",
+        "age": 33,
+        "height_cm": 191,
+        "reach_cm": 206,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.26,
+          "sig_strike_accuracy": 0.49,
+          "sig_strikes_absorbed_per_min": 3.22,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.39,
+          "takedown_defense": 0.56
+        }
+      },
+      "fighter_b": {
+        "name": "Randy Brown",
+        "record": "20-7-0",
+        "age": 35,
+        "height_cm": 191,
+        "reach_cm": 198,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.49,
+          "sig_strike_accuracy": 0.47,
+          "sig_strikes_absorbed_per_min": 3.33,
+          "sig_strike_defense": 0.54,
+          "takedown_accuracy": 0.39,
+          "takedown_defense": 0.73
+        }
+      },
+      "nivarax": {
+        "probability_a": 51.28,
+        "probability_b": 48.72,
+        "advantage_score": 0.0301,
+        "risk_a": {
+          "score": 0.06,
+          "flags": ["moderate_finish_dependency"]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": ["moderate_recent_decline"]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Matchup muy equilibrado entre Kevin Holland y Randy Brown, con marginal ventaja estadística del primero.",
+          "Kevin Holland amenaza con más takedowns: 0.83 intentos cada 15 minutos contra 0.76.",
+          "Kevin Holland presenta un moderado declive reciente que afecta la confianza del análisis."
+        ]
+      }
+    },
+    {
+      "id": "gamrot-vs-ribovics",
+      "order": "Prelims",
+      "weight_class": "Peso Ligero",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Mateusz Gamrot",
+        "record": "25-4-0",
+        "age": 35,
+        "height_cm": 178,
+        "reach_cm": 179,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.29,
+          "sig_strike_accuracy": 0.51,
+          "sig_strikes_absorbed_per_min": 2.96,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.37,
+          "takedown_defense": 0.83
+        }
+      },
+      "fighter_b": {
+        "name": "Esteban Ribovics",
+        "record": "15-2-0",
+        "age": 29,
+        "height_cm": 178,
+        "reach_cm": 175,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 8.09,
+          "sig_strike_accuracy": 0.43,
+          "sig_strikes_absorbed_per_min": 6.3,
+          "sig_strike_defense": 0.54,
+          "takedown_accuracy": 0.66,
+          "takedown_defense": 0.7
+        }
+      },
+      "nivarax": {
+        "probability_a": 61.44,
+        "probability_b": 38.56,
+        "advantage_score": 0.4393,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": ["moderate_finish_dependency"]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Mateusz Gamrot mantiene superioridad en precisión de golpeo (51.0% vs 43.0%) respecto a Esteban Ribovics.",
+          "Mateusz Gamrot amenaza con más takedowns: 5.15 intentos cada 15 minutos contra 0.39.",
+          "Datos disponibles no evidencian riesgos significativos en los perfiles de los peleadores."
+        ]
+      }
+    },
+    {
+      "id": "suarez-vs-godinez",
+      "order": "Prelims",
+      "weight_class": "Peso Paja Femenino",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Tatiana Suarez",
+        "record": "12-1-0",
+        "age": 35,
+        "height_cm": 165,
+        "reach_cm": 168,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.95,
+          "sig_strike_accuracy": 0.6,
+          "sig_strikes_absorbed_per_min": 1.58,
+          "sig_strike_defense": 0.45,
+          "takedown_accuracy": 0.43,
+          "takedown_defense": 0.8
+        }
+      },
+      "fighter_b": {
+        "name": "Loopy Godinez",
+        "record": "14-5-0",
+        "age": 32,
+        "height_cm": 157,
+        "reach_cm": 155,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.51,
+          "sig_strike_accuracy": 0.49,
+          "sig_strikes_absorbed_per_min": 4.03,
+          "sig_strike_defense": 0.62,
+          "takedown_accuracy": 0.41,
+          "takedown_defense": 0.81
+        }
+      },
+      "nivarax": {
+        "probability_a": 76.83,
+        "probability_b": 23.17,
+        "advantage_score": 1.0094,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Tatiana Suarez mantiene superioridad en precisión de golpeo (60.0% vs 49.0%) respecto a Loopy Godinez.",
+          "Loopy Godinez demuestra superior defensa de golpeo (62.0% vs 45.0%) sobre Tatiana Suarez.",
+          "Datos disponibles no evidencian riesgos significativos en los perfiles de los peleadores."
+        ]
+      }
+    },
+    {
+      "id": "padilla-vs-mederos",
+      "order": "Early Prelims",
+      "weight_class": "Peso Ligero",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Chris Padilla",
+        "record": "17-6-0",
+        "age": 30,
+        "height_cm": 175,
+        "reach_cm": 188,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.78,
+          "sig_strike_accuracy": 0.54,
+          "sig_strikes_absorbed_per_min": 3.87,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.3,
+          "takedown_defense": 0.75
+        }
+      },
+      "fighter_b": {
+        "name": "MarQuel Mederos",
+        "record": "11-1-0",
+        "age": 29,
+        "height_cm": 178,
+        "reach_cm": 176,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.84,
+          "sig_strike_accuracy": 0.58,
+          "sig_strikes_absorbed_per_min": 2.99,
+          "sig_strike_defense": 0.58,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.83
+        }
+      },
+      "nivarax": {
+        "probability_a": 48.31,
+        "probability_b": 51.69,
+        "advantage_score": -0.0161,
+        "risk_a": {
+          "score": 0.06,
+          "flags": ["moderate_finish_dependency"]
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": ["low_ufc_experience"]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Matchup muy equilibrado entre Chris Padilla y MarQuel Mederos, con marginal ventaja estadística del primero.",
+          "Chris Padilla amenaza con más takedowns: 1.18 intentos cada 15 minutos contra 0.00.",
+          "La insuficiente experiencia en UFC de MarQuel Mederos añade incertidumbre al pronóstico."
+        ]
+      }
+    },
+    {
+      "id": "gastellum-vs-luque",
+      "order": "Early-Prelims",
+      "weight_class": "Peso Medio",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Kevin Gastellum",
+        "record": "21-10-0",
+        "age": 34,
+        "height_cm": 175,
+        "reach_cm": 182,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.67,
+          "sig_strike_accuracy": 0.42,
+          "sig_strikes_absorbed_per_min": 3.53,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.34,
+          "takedown_defense": 0.6
+        }
+      },
+      "fighter_b": {
+        "name": "Vicente Luque",
+        "record": "23-12-1",
+        "age": 34,
+        "height_cm": 180,
+        "reach_cm": 193,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.83,
+          "sig_strike_accuracy": 0.51,
+          "sig_strikes_absorbed_per_min": 5.3,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.48,
+          "takedown_defense": 0.6
+        }
+      },
+      "nivarax": {
+        "probability_a": 52.63,
+        "probability_b": 47.37,
+        "advantage_score": 0.0619,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.12,
+          "flags": ["high_finish_dependency"]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": ["moderate_recent_decline"]
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": ["moderate_recent_decline"]
+        },
+        "key_factors": [
+          "Matchup muy equilibrado entre Kevin Gastellum y Vicente Luque, con marginal ventaja estadística del primero.",
+          "Kevin Gastellum amenaza con más takedowns: 1.01 intentos cada 15 minutos contra 0.90.",
+          "Ambos contendientes muestran señales de degradación reciente en sus perfiles."
+        ]
+      }
+    },
+    {
+      "id": "radtke-vs-prado",
+      "order": "Early-Prelims",
+      "weight_class": "Peso Wélter",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Charles Radtke",
+        "record": "11-5-0",
+        "age": 35,
+        "height_cm": 175,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.8,
+          "sig_strike_accuracy": 0.54,
+          "sig_strikes_absorbed_per_min": 2.63,
+          "sig_strike_defense": 0.54,
+          "takedown_accuracy": 0.3,
+          "takedown_defense": 0.9
+        }
+      },
+      "fighter_b": {
+        "name": "Francisco Prado",
+        "record": "12-4-0",
+        "age": 23,
+        "height_cm": 178,
+        "reach_cm": 175,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.09,
+          "sig_strike_accuracy": 0.43,
+          "sig_strikes_absorbed_per_min": 4.95,
+          "sig_strike_defense": 0.54,
+          "takedown_accuracy": 0.19,
+          "takedown_defense": 0.5
+        }
+      },
+      "nivarax": {
+        "probability_a": 68.81,
+        "probability_b": 31.19,
+        "advantage_score": 0.6726,
+        "risk_a": {
+          "score": 0.06,
+          "flags": ["moderate_finish_dependency"]
+        },
+        "risk_b": {
+          "score": 0.12,
+          "flags": ["high_finish_dependency"]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.2,
+          "flags": ["severe_recent_decline"]
+        },
+        "key_factors": [
+          "Charles Radtke mantiene superioridad en precisión de golpeo (54.0% vs 43.0%) respecto a Francisco Prado.",
+          "Charles Radtke amenaza con más takedowns: 1.34 intentos cada 15 minutos contra 0.94.",
+          "Francisco Prado registra declive reciente severo que afecta el análisis predictivo."
+        ]
+      }
+    }
+  ]
+}
