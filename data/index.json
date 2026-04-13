@@ -2,11 +2,21 @@
   "schema_version": "2.0",
   "events": [
     {
+      "id": "ufc-fn-Burns-Malott",
+      "name": "UFC Fight Night: Burns vs. Malott",
+      "short_name": "UFN 273",
+      "date": "2026-04-18",
+      "status": "upcoming",
+      "file": "data/events/ufc-fn-Burns-Malott.json",
+      "fights_total": 8,
+      "fights_analyzed": 0
+    },
+    {
       "id": "ufc-327",
       "name": "UFC 327: Prochazka vs. Ulberg",
       "short_name": "UFC 327",
       "date": "2026-04-11",
-      "status": "upcoming",
+      "status": "completed",
       "file": "data/events/ufc-327.json",
       "fights_total": 12,
       "fights_analyzed": 10
