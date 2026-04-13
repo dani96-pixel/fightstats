@@ -1,12 +1,129 @@
 {
   "schema_version": "2.0",
   "global": {
-    "total_fights": 98,
-    "correct_predictions": 73,
-    "accuracy": 74.49,
-    "last_updated": "2026-04-07"
+    "total_fights": 106,
+    "correct_predictions": 79,
+    "accuracy": 74.53,
+    "last_updated": "2026-04-13"
   },
   "track_record": [
+    {
+      "event": "UFC 327: Prochazka vs. Ulberg",
+      "event_id": "ufc-327",
+      "date": "2026-04-11",
+      "fighter_a": "Jiří Procházka",
+      "fighter_b": "Carlos Ulberg",
+      "weight_class": "Peso Semipesado",
+      "nivarax_pick": "fighter_b",
+      "probability_a": 43.88,
+      "probability_b": 56.12,
+      "result": "fighter_b",
+      "correct": true
+    },
+    {
+      "event": "UFC 327: Prochazka vs. Ulberg",
+      "event_id": "ufc-327",
+      "date": "2026-04-11",
+      "fighter_a": "Azamat Murzakanov",
+      "fighter_b": "Paulo Costa",
+      "weight_class": "Peso Semipesado",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 69.13,
+      "probability_b": 30.87,
+      "result": "fighter_b",
+      "correct": false
+    },
+    {
+      "event": "UFC 327: Prochazka vs. Ulberg",
+      "event_id": "ufc-327",
+      "date": "2026-04-11",
+      "fighter_a": "Dominick Reyes",
+      "fighter_b": "Johnny Walker",
+      "weight_class": "Peso Semipesado",
+      "nivarax_pick": "fighter_b",
+      "probability_a": 48.16,
+      "probability_b": 51.84,
+      "result": "fighter_a",
+      "correct": false
+    },
+    {
+      "event": "UFC 327: Prochazka vs. Ulberg",
+      "event_id": "ufc-327",
+      "date": "2026-04-11",
+      "fighter_a": "Cub Swanson",
+      "fighter_b": "Nate Landwehr",
+      "weight_class": "Peso Pluma",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 62.5,
+      "probability_b": 37.5,
+      "result": "fighter_a",
+      "correct": true
+    },
+    {
+      "event": "UFC 327: Prochazka vs. Ulberg",
+      "event_id": "ufc-327",
+      "date": "2026-04-11",
+      "fighter_a": "Kevin Holland",
+      "fighter_b": "Randy Brown",
+      "weight_class": "Peso Wélter",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 51.28,
+      "probability_b": 48.72,
+      "result": "fighter_a",
+      "correct": true
+    },
+    {
+      "event": "UFC 327: Prochazka vs. Ulberg",
+      "event_id": "ufc-327",
+      "date": "2026-04-11",
+      "fighter_a": "Mateusz Gamrot",
+      "fighter_b": "Esteban Ribovics",
+      "weight_class": "Peso Ligero",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 61.44,
+      "probability_b": 38.56,
+      "result": "fighter_a",
+      "correct": true
+    },
+    {
+      "event": "UFC 327: Prochazka vs. Ulberg",
+      "event_id": "ufc-327",
+      "date": "2026-04-11",
+      "fighter_a": "Tatiana Suarez",
+      "fighter_b": "Loopy Godinez",
+      "weight_class": "Peso Paja Femenino",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 76.83,
+      "probability_b": 23.17,
+      "result": "fighter_a",
+      "correct": true
+    },
+    {
+      "event": "UFC 327: Prochazka vs. Ulberg",
+      "event_id": "ufc-327",
+      "date": "2026-04-11",
+      "fighter_a": "Kevin Gastellum",
+      "fighter_b": "Vicente Luque",
+      "weight_class": "Peso Medio",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 52.63,
+      "probability_b": 47.37,
+      "result": "fighter_b",
+      "correct": false
+    },
+    {
+      "event": "UFC 327: Prochazka vs. Ulberg",
+      "event_id": "ufc-327",
+      "date": "2026-04-11",
+      "fighter_a": "Charles Radtke",
+      "fighter_b": "Francisco Prado",
+      "weight_class": "Peso Wélter",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 68.81,
+      "probability_b": 31.19,
+      "result": "fighter_a",
+      "correct": true
+    },
     {
       "event": "UFC Fight Night: Moicano vs. Duncan",
       "event_id": "ufc-fn-Moicano-Duncan",
@@ -162,19 +279,6 @@
       "probability_b": 11.02,
       "result": "fighter_a",
       "correct": true
-    },
-    {
-      "event": "UFC Fight Night: Adesanya vs. Pyfer",
-      "event_id": "ufc-fn-Adesanya-Pyfer",
-      "date": "2026-03-28",
-      "fighter_a": "Ricky Simon",
-      "fighter_b": "Adrian Yanez",
-      "weight_class": "Peso Gallo",
-      "nivarax_pick": "fighter_a",
-      "probability_a": 71.41,
-      "probability_b": 28.59,
-      "result": "fighter_b",
-      "correct": false
     },
     {
       "event": "UFC Fight Night: Adesanya vs. Pyfer",
