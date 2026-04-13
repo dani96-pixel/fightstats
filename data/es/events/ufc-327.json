@@ -5,7 +5,7 @@
     "name": "UFC 327: Prochazka vs. Ulberg",
     "date": "2026-04-11",
     "location": "Kaseya Center, Miami, United States",
-    "status": "upcoming",
+    "status": "completed",
     "note": "2 peleas de esta cartelera no fueron analizadas por datos estadísticos insuficientes de uno o ambos peleadores."
   },
   "fights": [
@@ -14,8 +14,12 @@
       "order": "Main Event",
       "weight_class": "Peso Semipesado",
       "rounds_scheduled": 5,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "TKO",
+        "round": 1
+      },
       "fighter_a": {
         "name": "Jiří Procházka",
         "record": "32-5-1",
@@ -80,8 +84,12 @@
       "order": "Co-Main Event",
       "weight_class": "Peso Semipesado",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "TKO",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Azamat Murzakanov",
         "record": "16-0-0",
@@ -146,8 +154,12 @@
       "order": "Main Card",
       "weight_class": "Peso Semipesado",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Dominick Reyes",
         "record": "15-5-0",
@@ -212,8 +224,12 @@
       "order": "Main Card",
       "weight_class": "Peso Pluma",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "TKO",
+        "round": 1
+      },
       "fighter_a": {
         "name": "Cub Swanson",
         "record": "30-14-0",
@@ -278,8 +294,12 @@
       "order": "Prelims",
       "weight_class": "Peso Wélter",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Kevin Holland",
         "record": "28-15-0",
@@ -344,8 +364,12 @@
       "order": "Prelims",
       "weight_class": "Peso Ligero",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "SUB",
+        "round": 2
+      },
       "fighter_a": {
         "name": "Mateusz Gamrot",
         "record": "25-4-0",
@@ -410,8 +434,12 @@
       "order": "Prelims",
       "weight_class": "Peso Paja Femenino",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "SUB",
+        "round": 2
+      },
       "fighter_a": {
         "name": "Tatiana Suarez",
         "record": "12-1-0",
@@ -476,7 +504,7 @@
       "order": "Early Prelims",
       "weight_class": "Peso Ligero",
       "rounds_scheduled": 3,
-      "status": "upcoming",
+      "status": "completed",
       "result": null,
       "fighter_a": {
         "name": "Chris Padilla",
@@ -542,8 +570,12 @@
       "order": "Early Prelims",
       "weight_class": "Peso Medio",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "TKO",
+        "round": 1
+      },
       "fighter_a": {
         "name": "Kevin Gastellum",
         "record": "21-10-0",
@@ -608,8 +640,12 @@
       "order": "Early Prelims",
       "weight_class": "Peso Wélter",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Charles Radtke",
         "record": "11-5-0",
