@@ -1,0 +1,364 @@
+{
+  "schema_version": "2.0",
+  "event": {
+    "id": "ufc-fn-Burns-Malott",
+    "name": "UFC Fight Night: Burns vs. Malott",
+    "date": "2026-04-18",
+    "location": "Canada Life Centre, Winnipeg, Canada",
+    "status": "upcoming",
+    "note": "7 peleas de esta cartelera no fueron analizadas por datos estadísticos insuficientes de uno o ambos peleadores."
+  },
+  "fights": [
+    {
+      "id": "burns-vs-malott",
+      "order": "Main Event",
+      "weight_class": "Peso Wélter",
+      "rounds_scheduled": 5,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Gilbert Burns",
+        "record": "22-9-0",
+        "age": 39,
+        "height_cm": 178,
+        "reach_cm": 180,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.15,
+          "sig_strike_accuracy": 0.48,
+          "sig_strikes_absorbed_per_min": 3.64,
+          "sig_strike_defense": 0.52,
+          "takedown_accuracy": 0.37,
+          "takedown_defense": 0.53
+        }
+      },
+      "fighter_b": {
+        "name": "Mike Malott",
+        "record": "13-2-1",
+        "age": 34,
+        "height_cm": 185,
+        "reach_cm": 185,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.93,
+          "sig_strike_accuracy": 0.56,
+          "sig_strikes_absorbed_per_min": 3.06,
+          "sig_strike_defense": 0.56,
+          "takedown_accuracy": 0.5,
+          "takedown_defense": 0.14
+        }
+      },
+      "nivarax": {
+        "probability_a": 37.7,
+        "probability_b": 62.3,
+        "advantage_score": -0.6038,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.2,
+          "flags": [
+            "severe_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Malott favorito claro con 62.30% vs 37.70% para Burns. Ventaja neta -0.6038 reflejando diferencial estadístico moderado-fuerte.",
+          "Burns sin riesgos agudos (Risk 0.0) pero con severe_recent_decline detectado. Malott con riesgo mínimo pero dependencia moderada del finish.",
+          "Si la pelea se alarga sin dominancia clara de Malott, la probabilidad real podría converger hacia 50/50 por el factor finish_dependency."
+        ]
+      }
+    },
+    {
+      "id": "phillips-vs-jourdain",
+      "order": "Co-Main Event",
+      "weight_class": "Peso Gallo",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Kyler Phillips",
+        "record": "12-4-0",
+        "age": 30,
+        "height_cm": 173,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.04,
+          "sig_strike_accuracy": 0.42,
+          "sig_strikes_absorbed_per_min": 3.83,
+          "sig_strike_defense": 0.6,
+          "takedown_accuracy": 0.45,
+          "takedown_defense": 0.75
+        }
+      },
+      "fighter_b": {
+        "name": "Charles Jourdain",
+        "record": "17-8-1",
+        "age": 30,
+        "height_cm": 175,
+        "reach_cm": 175,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.48,
+          "sig_strike_accuracy": 0.49,
+          "sig_strikes_absorbed_per_min": 4.25,
+          "sig_strike_defense": 0.56,
+          "takedown_accuracy": 0.21,
+          "takedown_defense": 0.47
+        }
+      },
+      "nivarax": {
+        "probability_a": 52.71,
+        "probability_b": 47.29,
+        "advantage_score": 0.2058,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Phillips favorito marginal con 52.71% vs 47.29% para Jourdain. Ventaja neta 0.2058 indica pelea prácticamente 50/50.",
+          "Phillips con moderate_recent_decline limitando su ventaja. Jourdain con dependencia alta del finish pero sin deterioro reciente.",
+          "Jourdain requiere finalización temprana para justificar su probabilidad; si la pelea alcanza decisión, Phillips se convierte en claro favorito."
+        ]
+      }
+    },
+    {
+      "id": "jasudavicius-vs-silva",
+      "order": "Main Card",
+      "weight_class": "Peso Mosca Femenino",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Jasmine Jasudavicius",
+        "record": "14-4-0",
+        "age": 37,
+        "height_cm": 170,
+        "reach_cm": 173,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.7,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 3.71,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.44,
+          "takedown_defense": 0.75
+        }
+      },
+      "fighter_b": {
+        "name": "Karine Silva",
+        "record": "19-6-0",
+        "age": 32,
+        "height_cm": 165,
+        "reach_cm": 170,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.48,
+          "sig_strike_accuracy": 0.39,
+          "sig_strikes_absorbed_per_min": 3.04,
+          "sig_strike_defense": 0.48,
+          "takedown_accuracy": 0.5,
+          "takedown_defense": 0.21
+        }
+      },
+      "nivarax": {
+        "probability_a": 67.56,
+        "probability_b": 32.44,
+        "advantage_score": 0.4317,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Jasudavicius favorita firme con 67.56% vs 32.44% para Silva. Ventaja neta 0.4317 representa diferencial moderado-fuerte.",
+          "Jasudavicius con perfil completamente limpio en riesgos y degradación. Silva enfrenta double problem: high_finish_dependency y moderate_recent_decline.",
+          "Para que Silva justifique su 32.44%, requiere sumisión o nocaut temprano; pasado round 1 sin control, probabilidad real aumenta significativamente para Jasudavicius."
+        ]
+      }
+    },
+    {
+      "id": "moises-vs-young",
+      "order": "Main Card",
+      "weight_class": "Peso Ligero",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Thiago Moises",
+        "record": "19-9-0",
+        "age": 31,
+        "height_cm": 175,
+        "reach_cm": 179,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.48,
+          "sig_strike_accuracy": 0.42,
+          "sig_strikes_absorbed_per_min": 4.08,
+          "sig_strike_defense": 0.53,
+          "takedown_accuracy": 0.35,
+          "takedown_defense": 0.52
+        }
+      },
+      "fighter_b": {
+        "name": "Gauge Young",
+        "record": "10-3-0",
+        "age": 25,
+        "height_cm": 175,
+        "reach_cm": 178,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.71,
+          "sig_strike_accuracy": 0.51,
+          "sig_strikes_absorbed_per_min": 5.82,
+          "sig_strike_defense": 0.48,
+          "takedown_accuracy": 0.3,
+          "takedown_defense": 0.71
+        }
+      },
+      "nivarax": {
+        "probability_a": 46.65,
+        "probability_b": 53.35,
+        "advantage_score": -0.2006,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Young ligero favorito con 53.35% vs 46.65% para Moises. Ventaja neta -0.2006 refleja pelea técnicamente cerrada con leve inclinación.",
+          "Moises con moderate_recent_decline reduciendo su probabilidad. Young sin deterioro pero Risk 0.21 elevado: moderate_finish_dependency y low_ufc_experience.",
+          "Si Moises sobrevive el daño temprano y controla el terreno técnico, experiencia UFC de Young genera volatilidad que podría invertir el 53.35% proyectado."
+        ]
+      }
+    },
+    {
+      "id": "aldrich-vs-horth",
+      "order": "Prelims",
+      "weight_class": "Peso Mosca Femenino",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "JJ Aldrich",
+        "record": "14-7-0",
+        "age": 33,
+        "height_cm": 165,
+        "reach_cm": 171,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.96,
+          "sig_strike_accuracy": 0.47,
+          "sig_strikes_absorbed_per_min": 4.32,
+          "sig_strike_defense": 0.61,
+          "takedown_accuracy": 0.26,
+          "takedown_defense": 0.67
+        }
+      },
+      "fighter_b": {
+        "name": "Jamey-Lyn Horth",
+        "record": "9-2-0",
+        "age": 36,
+        "height_cm": 170,
+        "reach_cm": 168,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.63,
+          "sig_strike_accuracy": 0.55,
+          "sig_strikes_absorbed_per_min": 2.5,
+          "sig_strike_defense": 0.63,
+          "takedown_accuracy": 0.42,
+          "takedown_defense": 0.79
+        }
+      },
+      "nivarax": {
+        "probability_a": 30.04,
+        "probability_b": 69.96,
+        "advantage_score": -0.7041,
+        "risk_a": {
+          "score": 0.15,
+          "flags": [
+            "long_layoff"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Horth favorita dominante con 69.96% vs 30.04% para Aldrich. Ventaja neta -0.7041 es el score más desbalanceado del evento.",
+          "Aldrich enfrenta doble problema: long_layoff y moderate_recent_decline. Horth mantiene perfil completamente limpio sin flags de riesgo ni degradación.",
+          "Aldrich requeriría desempeño atípico de Horth para ganar, dado que todos los factores estadísticos se alinean en contra suya por inactividad y declive reciente."
+        ]
+      }
+    }
+  ]
+}
