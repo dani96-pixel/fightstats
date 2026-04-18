@@ -8,8 +8,8 @@
       "date": "2026-04-18",
       "status": "upcoming",
       "file": "data/events/ufc-fn-Burns-Malott.json",
-      "fights_total": 13,
-      "fights_analyzed": 0
+      "fights_total": 12,
+      "fights_analyzed": 5
     },
     {
       "id": "ufc-327",
