@@ -5,7 +5,7 @@
     "name": "UFC Fight Night: Burns vs. Malott",
     "date": "2026-04-18",
     "location": "Canada Life Centre, Winnipeg, Canada",
-    "status": "upcoming",
+    "status": "completed",
     "note": "7 fights on this card were not analyzed due to insufficient statistical data for one or both fighters."
   },
   "fights": [
@@ -14,8 +14,12 @@
       "order": "Main Event",
       "weight_class": "Welterweight",
       "rounds_scheduled": 5,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "TKO",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Gilbert Burns",
         "record": "22-9-0",
@@ -84,8 +88,12 @@
       "order": "Co-Main Event",
       "weight_class": "Bantamweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Kyler Phillips",
         "record": "12-4-0",
@@ -154,8 +162,12 @@
       "order": "Main Card",
       "weight_class": "Women's Flyweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Jasmine Jasudavicius",
         "record": "14-4-0",
@@ -224,8 +236,12 @@
       "order": "Main Card",
       "weight_class": "Lightweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Thiago Moises",
         "record": "19-9-0",
@@ -295,8 +311,12 @@
       "order": "Prelims",
       "weight_class": "Women's Flyweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "JJ Aldrich",
         "record": "14-7-0",
