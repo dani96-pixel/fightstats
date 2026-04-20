@@ -1,12 +1,77 @@
 {
   "schema_version": "2.0",
   "global": {
-    "total_fights": 106,
-    "correct_predictions": 79,
-    "accuracy": 74.53,
-    "last_updated": "2026-04-13"
+    "total_fights": 111,
+    "correct_predictions": 82,
+    "accuracy": 73.87,
+    "last_updated": "2026-04-20"
   },
   "track_record": [
+    {
+      "event": "UFC Fight Night: Burns vs. Malott",
+      "event_id": "ufc-fn-Burns-Malott",
+      "date": "2026-04-18",
+      "fighter_a": "Gilbert Burns",
+      "fighter_b": "Mike Malott",
+      "weight_class": "Peso Wélter",
+      "nivarax_pick": "fighter_b",
+      "probability_a": 37.7,
+      "probability_b": 62.3,
+      "result": "fighter_b",
+      "correct": true
+    },
+    {
+      "event": "UFC Fight Night: Burns vs. Malott",
+      "event_id": "ufc-fn-Burns-Malott",
+      "date": "2026-04-18",
+      "fighter_a": "Kyler Phillips",
+      "fighter_b": "Charles Jourdain",
+      "weight_class": "Peso Gallo",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 52.71,
+      "probability_b": 47.29,
+      "result": "fighter_b",
+      "correct": false
+    },
+    {
+      "event": "UFC Fight Night: Burns vs. Malott",
+      "event_id": "ufc-fn-Burns-Malott",
+      "date": "2026-04-18",
+      "fighter_a": "Jasmine Jasudavicius",
+      "fighter_b": "Karine Silva",
+      "weight_class": "Peso Mosca Femenino",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 67.56,
+      "probability_b": 32.44,
+      "result": "fighter_a",
+      "correct": true
+    },
+    {
+      "event": "UFC Fight Night: Burns vs. Malott",
+      "event_id": "ufc-fn-Burns-Malott",
+      "date": "2026-04-18",
+      "fighter_a": "Thiago Moises",
+      "fighter_b": "Gauge Young",
+      "weight_class": "Peso Ligero",
+      "nivarax_pick": "fighter_b",
+      "probability_a": 46.65,
+      "probability_b": 53.35,
+      "result": "fighter_b",
+      "correct": true
+    },
+    {
+      "event": "UFC Fight Night: Burns vs. Malott",
+      "event_id": "ufc-fn-Burns-Malott",
+      "date": "2026-04-18",
+      "fighter_a": "JJ Aldrich",
+      "fighter_b": "Jamey-Lyn Horth",
+      "weight_class": "Peso Mosca Femenino",
+      "nivarax_pick": "fighter_b",
+      "probability_a": 30.04,
+      "probability_b": 69.96,
+      "result": "fighter_a",
+      "correct": false
+    },
     {
       "event": "UFC 327: Prochazka vs. Ulberg",
       "event_id": "ufc-327",
