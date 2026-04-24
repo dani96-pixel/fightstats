@@ -1,0 +1,494 @@
+{
+  "schema_version": "2.0",
+  "event": {
+    "id": "ufc-fn-sterling-zalal",
+    "name": "UFC Fight Night: Sterling vs. Zalal",
+    "date": "2026-04-25",
+    "location": "Meta APEX, Las Vegas, United States",
+    "status": "upcoming",
+    "note": "6 peleas de esta cartelera no fueron analizadas por datos estadísticos insuficientes de uno o ambos peleadores."
+  },
+  "fights": [
+    {
+      "id": "sterling-vs-zalal",
+      "order": "Main Event",
+      "weight_class": "Peso Pluma",
+      "rounds_scheduled": 5,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Aljamain Sterling",
+        "record": "25-5-0",
+        "age": 36,
+        "height_cm": 170,
+        "reach_cm": 180,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.45,
+          "sig_strike_accuracy": 0.52,
+          "sig_strikes_absorbed_per_min": 2.21,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.3,
+          "takedown_defense": 0.44
+        }
+      },
+      "fighter_b": {
+        "name": "Youssef Zalal",
+        "record": "18-5-1",
+        "age": 29,
+        "height_cm": 178,
+        "reach_cm": 183,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.03,
+          "sig_strike_accuracy": 0.5,
+          "sig_strikes_absorbed_per_min": 1.78,
+          "sig_strike_defense": 0.66,
+          "takedown_accuracy": 0.31,
+          "takedown_defense": 0.59
+        }
+      },
+      "nivarax": {
+        "probability_a": 39.54,
+        "probability_b": 60.46,
+        "advantage_score": -0.2498,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Zalal favorito con 60.46% frente a Sterling 39.54% por ausencia de flags en Sterling versus moderate_finish_dependency en Zalal. Diferencial de 20.9 puntos porcentuales.",
+          "Sterling mantiene perfil limpio sin riesgos agudos ni deterioro; Zalal presenta riesgo bajo con dependencia moderada en finalizaciones que reduce consistencia.",
+          "Escenario crítico: si la pelea se extiende sin daño temprano de Zalal, el 39.54% de Sterling podría subestimarse significativamente en decisión."
+        ]
+      }
+    },
+    {
+      "id": "dumont-vs-edwards",
+      "order": "Co-Main Event",
+      "weight_class": "Peso Gallo",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Norma Dumont",
+        "record": "13-2-0",
+        "age": 35,
+        "height_cm": 170,
+        "reach_cm": 170,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.89,
+          "sig_strike_accuracy": 0.5,
+          "sig_strikes_absorbed_per_min": 2.12,
+          "sig_strike_defense": 0.65,
+          "takedown_accuracy": 0.56,
+          "takedown_defense": 0.68
+        }
+      },
+      "fighter_b": {
+        "name": "Joselyne Edwards",
+        "record": "17-6-0",
+        "age": 30,
+        "height_cm": 173,
+        "reach_cm": 178,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.61,
+          "sig_strike_accuracy": 0.53,
+          "sig_strikes_absorbed_per_min": 3.24,
+          "sig_strike_defense": 0.5,
+          "takedown_accuracy": 0.4,
+          "takedown_defense": 0.61
+        }
+      },
+      "nivarax": {
+        "probability_a": 49.53,
+        "probability_b": 50.47,
+        "advantage_score": -0.0112,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Pelea prácticamente 50/50 con Edwards como ligero favorito 50.47% frente a Dumont 49.53%. Ventaja mínima de 0.94 puntos reflejada en advantage score marginal -0.0112.",
+          "Ambos perfiles están limpios sin deterioro estructural; Edwards presenta moderate_finish_dependency que limita su consistencia en decisiones pese a mayor volumen.",
+          "Determinante técnico: imposición de grappling y control de Dumont contra capacidad de daño de pie y búsqueda del finish de Edwards."
+        ]
+      }
+    },
+    {
+      "id": "garcia-vs-hernandez",
+      "order": "Main Card",
+      "weight_class": "Peso Ligero",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Rafa Garcia",
+        "record": "18-4-0",
+        "age": 31,
+        "height_cm": 170,
+        "reach_cm": 178,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.31,
+          "sig_strike_accuracy": 0.45,
+          "sig_strikes_absorbed_per_min": 4.54,
+          "sig_strike_defense": 0.61,
+          "takedown_accuracy": 0.44,
+          "takedown_defense": 0.76
+        }
+      },
+      "fighter_b": {
+        "name": "Alexander Hernandez",
+        "record": "18-8-0",
+        "age": 33,
+        "height_cm": 175,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.31,
+          "sig_strike_accuracy": 0.4,
+          "sig_strikes_absorbed_per_min": 4.5,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.36,
+          "takedown_defense": 0.73
+        }
+      },
+      "nivarax": {
+        "probability_a": 62.47,
+        "probability_b": 37.53,
+        "advantage_score": 0.2996,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Garcia es favorito firme con 62.47% frente a Hernandez 37.53%. Ventaja moderada representada por advantage score 0.2996 sin llegar a mismatch.",
+          "Ambos peleadores carecen de flags de riesgo o degradación, indicando perfiles estables sin volatilidad extra ni deterioro reciente.",
+          "Proyección estable: ausencia de finish_dependency y layoff aseguran que la pelea se desarrollará conforme al modelo sin factores ocultos."
+        ]
+      }
+    },
+    {
+      "id": "jackson-vs-barcelos",
+      "order": "Main Card",
+      "weight_class": "Peso Gallo",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Montel Jackson",
+        "record": "15-3-0",
+        "age": 34,
+        "height_cm": 178,
+        "reach_cm": 192,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.09,
+          "sig_strike_accuracy": 0.52,
+          "sig_strikes_absorbed_per_min": 1.4,
+          "sig_strike_defense": 0.61,
+          "takedown_accuracy": 0.63,
+          "takedown_defense": 0.67
+        }
+      },
+      "fighter_b": {
+        "name": "Raoni Barcelos",
+        "record": "21-5-0",
+        "age": 38,
+        "height_cm": 170,
+        "reach_cm": 170,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.92,
+          "sig_strike_accuracy": 0.51,
+          "sig_strikes_absorbed_per_min": 4.5,
+          "sig_strike_defense": 0.59,
+          "takedown_accuracy": 0.31,
+          "takedown_defense": 0.87
+        }
+      },
+      "nivarax": {
+        "probability_a": 87.67,
+        "probability_b": 12.33,
+        "advantage_score": 1.3033,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Jackson es favorito dominante con 87.67% frente a Barcelos 12.33%. Diferencia amplia de 75.3 puntos con advantage score fuerte 1.3033 cercano a mismatch.",
+          "Jackson presenta moderate_recent_decline (degradation 0.1) que previene ventaja absoluta; Barcelos sin factores positivos que compensen la brecha.",
+          "Para validar el 12.33% de Barcelos se requeriría actuación atípica de Jackson o una noche pobre del favorito dominante."
+        ]
+      }
+    },
+    {
+      "id": "vieira-vs-mcconico",
+      "order": "Prelims",
+      "weight_class": "Peso Medio",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Rodolfo Vieira",
+        "record": "11-4-0",
+        "age": 36,
+        "height_cm": 183,
+        "reach_cm": 185,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.55,
+          "sig_strike_accuracy": 0.53,
+          "sig_strikes_absorbed_per_min": 4.38,
+          "sig_strike_defense": 0.49,
+          "takedown_accuracy": 0.21,
+          "takedown_defense": 0.75
+        }
+      },
+      "fighter_b": {
+        "name": "Eric McConico",
+        "record": "10-4-1",
+        "age": 35,
+        "height_cm": 183,
+        "reach_cm": 196,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.61,
+          "sig_strike_accuracy": 0.43,
+          "sig_strikes_absorbed_per_min": 3.23,
+          "sig_strike_defense": 0.46,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.64
+        }
+      },
+      "nivarax": {
+        "probability_a": 48.41,
+        "probability_b": 51.59,
+        "advantage_score": -0.0375,
+        "risk_a": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "McConico es ligero favorito 51.59% frente a Vieira 48.41%. Pelea cerrada con McConico por ausencia de deterioro versus moderate_recent_decline de Vieira.",
+          "Vieira presenta high_finish_dependency (risk 0.12) con moderate_recent_decline; McConico muestra mayor volatilidad por moderate_finish_dependency y low_ufc_experience (risk 0.21).",
+          "Escenario pivotal: grappling temprano de Vieira evitando striking mantiene su 48.41%, mientras Mcconico requiere mantener la distancia de pie."
+        ]
+      }
+    },
+    {
+      "id": "filho-vs-durden",
+      "order": "Prelims",
+      "weight_class": "Peso Gallo",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Jafel Filho",
+        "record": "17-4-0",
+        "age": 32,
+        "height_cm": 170,
+        "reach_cm": 174,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 1.85,
+          "sig_strike_accuracy": 0.41,
+          "sig_strikes_absorbed_per_min": 1.62,
+          "sig_strike_defense": 0.5,
+          "takedown_accuracy": 0.45,
+          "takedown_defense": 0.66
+        }
+      },
+      "fighter_b": {
+        "name": "Cody Durden",
+        "record": "17-10-1",
+        "age": 35,
+        "height_cm": 170,
+        "reach_cm": 170,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.34,
+          "sig_strike_accuracy": 0.44,
+          "sig_strikes_absorbed_per_min": 4.19,
+          "sig_strike_defense": 0.5,
+          "takedown_accuracy": 0.46,
+          "takedown_defense": 0.6
+        }
+      },
+      "nivarax": {
+        "probability_a": 80.68,
+        "probability_b": 19.32,
+        "advantage_score": 0.8408,
+        "risk_a": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Filho es favorito fuerte 80.68% frente a Durden 19.32%. Ventaja fuerte 0.8408 parcialmente moderada por high_finish_dependency de Filho (risk 0.12).",
+          "Durden presentó moderate_recent_decline (degradation 0.1) con moderate_finish_dependency que limita su valor en decisión pese a no tener deterioro severo.",
+          "Volatilidad de Filho por dependencia en finalizaciones: si no obtiene finish en round 1-2, Durden ingresa al juego en decisiones superando su 19.32%."
+        ]
+      }
+    },
+    {
+      "id": "alencar-vs-polastri",
+      "order": "Prelims",
+      "weight_class": "Peso Paja Femenino",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Talita Alencar",
+        "record": "7-1-1",
+        "age": 35,
+        "height_cm": 155,
+        "reach_cm": 149,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.91,
+          "sig_strike_accuracy": 0.37,
+          "sig_strikes_absorbed_per_min": 3.36,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.26,
+          "takedown_defense": 0.66
+        }
+      },
+      "fighter_b": {
+        "name": "Julia Polastri",
+        "record": "14-5-0",
+        "age": 28,
+        "height_cm": 157,
+        "reach_cm": 161,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.4,
+          "sig_strike_accuracy": 0.54,
+          "sig_strikes_absorbed_per_min": 5.4,
+          "sig_strike_defense": 0.57,
+          "takedown_accuracy": 0.8,
+          "takedown_defense": 0.6
+        }
+      },
+      "nivarax": {
+        "probability_a": 35.28,
+        "probability_b": 64.72,
+        "advantage_score": -0.3569,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Polastri es favorita firme 64.72% frente a Alencar 35.28%. Ventaja moderada-fuerte con advantage score -0.3569 sin ser mismatch.",
+          "Ambos perfiles carecen de flags de riesgo o degradación, reflejando estabilidad estructural en ambas peleadoras sin factores de volatilidad.",
+          "Ventaja técnica pura: ausencia de riesgos permite que la proyección dependa de métricas técnicas y matchup sin incertidumbre paramétrica extra."
+        ]
+      }
+    }
+  ]
+}
