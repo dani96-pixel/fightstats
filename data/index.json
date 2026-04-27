@@ -2,11 +2,21 @@
   "schema_version": "2.0",
   "events": [
     {
+      "id": "ufc-fn-Della_Maddalena-Prates",
+      "name": "UFC Fight Night: Della Maddalena vs. Prates",
+      "short_name": "UFN 275",
+      "date": "2026-05-02",
+      "status": "upcoming",
+      "file": "data/events/ufc-fn-Della_Maddalena-Prates.json",
+      "fights_total": 12,
+      "fights_analyzed": 0
+    },
+    {
       "id": "ufc-fn-Sterling-Zalal",
       "name": "UFC Fight Night: Sterling vs. Zalal",
       "short_name": "UFN 274",
       "date": "2026-04-25",
-      "status": "upcoming",
+      "status": "completed",
       "file": "data/events/ufc-fn-Sterling-Zalal.json",
       "fights_total": 13,
       "fights_analyzed": 7
