@@ -5,7 +5,7 @@
     "name": "UFC Fight Night: Sterling vs. Zalal",
     "date": "2026-04-25",
     "location": "Meta APEX, Las Vegas, United States",
-    "status": "upcoming",
+    "status": "completed",
     "note": "6 fights on this card were not analyzed due to insufficient statistical data for one or both fighters."
   },
   "fights": [
@@ -14,8 +14,12 @@
       "order": "Main Event",
       "weight_class": "Featherweight",
       "rounds_scheduled": 5,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 5
+      },
       "fighter_a": {
         "name": "Aljamain Sterling",
         "record": "25-5-0",
@@ -82,8 +86,12 @@
       "order": "Co-Main Event",
       "weight_class": "Bantamweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Norma Dumont",
         "record": "13-2-0",
@@ -150,8 +158,12 @@
       "order": "Main Card",
       "weight_class": "Lightweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Rafa Garcia",
         "record": "18-4-0",
@@ -216,8 +228,12 @@
       "order": "Main Card",
       "weight_class": "Bantamweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Montel Jackson",
         "record": "15-3-0",
@@ -284,8 +300,12 @@
       "order": "Prelims",
       "weight_class": "Middleweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Rodolfo Vieira",
         "record": "11-4-0",
@@ -357,8 +377,12 @@
       "order": "Prelims",
       "weight_class": "Bantamweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Jafel Filho",
         "record": "17-4-0",
@@ -429,8 +453,12 @@
       "order": "Prelims",
       "weight_class": "Women's Strawweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Talita Alencar",
         "record": "7-1-1",
