@@ -1,12 +1,103 @@
 {
   "schema_version": "2.0",
   "global": {
-    "total_fights": 111,
-    "correct_predictions": 82,
-    "accuracy": 73.87,
-    "last_updated": "2026-04-20"
+    "total_fights": 118,
+    "correct_predictions": 85,
+    "accuracy": 72.03,
+    "last_updated": "2026-04-27"
   },
   "track_record": [
+    {
+      "event": "UFC Fight Night: Sterling vs. Zalal",
+      "event_id": "ufc-fn-Sterling-Zalal",
+      "date": "2026-04-25",
+      "fighter_a": "Aljamain Sterling",
+      "fighter_b": "Youssef Zalal",
+      "weight_class": "Peso Pluma",
+      "nivarax_pick": "fighter_b",
+      "probability_a": 39.54,
+      "probability_b": 60.46,
+      "result": "fighter_a",
+      "correct": false
+    },
+    {
+      "event": "UFC Fight Night: Sterling vs. Zalal",
+      "event_id": "ufc-fn-Sterling-Zalal",
+      "date": "2026-04-25",
+      "fighter_a": "Norma Dumont",
+      "fighter_b": "Joselyne Edwards",
+      "weight_class": "Peso Gallo",
+      "nivarax_pick": "fighter_b",
+      "probability_a": 49.53,
+      "probability_b": 50.47,
+      "result": "fighter_b",
+      "correct": true
+    },
+    {
+      "event": "UFC Fight Night: Sterling vs. Zalal",
+      "event_id": "ufc-fn-Sterling-Zalal",
+      "date": "2026-04-25",
+      "fighter_a": "Rafa Garcia",
+      "fighter_b": "Alexander Hernandez",
+      "weight_class": "Peso Ligero",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 62.47,
+      "probability_b": 37.53,
+      "result": "fighter_a",
+      "correct": true
+    },
+    {
+      "event": "UFC Fight Night: Sterling vs. Zalal",
+      "event_id": "ufc-fn-Sterling-Zalal",
+      "date": "2026-04-25",
+      "fighter_a": "Montel Jackson",
+      "fighter_b": "Raoni Barcelos",
+      "weight_class": "Peso Gallo",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 87.67,
+      "probability_b": 12.33,
+      "result": "fighter_b",
+      "correct": false
+    },
+    {
+      "event": "UFC Fight Night: Sterling vs. Zalal",
+      "event_id": "ufc-fn-Sterling-Zalal",
+      "date": "2026-04-25",
+      "fighter_a": "Rodolfo Vieira",
+      "fighter_b": "Eric McConico",
+      "weight_class": "Peso Medio",
+      "nivarax_pick": "fighter_b",
+      "probability_a": 48.41,
+      "probability_b": 51.59,
+      "result": "fighter_b",
+      "correct": true
+    },
+    {
+      "event": "UFC Fight Night: Sterling vs. Zalal",
+      "event_id": "ufc-fn-Sterling-Zalal",
+      "date": "2026-04-25",
+      "fighter_a": "Jafel Filho",
+      "fighter_b": "Cody Durden",
+      "weight_class": "Peso Gallo",
+      "nivarax_pick": "fighter_a",
+      "probability_a": 80.68,
+      "probability_b": 19.32,
+      "result": "fighter_b",
+      "correct": false
+    },
+    {
+      "event": "UFC Fight Night: Sterling vs. Zalal",
+      "event_id": "ufc-fn-Sterling-Zalal",
+      "date": "2026-04-25",
+      "fighter_a": "Talita Alencar",
+      "fighter_b": "Julia Polastri",
+      "weight_class": "Peso Paja Femenino",
+      "nivarax_pick": "fighter_b",
+      "probability_a": 35.28,
+      "probability_b": 64.72,
+      "result": "fighter_a",
+      "correct": false
+    },
     {
       "event": "UFC Fight Night: Burns vs. Malott",
       "event_id": "ufc-fn-Burns-Malott",
