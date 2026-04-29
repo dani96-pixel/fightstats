@@ -1,0 +1,578 @@
+{
+  "schema_version": "2.0",
+  "event": {
+    "id": "ufc-fn-Della_Maddalena-Prates",
+    "name": "UFC Fight Night: Della Maddalena vs. Prates",
+    "date": "2026-05-02",
+    "location": "RAC Arena, Perth, Australia",
+    "status": "upcoming",
+    "note": "5 peleas de esta cartelera no fueron analizadas por datos estadísticos insuficientes de uno o ambos peleadores."
+  },
+  "fights": [
+    {
+      "id": "maddalena-vs-prates",
+      "order": "Main Event",
+      "weight_class": "Peso Wélter",
+      "rounds_scheduled": 5,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Jack Della Maddalena",
+        "record": "18-3-0",
+        "age": 29,
+        "height_cm": 180,
+        "reach_cm": 185,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.57,
+          "sig_strike_accuracy": 0.518,
+          "sig_strikes_absorbed_per_min": 3.84,
+          "sig_strike_defense": 0.636,
+          "takedown_accuracy": 0.1,
+          "takedown_defense": 0.642
+        }
+      },
+      "fighter_b": {
+        "name": "Carlos Prates",
+        "record": "23-7-0",
+        "age": 32,
+        "height_cm": 185,
+        "reach_cm": 198,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.77,
+          "sig_strike_accuracy": 0.551,
+          "sig_strikes_absorbed_per_min": 4.53,
+          "sig_strike_defense": 0.479,
+          "takedown_accuracy": 1.0,
+          "takedown_defense": 0.8
+        }
+      },
+      "nivarax": {
+        "probability_a": 58.33,
+        "probability_b": 41.67,
+        "advantage_score": 0.2876,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Della Maddalena mantiene ventaja de 16.66 puntos porcentuales (58.33% vs 41.67%) con un advantage score de 0.2876 indicando superioridad marginal pero consistente.",
+          "Risk Score de Della Maddalena (0.06) es menor al de Prates (0.12); ambos presentan dependencia de finalización con Prates mostrando high_finish_dependency.",
+          "Sin degradación en ambos peleadores; el factor clave que podría invertir probabilidad es la dependencia combinada de finalización de ambos combatientes."
+        ]
+      }
+    },
+    {
+      "id": "dariush-vs-salkilld",
+      "order": "Co-Main Event",
+      "weight_class": "Peso Ligero",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Beneil Dariush",
+        "record": "23-7-1",
+        "age": 36,
+        "height_cm": 178,
+        "reach_cm": 183,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.78,
+          "sig_strike_accuracy": 0.492,
+          "sig_strikes_absorbed_per_min": 2.62,
+          "sig_strike_defense": 0.575,
+          "takedown_accuracy": 0.383,
+          "takedown_defense": 0.82
+        }
+      },
+      "fighter_b": {
+        "name": "Quillan Salkilld",
+        "record": "11-1-0",
+        "age": 26,
+        "height_cm": 183,
+        "reach_cm": 190,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.16,
+          "sig_strike_accuracy": 0.576,
+          "sig_strikes_absorbed_per_min": 3.24,
+          "sig_strike_defense": 0.445,
+          "takedown_accuracy": 0.365,
+          "takedown_defense": 0.9
+        }
+      },
+      "nivarax": {
+        "probability_a": 10.96,
+        "probability_b": 89.04,
+        "advantage_score": -1.2323,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Salkilld favorito amplio con 89.04% de probabilidad frente a 10.96% de Dariush; advantage score de -1.2323 refleja disparidad significativa.",
+          "Dariush experimenta degradación moderada (0.1) con moderate_recent_decline; Salkilld mantiene Risk Score bajo (0.06) con moderate_finish_dependency.",
+          "La caída reciente de métricas en Dariush combinada con su bajo Risk Score establece un mismatch técnico que favorece dominantemente a Salkilld."
+        ]
+      }
+    },
+    {
+      "id": "elliott-vs-erceg",
+      "order": "Main Card",
+      "weight_class": "Peso Mosca",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Tim Elliott",
+        "record": "22-13-1",
+        "age": 39,
+        "height_cm": 170,
+        "reach_cm": 168,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.37,
+          "sig_strike_accuracy": 0.447,
+          "sig_strikes_absorbed_per_min": 2.65,
+          "sig_strike_defense": 0.579,
+          "takedown_accuracy": 0.477,
+          "takedown_defense": 0.59
+        }
+      },
+      "fighter_b": {
+        "name": "Steve Erceg",
+        "record": "13-4-0",
+        "age": 30,
+        "height_cm": 173,
+        "reach_cm": 173,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.0,
+          "sig_strike_accuracy": 0.459,
+          "sig_strikes_absorbed_per_min": 3.79,
+          "sig_strike_defense": 0.524,
+          "takedown_accuracy": 0.276,
+          "takedown_defense": 0.629
+        }
+      },
+      "nivarax": {
+        "probability_a": 52.36,
+        "probability_b": 47.64,
+        "advantage_score": 0.366,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Elliott favorito marginal con 52.36% vs 47.64% de Erceg; advantage score de 0.366 indica superioridad moderada.",
+          "Ambos peleadores carecen de riesgos agudos (Risk Score 0.0); Erceg presenta degradación mínima (0.1) con moderate_recent_decline.",
+          "Pick'em competitivo donde el moderate_recent_decline de Erceg es el factor residual que comprime incertidumbre en favor de Elliott."
+        ]
+      }
+    },
+    {
+      "id": "rowston-vs-bryczek",
+      "order": "Prelims",
+      "weight_class": "Middleweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Cam Rowston",
+        "record": "14-3-0",
+        "age": 27,
+        "height_cm": 191,
+        "reach_cm": 198,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.26,
+          "sig_strike_accuracy": 0.467,
+          "sig_strikes_absorbed_per_min": 2.62,
+          "sig_strike_defense": 0.519,
+          "takedown_accuracy": 0.5,
+          "takedown_defense": 0.333
+        }
+      },
+      "fighter_b": {
+        "name": "Robert Bryczek",
+        "record": "18-6-0",
+        "age": 35,
+        "height_cm": 183,
+        "reach_cm": 191,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.74,
+          "sig_strike_accuracy": 0.369,
+          "sig_strikes_absorbed_per_min": 4.08,
+          "sig_strike_defense": 0.596,
+          "takedown_accuracy": 1.0,
+          "takedown_defense": 0.857
+        }
+      },
+      "nivarax": {
+        "probability_a": 71.76,
+        "probability_b": 28.24,
+        "advantage_score": 0.7826,
+        "risk_a": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Rowston favorito amplio (71.76%) con advantage score 0.7826 indicando disparidad significativa pese a Risk Score moderado-alto de 0.27.",
+          "Ambos peleadores presentan baja experiencia UFC; Rowston con high_finish_dependency y Bryczek con moderate_finish_dependency limitan confianza en decisión.",
+          "Riesgo combinado de finalización y baja experiencia en ambos genera incertidumbre que compite con la ventaja estructural de Rowston."
+        ]
+      }
+    },
+    {
+      "id": "malkoun-vs-meerschaert",
+      "order": "Prelims",
+      "weight_class": "Peso Medio",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Jacob Malkoun",
+        "record": "9-3-0",
+        "age": 30,
+        "height_cm": 175,
+        "reach_cm": 185,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.55,
+          "sig_strike_accuracy": 0.584,
+          "sig_strikes_absorbed_per_min": 2.36,
+          "sig_strike_defense": 0.55,
+          "takedown_accuracy": 0.407,
+          "takedown_defense": 0.333
+        }
+      },
+      "fighter_b": {
+        "name": "Gerald Meerschaert",
+        "record": "37-21-0",
+        "age": 38,
+        "height_cm": 185,
+        "reach_cm": 196,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.01,
+          "sig_strike_accuracy": 0.452,
+          "sig_strikes_absorbed_per_min": 3.52,
+          "sig_strike_defense": 0.535,
+          "takedown_accuracy": 0.305,
+          "takedown_defense": 0.429
+        }
+      },
+      "nivarax": {
+        "probability_a": 90.0,
+        "probability_b": 10.0,
+        "advantage_score": 1.6542,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.2,
+          "flags": [
+            "severe_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Malkoun domina con 90.0% de probabilidad frente a 10.0% de Meerschaert; advantage score de 1.6542 refleja disparidad fuerte sin riesgos en Malkoun.",
+          "Meerschaert acumula vulnerabilidades: degradación de 0.2 con severe_recent_decline, Risk Score de 0.12 y high_finish_dependency.",
+          "Combinación de degradación severa reciente con dependencia de finalización en Meerschaert genera mismatch técnico que favorece claramente a Malkoun."
+        ]
+      }
+    },
+    {
+      "id": "thicknesse-vs-morales",
+      "order": "Prelims",
+      "weight_class": "Bantamweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Colby Thicknesse",
+        "record": "8-1-0",
+        "age": 26,
+        "height_cm": 170,
+        "reach_cm": 175,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.33,
+          "sig_strike_accuracy": 0.42,
+          "sig_strikes_absorbed_per_min": 2.8,
+          "sig_strike_defense": 0.5,
+          "takedown_accuracy": 0.091,
+          "takedown_defense": 0.5
+        }
+      },
+      "fighter_b": {
+        "name": "Vince Morales",
+        "record": "16-10-0",
+        "age": 35,
+        "height_cm": 170,
+        "reach_cm": 178,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.57,
+          "sig_strike_accuracy": 0.378,
+          "sig_strikes_absorbed_per_min": 4.0,
+          "sig_strike_defense": 0.537,
+          "takedown_accuracy": 0.4,
+          "takedown_defense": 0.585
+        }
+      },
+      "nivarax": {
+        "probability_a": 61.01,
+        "probability_b": 38.99,
+        "advantage_score": 0.6534,
+        "risk_a": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "long_layoff",
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Thicknesse mantiene ventaja de 22.02 puntos porcentuales (61.01% vs 38.99%) con advantage score moderado de 0.6534.",
+          "Thicknesse presenta solo bajo_ufc_experience; Morales acumula long_layoff, moderate_finish_dependency y moderate_recent_decline comprimiendo su probabilidad.",
+          "Inactividad reciente combinada con degradación moderada y dependencia de finalización en Morales constituyen factores que invertirían resultado estimado."
+        ]
+      }
+    },
+    {
+      "id": "micallef-vs-gorimbo",
+      "order": "Prelims",
+      "weight_class": "Welterweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Jonathan Micallef",
+        "record": "9-1-0",
+        "age": 27,
+        "height_cm": 183,
+        "reach_cm": 196,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.96,
+          "sig_strike_accuracy": 0.412,
+          "sig_strikes_absorbed_per_min": 4.22,
+          "sig_strike_defense": 0.562,
+          "takedown_accuracy": 0.667,
+          "takedown_defense": 0.75
+        }
+      },
+      "fighter_b": {
+        "name": "Themba Gorimbo",
+        "record": "14-6-0",
+        "age": 35,
+        "height_cm": 185,
+        "reach_cm": 196,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.72,
+          "sig_strike_accuracy": 0.607,
+          "sig_strikes_absorbed_per_min": 1.32,
+          "sig_strike_defense": 0.519,
+          "takedown_accuracy": 0.657,
+          "takedown_defense": 0.727
+        }
+      },
+      "nivarax": {
+        "probability_a": 45.5,
+        "probability_b": 54.5,
+        "advantage_score": -0.6828,
+        "risk_a": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Gorimbo favorito ligero (54.50%) sobre Micallef (45.50%); advantage score de -0.6828 refleja superioridad moderada en métricas.",
+          "Micallef presenta bajo_ufc_experience (Risk Score 0.15) mientras Gorimbo mantiene Risk Score limpio (0.0) con degradación mínima.",
+          "Ventaja técnica de Gorimbo y menor carga de flags contrasta con inexperiencia UFC de Micallef generando vector de incertidumbre residual."
+        ]
+      }
+    },
+    {
+      "id": "fan-vs-steele",
+      "order": "Prelims",
+      "weight_class": "Lightweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Dom Mar Fan",
+        "record": "9-2-0",
+        "age": 26,
+        "height_cm": 180,
+        "reach_cm": 191,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.71,
+          "sig_strike_accuracy": 0.56,
+          "sig_strikes_absorbed_per_min": 2.49,
+          "sig_strike_defense": 0.443,
+          "takedown_accuracy": 0.5,
+          "takedown_defense": 0.667
+        }
+      },
+      "fighter_b": {
+        "name": "Kody Steele",
+        "record": "7-1-0",
+        "age": 31,
+        "height_cm": 175,
+        "reach_cm": 180,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.44,
+          "sig_strike_accuracy": 0.327,
+          "sig_strikes_absorbed_per_min": 7.17,
+          "sig_strike_defense": 0.523,
+          "takedown_accuracy": 0.143,
+          "takedown_defense": 1.0
+        }
+      },
+      "nivarax": {
+        "probability_a": 60.38,
+        "probability_b": 39.62,
+        "advantage_score": 1.5518,
+        "risk_a": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.36,
+          "flags": [
+            "long_layoff",
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Dom Mar Fan favorito con 60.38% y advantage score fuerte de 1.5518 indicando superioridad técnica significativa sobre Steele (39.62%).",
+          "Dom Mar Fan solo presenta bajo_ufc_experience; Steele acumula Risk Score alto (0.36) con long_layoff, moderate_finish_dependency y bajo_ufc_experience.",
+          "Inactividad prolongada de Steele con tres risk flags activos constituye factor determinante que podría invertir resultado estimado bajo presión."
+        ]
+      }
+    }
+  ]
+}
