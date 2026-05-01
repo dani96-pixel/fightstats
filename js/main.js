@@ -131,7 +131,8 @@ async function renderNextEvent() {
     if (!res.ok) throw new Error();
     const data = await res.json();
 
-    const upcoming = data.events.find(e => e.status === 'upcoming');
+    const upcomingAll = data.events.filter(e => e.status === 'upcoming');
+    const upcoming = upcomingAll.sort((a, b) => new Date(a.date) - new Date(b.date))[0];
     if (!upcoming) {
       el.innerHTML = `<p style="color:var(--text-muted);font-size:14px;">${t('home_no_upcoming')}</p>`;
       return;
