@@ -16,7 +16,7 @@
       "name": "UFC Fight Night: Della Maddalena vs. Prates",
       "short_name": "UFN 275",
       "date": "2026-05-02",
-      "status": "upcoming",
+      "status": "completed",
       "file": "data/events/ufc-fn-Della_Maddalena-Prates.json",
       "fights_total": 13,
       "fights_analyzed": 8

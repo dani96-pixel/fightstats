@@ -5,7 +5,7 @@
     "name": "UFC Fight Night: Della Maddalena vs. Prates",
     "date": "2026-05-02",
     "location": "RAC Arena, Perth, Australia",
-    "status": "upcoming",
+    "status": "completed",
     "note": "5 fights on this card were not analyzed due to insufficient statistical data for one or both fighters."
   },
   "fights": [
@@ -14,8 +14,12 @@
       "order": "Main Event",
       "weight_class": "Welterweight",
       "rounds_scheduled": 5,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "TKO",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Jack Della Maddalena",
         "record": "18-3-0",
@@ -84,8 +88,12 @@
       "order": "Co-Main Event",
       "weight_class": "Lightweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "TKO",
+        "round": 1
+      },
       "fighter_a": {
         "name": "Beneil Dariush",
         "record": "23-7-1",
@@ -154,8 +162,12 @@
       "order": "Main Card",
       "weight_class": "Flyweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Tim Elliott",
         "record": "22-13-1",
@@ -222,8 +234,12 @@
       "order": "Prelims",
       "weight_class": "Middleweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Cam Rowston",
         "record": "14-3-0",
@@ -294,8 +310,12 @@
       "order": "Prelims",
       "weight_class": "Middleweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Jacob Malkoun",
         "record": "9-3-0",
@@ -364,8 +384,12 @@
       "order": "Prelims",
       "weight_class": "Bantamweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Colby Thicknesse",
         "record": "8-1-0",
@@ -437,8 +461,12 @@
       "order": "Prelims",
       "weight_class": "Welterweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Jonathan Micallef",
         "record": "9-1-0",
@@ -507,8 +535,12 @@
       "order": "Prelims",
       "weight_class": "Lightweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "SUB",
+        "round": 1
+      },
       "fighter_a": {
         "name": "Dom Mar Fan",
         "record": "9-2-0",
