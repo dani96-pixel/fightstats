@@ -1,0 +1,850 @@
+{
+  "schema_version": "2.0",
+  "event": {
+    "id": "ufc-328",
+    "name": "UFC 328: Chimaev vs. Strickland",
+    "date": "2026-05-09",
+    "location": "Prudential Center, Newark, United States",
+    "status": "upcoming",
+    "note": "1 fight on this card was not analyzed due to insufficient statistical data for one or both fighters."
+  },
+  "fights": [
+    {
+      "id": "chimaev-vs-strickland",
+      "order": "Main Event",
+      "weight_class": "Middleweight",
+      "rounds_scheduled": 5,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Khamzat Chimaev",
+        "record": "15-0-0",
+        "age": 32,
+        "height_cm": 188,
+        "reach_cm": 190,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.04,
+          "sig_strike_accuracy": 0.608,
+          "sig_strikes_absorbed_per_min": 2.32,
+          "sig_strike_defense": 0.432,
+          "takedown_accuracy": 0.553,
+          "takedown_defense": 0.857
+        }
+      },
+      "fighter_b": {
+        "name": "Sean Strickland",
+        "record": "30-7-0",
+        "age": 35,
+        "height_cm": 185,
+        "reach_cm": 193,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.04,
+          "sig_strike_accuracy": 0.427,
+          "sig_strikes_absorbed_per_min": 4.57,
+          "sig_strike_defense": 0.607,
+          "takedown_accuracy": 0.643,
+          "takedown_defense": 0.766
+        }
+      },
+      "nivarax": {
+        "probability_a": 90.0,
+        "probability_b": 10.0,
+        "advantage_score": 1.4644,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Chimaev holds an 80.00 pp structural edge (90.00% vs 10.00%) backed by a MAS of 1.4644 — confidence cap activated, signaling dominant grappling and control asymmetry.",
+          "Chimaev carries only moderate_finish_dependency (score 0.06); Strickland shows zero risk and degradation scores, producing minimal bilateral noise in the projection.",
+          "The residual conditioning factor is Chimaev's finish dependency: if the fight goes to the judges, projected certainty narrows and Strickland's decision margin widens."
+        ]
+      }
+    },
+    {
+      "id": "van-vs-taira",
+      "order": "Co-Main Event",
+      "weight_class": "Flyweight",
+      "rounds_scheduled": 5,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Joshua Van",
+        "record": "16-2-0",
+        "age": 24,
+        "height_cm": 165,
+        "reach_cm": 165,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 8.84,
+          "sig_strike_accuracy": 0.568,
+          "sig_strikes_absorbed_per_min": 6.39,
+          "sig_strike_defense": 0.578,
+          "takedown_accuracy": 0.636,
+          "takedown_defense": 0.811
+        }
+      },
+      "fighter_b": {
+        "name": "Tatsuro Taira",
+        "record": "18-1-0",
+        "age": 26,
+        "height_cm": 170,
+        "reach_cm": 178,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.94,
+          "sig_strike_accuracy": 0.601,
+          "sig_strikes_absorbed_per_min": 2.44,
+          "sig_strike_defense": 0.472,
+          "takedown_accuracy": 0.465,
+          "takedown_defense": 0.455
+        }
+      },
+      "nivarax": {
+        "probability_a": 30.15,
+        "probability_b": 69.85,
+        "advantage_score": -0.8101,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Taira holds a 39.70 pp advantage (69.85% vs 30.15%) with a MAS of -0.8101, a strong differential driven by takedown superiority, control time, and offensive ground activity.",
+          "Van shows a completely clean risk profile (score 0.0/0.0); Taira carries moderate_finish_dependency (score 0.06), introducing uncertainty if the fight reaches a judges' decision.",
+          "The scenario most likely to undermine Taira's projection is sustained output from Van across all five rounds, activating finish dependency as a limiter of Taira's projected solidity."
+        ]
+      }
+    },
+    {
+      "id": "volkov-vs-acosta",
+      "order": "Main Card",
+      "weight_class": "Heavyweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Alexander Volkov",
+        "record": "39-11-0",
+        "age": 37,
+        "height_cm": 201,
+        "reach_cm": 203,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.03,
+          "sig_strike_accuracy": 0.574,
+          "sig_strikes_absorbed_per_min": 3.02,
+          "sig_strike_defense": 0.541,
+          "takedown_accuracy": 0.667,
+          "takedown_defense": 0.691
+        }
+      },
+      "fighter_b": {
+        "name": "Waldo Cortes Acosta",
+        "record": "17-2-0",
+        "age": 34,
+        "height_cm": 193,
+        "reach_cm": 198,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.54,
+          "sig_strike_accuracy": 0.492,
+          "sig_strikes_absorbed_per_min": 3.38,
+          "sig_strike_defense": 0.566,
+          "takedown_accuracy": 0.571,
+          "takedown_defense": 0.727
+        }
+      },
+      "nivarax": {
+        "probability_a": 55.51,
+        "probability_b": 44.49,
+        "advantage_score": 0.1301,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Volkov holds a marginal 11.02 pp edge (55.51% vs 44.49%) with a MAS of 0.1301 — a narrow differential indicating a structurally even fight with no clear dimensional dominance.",
+          "Volkov carries moderate_finish_dependency (score 0.06) as his sole active flag; Cortes Acosta shows a fully clean risk profile (score 0.0/0.0), reducing uncertainty to a single vector.",
+          "Volkov's finish dependency is the decisive conditioning factor: a fight that goes to decision compresses his projected edge to its minimum, setting up the most favorable conditions for Cortes Acosta."
+        ]
+      }
+    },
+    {
+      "id": "brady-vs-buckley",
+      "order": "Main Card",
+      "weight_class": "Welterweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Sean Brady",
+        "record": "18-2-0",
+        "age": 33,
+        "height_cm": 178,
+        "reach_cm": 183,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.96,
+          "sig_strike_accuracy": 0.552,
+          "sig_strikes_absorbed_per_min": 3.05,
+          "sig_strike_defense": 0.591,
+          "takedown_accuracy": 0.534,
+          "takedown_defense": 0.867
+        }
+      },
+      "fighter_b": {
+        "name": "Joaquin Buckley",
+        "record": "21-7-0",
+        "age": 32,
+        "height_cm": 178,
+        "reach_cm": 193,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.88,
+          "sig_strike_accuracy": 0.367,
+          "sig_strikes_absorbed_per_min": 2.93,
+          "sig_strike_defense": 0.591,
+          "takedown_accuracy": 0.452,
+          "takedown_defense": 0.723
+        }
+      },
+      "nivarax": {
+        "probability_a": 70.73,
+        "probability_b": 29.27,
+        "advantage_score": 0.5189,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Brady holds a 41.46 pp advantage (70.73% vs 29.27%) with a MAS of 0.5189, a moderate-wide differential supported by takedown superiority, control time, and a fully clean risk profile.",
+          "Brady carries zero risk and degradation scores with no active flags; Buckley shows moderate_finish_dependency (score 0.06), the only conditioning factor — relevant only in early-finish scenarios.",
+          "Buckley's ability to end the fight before the judges is the sole vector threatening Brady's projection; under sustained pace conditions, the statistical differential remains stable."
+        ]
+      }
+    },
+    {
+      "id": "green-vs-stephens",
+      "order": "Main Card",
+      "weight_class": "Lightweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "King Green",
+        "record": "34-17-1",
+        "age": 39,
+        "height_cm": 178,
+        "reach_cm": 180,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.54,
+          "sig_strike_accuracy": 0.531,
+          "sig_strikes_absorbed_per_min": 3.11,
+          "sig_strike_defense": 0.625,
+          "takedown_accuracy": 0.426,
+          "takedown_defense": 0.725
+        }
+      },
+      "fighter_b": {
+        "name": "Jeremy Stephens",
+        "record": "28-20-0",
+        "age": 39,
+        "height_cm": 175,
+        "reach_cm": 180,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.15,
+          "sig_strike_accuracy": 0.408,
+          "sig_strikes_absorbed_per_min": 3.14,
+          "sig_strike_defense": 0.586,
+          "takedown_accuracy": 0.385,
+          "takedown_defense": 0.624
+        }
+      },
+      "nivarax": {
+        "probability_a": 83.87,
+        "probability_b": 16.13,
+        "advantage_score": 0.9699,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "long_layoff",
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.2,
+          "flags": [
+            "severe_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Green holds a 67.74 pp advantage (83.87% vs 16.13%) with a MAS of 0.9699, backed by a fully clean risk profile against the most compromised flag accumulation on the card from Stephens.",
+          "Stephens carries a Risk Score of 0.21 with long_layoff and moderate_finish_dependency, plus a Degradation Score of 0.2 with severe_recent_decline — the most severe deterioration profile on the card.",
+          "The only scenario reversing Green's projection is an early finish by Stephens before his extended inactivity and severe recent metric decline impact his cardio and timing."
+        ]
+      }
+    },
+    {
+      "id": "gautier-vs-diaz",
+      "order": "Prelims",
+      "weight_class": "Middleweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Ateba Gautier",
+        "record": "10-1-0",
+        "age": 24,
+        "height_cm": 193,
+        "reach_cm": 206,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.44,
+          "sig_strike_accuracy": 0.486,
+          "sig_strikes_absorbed_per_min": 2.93,
+          "sig_strike_defense": 0.524,
+          "takedown_accuracy": 1.0,
+          "takedown_defense": 0.923
+        }
+      },
+      "fighter_b": {
+        "name": "Ozzy Diaz",
+        "record": "10-3-0",
+        "age": 35,
+        "height_cm": 193,
+        "reach_cm": 201,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.44,
+          "sig_strike_accuracy": 0.505,
+          "sig_strikes_absorbed_per_min": 7.23,
+          "sig_strike_defense": 0.592,
+          "takedown_accuracy": 0.0,
+          "takedown_defense": 0.5
+        }
+      },
+      "nivarax": {
+        "probability_a": 90.0,
+        "probability_b": 10.0,
+        "advantage_score": 1.5893,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.42,
+          "flags": [
+            "long_layoff",
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Gautier holds an 80.00 pp advantage (90.00% vs 10.00%) with the highest MAS on the card (1.5893) — confidence cap activated, representing the greatest projected structural asymmetry of the event.",
+          "Diaz carries the highest Risk Score on the card (0.42) with three active flags: long_layoff, high_finish_dependency, and low_ufc_experience; Gautier shows only moderate_finish_dependency (score 0.06) with zero degradation.",
+          "The only scenario threatening Gautier's projection is an early finish by Diaz before his accumulated structural limitations — inactivity, high finish dependency, and limited octagon experience — manifest during the fight."
+        ]
+      }
+    },
+    {
+      "id": "dawson-vs-rebecki",
+      "order": "Prelims",
+      "weight_class": "Lightweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Grant Dawson",
+        "record": "23-3-1",
+        "age": 32,
+        "height_cm": 178,
+        "reach_cm": 183,
+        "stance": "Switch",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.21,
+          "sig_strike_accuracy": 0.524,
+          "sig_strikes_absorbed_per_min": 2.13,
+          "sig_strike_defense": 0.446,
+          "takedown_accuracy": 0.398,
+          "takedown_defense": 0.571
+        }
+      },
+      "fighter_b": {
+        "name": "Mateusz Rebecki",
+        "record": "20-4-0",
+        "age": 33,
+        "height_cm": 170,
+        "reach_cm": 168,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.21,
+          "sig_strike_accuracy": 0.465,
+          "sig_strikes_absorbed_per_min": 4.69,
+          "sig_strike_defense": 0.537,
+          "takedown_accuracy": 0.526,
+          "takedown_defense": 0.5
+        }
+      },
+      "nivarax": {
+        "probability_a": 68.57,
+        "probability_b": 31.43,
+        "advantage_score": 1.0045,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "key_factors": [
+          "Dawson projects a 37.14 pp advantage (68.57% vs 31.43%) with a MAS of 1.0045, a strong differential consistent with superiority in control, takedown volume, and a reduced risk profile versus Rebecki.",
+          "Both fighters share moderate_finish_dependency (score 0.06); Rebecki adds a Degradation Score of 0.1 with moderate_recent_decline, further deteriorating his projection relative to Dawson.",
+          "A finish by Rebecki before his recent decline trend affects performance is the only vector capable of reversing the result; under sustained pace, Dawson's structural differential holds."
+        ]
+      }
+    },
+    {
+      "id": "miller-vs-gordon",
+      "order": "Prelims",
+      "weight_class": "Lightweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Jim Miller",
+        "record": "38-19-0",
+        "age": 42,
+        "height_cm": 173,
+        "reach_cm": 180,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 2.92,
+          "sig_strike_accuracy": 0.421,
+          "sig_strikes_absorbed_per_min": 3.44,
+          "sig_strike_defense": 0.568,
+          "takedown_accuracy": 0.45,
+          "takedown_defense": 0.485
+        }
+      },
+      "fighter_b": {
+        "name": "Jared Gordon",
+        "record": "21-8-0",
+        "age": 37,
+        "height_cm": 175,
+        "reach_cm": 173,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 5.64,
+          "sig_strike_accuracy": 0.538,
+          "sig_strikes_absorbed_per_min": 4.14,
+          "sig_strike_defense": 0.556,
+          "takedown_accuracy": 0.328,
+          "takedown_defense": 0.605
+        }
+      },
+      "nivarax": {
+        "probability_a": 31.73,
+        "probability_b": 68.27,
+        "advantage_score": -0.4507,
+        "risk_a": {
+          "score": 0.21,
+          "flags": [
+            "long_layoff",
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Gordon holds a 36.54 pp advantage (68.27% vs 31.73%) with a MAS of -0.4507, a moderate differential backed by the cleanest possible risk profile against Miller's accumulated flags.",
+          "Miller carries a Risk Score of 0.21 with long_layoff and moderate_finish_dependency; Gordon shows zero risk and degradation scores with no active flags, maximizing uncertainty compression in favor of the favorite.",
+          "The scenario threatening Gordon's projection is Miller landing a finish in the early rounds, before his extended layoff translates into cardio and timing deterioration during the fight."
+        ]
+      }
+    },
+    {
+      "id": "kopylov-vs-tulio",
+      "order": "Early Prelims",
+      "weight_class": "Middleweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Roman Kopylov",
+        "record": "14-5-0",
+        "age": 35,
+        "height_cm": 183,
+        "reach_cm": 190,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.59,
+          "sig_strike_accuracy": 0.502,
+          "sig_strikes_absorbed_per_min": 5.18,
+          "sig_strike_defense": 0.524,
+          "takedown_accuracy": 0.476,
+          "takedown_defense": 0.889
+        }
+      },
+      "fighter_b": {
+        "name": "Marco Tulio",
+        "record": "14-2-0",
+        "age": 31,
+        "height_cm": 183,
+        "reach_cm": 188,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 6.69,
+          "sig_strike_accuracy": 0.588,
+          "sig_strikes_absorbed_per_min": 2.58,
+          "sig_strike_defense": 0.598,
+          "takedown_accuracy": 0.267,
+          "takedown_defense": 0.0
+        }
+      },
+      "nivarax": {
+        "probability_a": 23.63,
+        "probability_b": 76.37,
+        "advantage_score": -1.2331,
+        "risk_a": {
+          "score": 0.12,
+          "flags": [
+            "high_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.21,
+          "flags": [
+            "moderate_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.1,
+          "flags": [
+            "moderate_recent_decline"
+          ]
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Tulio projects a 52.74 pp advantage (76.37% vs 23.63%) with a MAS of -1.2331 — the widest marked mismatch on the card outside confidence-capped bouts.",
+          "Kopylov combines high_finish_dependency with moderate_recent_decline (Degradation Score 0.1); Tulio carries moderate_finish_dependency and low_ufc_experience (Risk Score 0.21), adding bilateral uncertainty while structural asymmetry clearly favors Tulio.",
+          "Tulio's limited UFC experience, flagged as a source of inconsistency under pressure, is the factor most likely to compromise his projection under high-intensity fight conditions."
+        ]
+      }
+    },
+    {
+      "id": "sabatini-vs-gomis",
+      "order": "Early Prelims",
+      "weight_class": "Featherweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Pat Sabatini",
+        "record": "21-5-0",
+        "age": 35,
+        "height_cm": 173,
+        "reach_cm": 178,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 1.69,
+          "sig_strike_accuracy": 0.598,
+          "sig_strikes_absorbed_per_min": 1.09,
+          "sig_strike_defense": 0.51,
+          "takedown_accuracy": 0.509,
+          "takedown_defense": 0.5
+        }
+      },
+      "fighter_b": {
+        "name": "William Gomis",
+        "record": "15-3-0",
+        "age": 28,
+        "height_cm": 183,
+        "reach_cm": 185,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.48,
+          "sig_strike_accuracy": 0.499,
+          "sig_strikes_absorbed_per_min": 2.76,
+          "sig_strike_defense": 0.613,
+          "takedown_accuracy": 0.385,
+          "takedown_defense": 0.724
+        }
+      },
+      "nivarax": {
+        "probability_a": 69.46,
+        "probability_b": 30.54,
+        "advantage_score": 0.4834,
+        "risk_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "risk_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Sabatini holds a 38.92 pp advantage (69.46% vs 30.54%) with a MAS of 0.4834, a moderate differential grounded in a fully clean risk profile shared by both fighters.",
+          "Both Sabatini and Gomis carry zero risk and degradation scores with no active flags, making this the lowest-uncertainty fight on the card and the tightest bilateral projection compression.",
+          "No specific conditioning factor is identified beyond the inherent statistical margin of Gomis's 30.54% probability, making this the most stable projection on the card."
+        ]
+      }
+    },
+    {
+      "id": "susurkaev-vs-santos",
+      "order": "Early Prelims",
+      "weight_class": "Middleweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Baisangur Susurkaev",
+        "record": "11-0-0",
+        "age": 25,
+        "height_cm": 188,
+        "reach_cm": 201,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 4.56,
+          "sig_strike_accuracy": 0.593,
+          "sig_strikes_absorbed_per_min": 3.78,
+          "sig_strike_defense": 0.534,
+          "takedown_accuracy": 0.286,
+          "takedown_defense": 1.0
+        }
+      },
+      "fighter_b": {
+        "name": "Djorden Santos",
+        "record": "11-2-0",
+        "age": 28,
+        "height_cm": 183,
+        "reach_cm": 190,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 7.0,
+          "sig_strike_accuracy": 0.442,
+          "sig_strikes_absorbed_per_min": 5.98,
+          "sig_strike_defense": 0.481,
+          "takedown_accuracy": 0.333,
+          "takedown_defense": 0.867
+        }
+      },
+      "nivarax": {
+        "probability_a": 73.11,
+        "probability_b": 26.89,
+        "advantage_score": 0.5883,
+        "risk_a": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "risk_b": {
+          "score": 0.15,
+          "flags": [
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Susurkaev holds a 46.22 pp advantage (73.11% vs 26.89%) with a MAS of 0.5883, a moderate differential coexisting with the higher Risk Score between both fighters (0.27 vs 0.15) on the favorite's side.",
+          "Susurkaev carries high_finish_dependency and low_ufc_experience as active flags; Santos shows only low_ufc_experience, adding bilateral uncertainty from limited octagon track records on both sides.",
+          "The factor most likely to compromise Susurkaev's projection is the fight going to a full decision, a scenario where his high finish dependency and lower pressure consistency would significantly reduce his projected solidity."
+        ]
+      }
+    },
+    {
+      "id": "carpenter-vs-ochoa",
+      "order": "Early Prelims",
+      "weight_class": "Flyweight",
+      "rounds_scheduled": 3,
+      "status": "upcoming",
+      "result": null,
+      "fighter_a": {
+        "name": "Clayton Carpenter",
+        "record": "8-2-0",
+        "age": 29,
+        "height_cm": 168,
+        "reach_cm": 168,
+        "stance": "Orthodox",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.66,
+          "sig_strike_accuracy": 0.536,
+          "sig_strikes_absorbed_per_min": 2.57,
+          "sig_strike_defense": 0.556,
+          "takedown_accuracy": 0.462,
+          "takedown_defense": 0.375
+        }
+      },
+      "fighter_b": {
+        "name": "Jose Ochoa",
+        "record": "8-2-0",
+        "age": 25,
+        "height_cm": 170,
+        "reach_cm": 170,
+        "stance": "Southpaw",
+        "stats": {
+          "sig_strikes_landed_per_min": 3.01,
+          "sig_strike_accuracy": 0.376,
+          "sig_strikes_absorbed_per_min": 2.33,
+          "sig_strike_defense": 0.608,
+          "takedown_accuracy": 0.5,
+          "takedown_defense": 0.591
+        }
+      },
+      "nivarax": {
+        "probability_a": 53.93,
+        "probability_b": 46.07,
+        "advantage_score": 0.1367,
+        "risk_a": {
+          "score": 0.06,
+          "flags": [
+            "moderate_finish_dependency"
+          ]
+        },
+        "risk_b": {
+          "score": 0.27,
+          "flags": [
+            "high_finish_dependency",
+            "low_ufc_experience"
+          ]
+        },
+        "degradation_a": {
+          "score": 0.0,
+          "flags": []
+        },
+        "degradation_b": {
+          "score": 0.0,
+          "flags": []
+        },
+        "key_factors": [
+          "Carpenter projects just a 7.86 pp edge (53.93% vs 46.07%) with a MAS of 0.1367 — the narrowest differential on the card alongside Volkov vs. Cortes Acosta, statistically near pick'em.",
+          "Carpenter carries only moderate_finish_dependency (score 0.06); Ochoa accumulates high_finish_dependency and low_ufc_experience (Risk Score 0.27), making the risk differential the most differentiating factor in an otherwise near-even contest.",
+          "An early finish by Ochoa is the only vector capable of reversing a projection that, in probability terms, approaches statistical equilibrium."
+        ]
+      }
+    }
+  ]
+}

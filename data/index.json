@@ -2,6 +2,16 @@
   "schema_version": "2.0",
   "events": [
     {
+      "id": "ufc-fn-Allen-Costa",
+      "name": "UFC Fight Night: Allen vs. Costa",
+      "short_name": "UFC 276",
+      "date": "2026-05-16",
+      "status": "upcoming",
+      "file": "data/events/ufc-fn-Allen-Costa.json",
+      "fights_total": 12,
+      "fights_analyzed": 0
+    },
+    {
       "id": "ufc-328",
       "name": "UFC 328: Chimaev vs. Strickland",
       "short_name": "UFC 328",
@@ -9,7 +19,7 @@
       "status": "upcoming",
       "file": "data/events/ufc-328.json",
       "fights_total": 13,
-      "fights_analyzed": 0
+      "fights_analyzed": 12
     },
     {
       "id": "ufc-fn-Della_Maddalena-Prates",
