@@ -5,7 +5,7 @@
     "name": "UFC 328: Chimaev vs. Strickland",
     "date": "2026-05-09",
     "location": "Prudential Center, Newark, United States",
-    "status": "upcoming",
+    "status": "completed",
     "note": "1 fight on this card was not analyzed due to insufficient statistical data for one or both fighters."
   },
   "fights": [
@@ -14,8 +14,12 @@
       "order": "Main Event",
       "weight_class": "Middleweight",
       "rounds_scheduled": 5,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 5
+      },
       "fighter_a": {
         "name": "Khamzat Chimaev",
         "record": "15-0-0",
@@ -82,8 +86,12 @@
       "order": "Co-Main Event",
       "weight_class": "Flyweight",
       "rounds_scheduled": 5,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "TKO",
+        "round": 5
+      },
       "fighter_a": {
         "name": "Joshua Van",
         "record": "16-2-0",
@@ -150,8 +158,12 @@
       "order": "Main Card",
       "weight_class": "Heavyweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Alexander Volkov",
         "record": "39-11-0",
@@ -218,8 +230,12 @@
       "order": "Main Card",
       "weight_class": "Welterweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Sean Brady",
         "record": "18-2-0",
@@ -286,8 +302,12 @@
       "order": "Main Card",
       "weight_class": "Lightweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "SUB",
+        "round": 1
+      },
       "fighter_a": {
         "name": "King Green",
         "record": "34-17-1",
@@ -357,8 +377,12 @@
       "order": "Prelims",
       "weight_class": "Middleweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "TKO",
+        "round": 2
+      },
       "fighter_a": {
         "name": "Ateba Gautier",
         "record": "10-1-0",
@@ -429,8 +453,12 @@
       "order": "Prelims",
       "weight_class": "Lightweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "SUB",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Grant Dawson",
         "record": "23-3-1",
@@ -501,8 +529,12 @@
       "order": "Prelims",
       "weight_class": "Lightweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "SUB",
+        "round": 1
+      },
       "fighter_a": {
         "name": "Jim Miller",
         "record": "38-19-0",
@@ -570,8 +602,12 @@
       "order": "Early Prelims",
       "weight_class": "Middleweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Roman Kopylov",
         "record": "14-5-0",
@@ -643,8 +679,12 @@
       "order": "Early Prelims",
       "weight_class": "Featherweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Pat Sabatini",
         "record": "21-5-0",
@@ -709,8 +749,12 @@
       "order": "Early Prelims",
       "weight_class": "Middleweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_a",
+        "method": "SUB",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Baisangur Susurkaev",
         "record": "11-0-0",
@@ -780,8 +824,12 @@
       "order": "Early Prelims",
       "weight_class": "Flyweight",
       "rounds_scheduled": 3,
-      "status": "upcoming",
-      "result": null,
+      "status": "completed",
+      "result": {
+        "winner": "fighter_b",
+        "method": "DEC",
+        "round": 3
+      },
       "fighter_a": {
         "name": "Clayton Carpenter",
         "record": "8-2-0",

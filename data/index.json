@@ -2,13 +2,23 @@
   "schema_version": "2.0",
   "events": [
     {
+      "id": "ufc-fn-Song-Figuereido",
+      "name": "UFC Fight Night: Song vs. Figuereido",
+      "short_name": "UFC 277",
+      "date": "2026-05-30",
+      "status": "upcoming",
+      "file": "data/events/ufc-fn-Song-Figuereido.json",
+      "fights_total": 13,
+      "fights_analyzed": 0
+    },
+    {
       "id": "ufc-fn-Allen-Costa",
       "name": "UFC Fight Night: Allen vs. Costa",
       "short_name": "UFC 276",
       "date": "2026-05-16",
       "status": "upcoming",
       "file": "data/events/ufc-fn-Allen-Costa.json",
-      "fights_total": 12,
+      "fights_total": 13,
       "fights_analyzed": 0
     },
     {
@@ -16,7 +26,7 @@
       "name": "UFC 328: Chimaev vs. Strickland",
       "short_name": "UFC 328",
       "date": "2026-05-09",
-      "status": "upcoming",
+      "status": "completed",
       "file": "data/events/ufc-328.json",
       "fights_total": 13,
       "fights_analyzed": 12
